@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 17 Jul 2021 13:03:24 GMT</lastBuildDate><item><title><![CDATA[Use Different Desktop Managers of Ubuntu]]></title><description><![CDATA[desktop managers are important to ubuntu GUI, it's useful to learn the method for changing them.]]></description><link>https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</guid><pubDate>Sun, 01 Apr 2007 22:30:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c85bd00ea2f07b2c39953bdd961cdbfb/4b190/ubuntu.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAMB/9oADAMBAAIQAxAAAAFevnG49IRDX//EABkQAQEAAwEAAAAAAAAAAAAAAAECAAMSEP/aAAgBAQABBQLRA5zJNbAZc6fP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BFn//xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAIAQIBAT8Byj//xAAYEAACAwAAAAAAAAAAAAAAAAABECAhMf/aAAgBAQAGPwKzDV//xAAaEAADAQADAAAAAAAAAAAAAAAAAREhMUFx/9oACAEBAAE/IdhHlO2RBSjryJq1hNn/2gAMAwEAAgADAAAAEHAv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EFYbAX//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAgEBPxBDKv/EABoQAQACAwEAAAAAAAAAAAAAAAEAESExUUH/2gAIAQEAAT8QBCR9ZQ4fxlCjDYQopENCCUtz/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/c85bd00ea2f07b2c39953bdd961cdbfb/8ac56/ubuntu.webp 240w,
+/static/c85bd00ea2f07b2c39953bdd961cdbfb/d3be9/ubuntu.webp 480w,
+/static/c85bd00ea2f07b2c39953bdd961cdbfb/d00b9/ubuntu.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/c85bd00ea2f07b2c39953bdd961cdbfb/09b79/ubuntu.jpg 240w,
+/static/c85bd00ea2f07b2c39953bdd961cdbfb/7cc5e/ubuntu.jpg 480w,
+/static/c85bd00ea2f07b2c39953bdd961cdbfb/4b190/ubuntu.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/c85bd00ea2f07b2c39953bdd961cdbfb/4b190/ubuntu.jpg&quot;
+            alt=&quot;ubuntu logo&quot;
+            title=&quot;ubuntu logo&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;First of all, X Window Core must be installed, or you won’t be able to use GUI. X Window Core is called “x-window-system-core”. To install any GUI, you should install this first.&lt;/p&gt;
+&lt;p&gt;Display manager(Login manager): gdm/kdm/xdm, usually one of them is chosen. To get different desktop manager for ubuntu, just add packages following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;gnome&lt;/strong&gt;: ubuntu-desktop&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;kde&lt;/strong&gt;: kubuntu-desktop&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;xfce&lt;/strong&gt;: xubuntu-desktop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With APT, you may type “sudo apt-get install ubuntu-desktop” in the console.&lt;/p&gt;
+&lt;p&gt;After the installation, of course, we should set default-display-manager on ubuntu. There are two ways(not including all methods) to try:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Edit file “/etc/X11/default-display-manager”, change display manager name in it and save, then reboot.&lt;/li&gt;
+&lt;li&gt;Run “dpkg-reconfigure gdm/kdm/xdm” to switch (gdm for gnome, kdm for kde, xdm for xfce), you will get a menu to choose. Of course you should do this as root, so add “sudo”.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Refer to: &lt;a href=&quot;http://ubuntuforums.org/showthread.php?t=205002&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;HOWTO: correctly install/remove k/x/ed/ubuntu-desktop packages&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
