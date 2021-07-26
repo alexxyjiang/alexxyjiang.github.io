@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 24 Jul 2021 07:47:04 GMT</lastBuildDate><item><title><![CDATA[Use Different Desktop Managers of Ubuntu]]></title><description><![CDATA[desktop managers are important to ubuntu GUI, it's useful to learn the method for changing them.]]></description><link>https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</guid><pubDate>Sun, 01 Apr 2007 22:30:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 26 Jul 2021 05:51:49 GMT</lastBuildDate><item><title><![CDATA[Process Linux Files via inode]]></title><description><![CDATA[process linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/process-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/process-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 17:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7e66bce6f2577126360c225f8569c666/4b190/filesystem.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdp2gJD/xAAYEAADAQEAAAAAAAAAAAAAAAAAAREhAv/aAAgBAQABBQLbdTpCHJ//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAASBx/9oACAEBAAY/Apen/8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQUWH/2gAIAQEAAT8haDq6gveKWPCoihohwP/aAAwDAQACAAMAAAAQ4M//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhgbFB/9oACAEBAAE/EFF4WvSKkgAa9u4uEA2IogKGXijZO7hP/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/7e66bce6f2577126360c225f8569c666/8ac56/filesystem.webp 240w,
+/static/7e66bce6f2577126360c225f8569c666/d3be9/filesystem.webp 480w,
+/static/7e66bce6f2577126360c225f8569c666/d00b9/filesystem.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/7e66bce6f2577126360c225f8569c666/09b79/filesystem.jpg 240w,
+/static/7e66bce6f2577126360c225f8569c666/7cc5e/filesystem.jpg 480w,
+/static/7e66bce6f2577126360c225f8569c666/4b190/filesystem.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/7e66bce6f2577126360c225f8569c666/4b190/filesystem.jpg&quot;
+            alt=&quot;file system&quot;
+            title=&quot;file system&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the UNIX/Linux system, some files with name-garbled files are generated in some cases. It’s hard to process such kind of files via their file names.&lt;/p&gt;
+&lt;p&gt;Based on the implementation of the UNIX/Linux file system, each file is associated with inodes. We can process any file with inode as an alternative.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Get the inode of the name-garbled file&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;[username@domain.com script]$ ls -il
+total 125252
+...
+200556696 -rwxr-xr-x 1 x x 676 Mar 30 15:20 common.sh
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Process files based on the inode, for example, delete&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;[username@domain.com script]$ find. -inum 200556696 -exec rm {} \;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Use Different Desktop Managers of Ubuntu]]></title><description><![CDATA[desktop managers are important to ubuntu GUI, it's useful to learn the method for changing them.]]></description><link>https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</guid><pubDate>Sat, 21 Apr 2007 22:30:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
