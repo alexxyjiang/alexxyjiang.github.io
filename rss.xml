@@ -1,4 +1,161 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 26 Jul 2021 09:43:21 GMT</lastBuildDate><item><title><![CDATA[Deal with Linux Files via inode]]></title><description><![CDATA[deal with linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/deal-with-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/deal-with-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 17:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 22 Aug 2021 07:26:56 GMT</lastBuildDate><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 14:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/39536d8b9350a0cfa3b095c37e816f76/4b190/rpi-wifi.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABXLrWJJUD/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQIAEQMQEv/aAAgBAQABBQImo1GPhbrf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAgMBAAAAAAAAAAAAAAAAADEBESAi/9oACAEBAAY/AlJRysf/xAAaEAEBAQADAQAAAAAAAAAAAAABEQAQITFx/9oACAEBAAE/IQUp8Mon1ezCUXJnj//aAAwDAQACAAMAAAAQzB//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBX/8QAGxABAAIDAQEAAAAAAAAAAAAAAQAhETFRYZH/2gAIAQEAAT8QuBdzkXRkIgiBbn5Lm2y9eQHCAy0bjuf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/39536d8b9350a0cfa3b095c37e816f76/8ac56/rpi-wifi.webp 240w,
+/static/39536d8b9350a0cfa3b095c37e816f76/d3be9/rpi-wifi.webp 480w,
+/static/39536d8b9350a0cfa3b095c37e816f76/d00b9/rpi-wifi.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/39536d8b9350a0cfa3b095c37e816f76/09b79/rpi-wifi.jpg 240w,
+/static/39536d8b9350a0cfa3b095c37e816f76/7cc5e/rpi-wifi.jpg 480w,
+/static/39536d8b9350a0cfa3b095c37e816f76/4b190/rpi-wifi.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/39536d8b9350a0cfa3b095c37e816f76/4b190/rpi-wifi.jpg&quot;
+            alt=&quot;rpi-wifi&quot;
+            title=&quot;rpi-wifi&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;To set up a routed wireless access point with Raspberry Pi 4B is very interesting. The Raspberry Pi is shipped together with some integrated wireless actually, manufactured by &lt;strong&gt;Raspberry Pi Trading Ltd&lt;/strong&gt;. The performance of the integrated wireless is fair but not good enough. It supports 802.11a/b/g/n/ac, but it’s a little unstable.&lt;/p&gt;
+&lt;p&gt;To enable a more stable 802.11ac/ax wireless network, I believe some extended antenna wireless card is required. My choice is the &lt;a href=&quot;https://www.szedup.com/product-item/edup-802-11ac-ep-ac1686-receiver-wifi-usb-wifi-adapter-1300mbps-wireless-dongle/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;EDUP 802.11ac EP-AC1686&lt;/a&gt;, which is the cheapest RTL8812BU chipset. Because I would take the 1Gps wired port as the upstream of the Raspberry Pi network, the 1300Mbps 802.11ac wireless network is good enough.&lt;/p&gt;
+&lt;h2 id=&quot;hardware&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hardware&quot; aria-label=&quot;hardware permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hardware&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.raspberrypi.org/products/raspberry-pi-4-model-b/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Raspberry Pi 4B ver 1.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.szedup.com/product-item/edup-802-11ac-ep-ac1686-receiver-wifi-usb-wifi-adapter-1300mbps-wireless-dongle/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;EDUP 802.11AC EP-AC1686&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#software&quot; aria-label=&quot;software permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Software&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;install the wireless card driver&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;plug-in the usb 3.0 device&lt;/em&gt;, prepare source code, the driver source code for realtek network chips could be downloaded from &lt;a href=&quot;https://github.com/alexxyjiang/rtl88x2bu/tree/5.8.7.1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;compile and install the driver, follow the instructions in source code &lt;a href=&quot;https://github.com/alexxyjiang/rtl88x2bu/blob/5.8.7.1/README.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;README&lt;/a&gt;. You should verify the driver is successfully installed via following command, and fetch the device name start with &lt;strong&gt;wlx&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;iwconfig&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If your wifi device is not found, you may need to unblock that,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# rfkill unblock wlan&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;turn on cpu overlock, disable the bluetooth and integrated wireless, add following lines to the &lt;strong&gt;/boot/config.txt&lt;/strong&gt; in Raspberry Pi 4. The file-system path &lt;strong&gt;/boot&lt;/strong&gt; may be mounted in read-only mode, you could re-mount that.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# overlocking
+arm_freq=1500
+over_voltage=2
+# disable integrated wifi and bluetooth
+dtoverlay=disable-wifi
+dtoverlay=disable-bt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;configure the network&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;dhcpcd&lt;/strong&gt; static address for wireless card, append following lines to file &lt;strong&gt;/etc/dhcpcd.conf&lt;/strong&gt;, replace key information with yourself settings.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;interface %wlx_device_name%
+static ip_address=%ap_ipv4_address%/24
+nohook wpa_supplicant&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;dnsmasq&lt;/strong&gt; dhcp service and dns service, install the dnsmasq first,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install dnsmasq&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;then replace the &lt;strong&gt;/etc/dnsmasq.conf&lt;/strong&gt; file with following lines.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# dns cache size
+cache-size=4096
+# never forward plain names (without a dot or domain part)
+domain-needed
+# local domain name
+domain=wlan
+# local address
+interface=%wlx_device_name%
+address=/rpi.wlan/%ap_ipv4_address%
+# don&apos;t poll for changes in /etc/resolv.conf
+no-poll
+# don&apos;t use /etc/resolv.conf or any other file
+no-resolv
+# dhcp related configuration
+dhcp-mac=set:client_is_a_pi,B8:27:EB:*:*:*
+dhcp-reply-delay=tag:client_is_a_pi,2
+dhcp-range=%ipv4_address_start%,%ipv4_address_end%,%netmask%,6h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;hostapd&lt;/strong&gt; ap service binary, install the hostapd first,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install hostapd&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# systemctl unmask hostapd&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# systemctl enable hostapd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;edit the &lt;strong&gt;/etc/hostapd/hostapd.conf&lt;/strong&gt; file.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;country_code=%2_char_country_code%
+interface=%wlx_device_name%
+driver=nl80211
+# hidden network
+ssid=%wifi_ssid%
+ignore_broadcast_ssid=1
+# 802.11a/n/ac
+hw_mode=a
+# channel=0 # auto detect channel
+channel=40 # 80hz channel 36-48, center = 42
+ieee80211d=1
+ieee80211n=1
+ieee80211ac=1
+# features should be aligned with your wifi device, the following is for RTL8812BU
+ht_capab=[LDPC][HT40-][MAX-AMSDU-7935][SHORT-GI-20][SHORT-GI-40]
+vht_capab=[RXLDPC][HTC-VHT][MAX-MPDU-11454][SHORT-GI-80]
+vht_oper_chwidth=1
+vht_oper_centr_freq_seg0_idx=42
+# wmm quality control for 802.11n/ac
+wmm_enabled=1
+# wpa2 auth
+macaddr_acl=0
+auth_algs=1
+wpa=2
+wpa_passphrase=%network_passphrase%
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=CCMP
+rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;iptables&lt;/strong&gt; network forwarding, install iptables,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install netfilter-persistent iptables-persistent&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;add ipv4 forwarding, edit file &lt;strong&gt;/etc/sysctl.d/ipv4-forward.conf&lt;/strong&gt;,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;net.ipv4.ip_forward=1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;add masquerade iptables rule and save it as persistent rules,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# netfilter-persistent save&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;reboot your Raspberry Pi 4 and enable your ap&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# reboot&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;references&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#references&quot; aria-label=&quot;references permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.raspberrypi.org/documentation/computers/configuration.html#setting-up-a-routed-wireless-access-point&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.raspberrypi.org/documentation/computers/configuration.html#setting-up-a-routed-wireless-access-point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/alexxyjiang/rtl88x2bu/blob/5.8.7.1/README.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://github.com/alexxyjiang/rtl88x2bu/blob/5.8.7.1/README.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Deal with Linux Files via inode]]></title><description><![CDATA[deal with linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/deal-with-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/deal-with-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 17:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -96,7 +253,7 @@ total &lt;span class=&quot;token number&quot;&gt;125252&lt;/span&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;First of all, X Window Core must be installed, or you won’t be able to use GUI. X Window Core is called “x-window-system-core”. To install any GUI, you should install this first.&lt;/p&gt;
-&lt;p&gt;Display manager(Login manager): gdm/kdm/xdm, usually one of them is chosen. To get different desktop manager for ubuntu, just add packages following:&lt;/p&gt;
+&lt;p&gt;In linux, one of the display managers (login managers) &lt;strong&gt;gdm/kdm/xdm&lt;/strong&gt; should be chosen. To get a different desktop manager for ubuntu, just add packages following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;gnome&lt;/strong&gt;: ubuntu-desktop&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;kde&lt;/strong&gt;: kubuntu-desktop&lt;/li&gt;
