@@ -23,9 +23,8 @@
 }
 
 #waifu {
-	position: absolute;
-	right: 10%;
-	padding: 20px;
+	position: fixed;
+	right: 15%;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
 	z-index: 1;
