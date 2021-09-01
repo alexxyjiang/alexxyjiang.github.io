@@ -8,11 +8,15 @@
 <url> <loc>https://alexxyjiang.github.io/posts/deal-with-linux-files-via-inode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/posts/tips-to-make-vim-shown-white-space-characters</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/file-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/gui-desktop</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/tag/kernel</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/linux-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/tag/operating-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/raspberry-pi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/vim</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/category/linux-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/category/operating-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>

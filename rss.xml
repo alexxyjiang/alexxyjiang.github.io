@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Aug 2021 07:47:26 GMT</lastBuildDate><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 14:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 01 Sep 2021 12:16:01 GMT</lastBuildDate><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 14:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -257,7 +257,54 @@ While editing text files with &lt;strong&gt;vi/vim&lt;/strong&gt;, we often need
 &lt;p&gt;By default, ‘\t’ is shown as ‘^I’, ‘\n’ is shown as ’$’, and ’ ’ is kept not changed. You may also want to customize the representations, this could be configured via the &lt;strong&gt;listchars/lcs&lt;/strong&gt; option, e.g,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;lcs&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;tab&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;trail&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;eol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;space&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You may refer to the vim help documents (section listchars) for more details.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;listchars&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Use Different Desktop Managers of Ubuntu]]></title><description><![CDATA[desktop managers are important to ubuntu GUI, it's useful to learn the method for changing them.]]></description><link>https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</guid><pubDate>Sat, 21 Apr 2007 22:30:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;listchars&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel-and-Monolithic-Operating-System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Mon, 11 Jun 2007 07:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ddf548ad2f621f3c20b3b3810d288c84/4b190/debate.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGytZYcwg//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADBBITFP/aAAgBAQABBQIWN1tYLPQgnJRM5tEFs//EABcRAAMBAAAAAAAAAAAAAAAAAAABMRH/2gAIAQMBAT8BtMR//8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQIBAT8BV//EABoQAAIDAQEAAAAAAAAAAAAAAAABAhEhMmH/2gAIAQEABj8CURXZlmLwjhyj/8QAHBABAAICAwEAAAAAAAAAAAAAAQARIUFRgaHB/9oACAEBAAE/IRXTL5CtrBTDED7gwUsNtTaVvyMXyT//2gAMAwEAAgADAAAAEN//AP/EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQMBAT8QeSkMYj//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EFVhWP/EABsQAQEAAwEBAQAAAAAAAAAAAAERACExcVFh/9oACAEBAAE/EKzDYR168xBQvhby1IsV5fm8LrEE3j9wU1adkwLtWquf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/ddf548ad2f621f3c20b3b3810d288c84/8ac56/debate.webp 240w,
+/static/ddf548ad2f621f3c20b3b3810d288c84/d3be9/debate.webp 480w,
+/static/ddf548ad2f621f3c20b3b3810d288c84/d00b9/debate.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/ddf548ad2f621f3c20b3b3810d288c84/09b79/debate.jpg 240w,
+/static/ddf548ad2f621f3c20b3b3810d288c84/7cc5e/debate.jpg 480w,
+/static/ddf548ad2f621f3c20b3b3810d288c84/4b190/debate.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/ddf548ad2f621f3c20b3b3810d288c84/4b190/debate.jpg&quot;
+            alt=&quot;debate&quot;
+            title=&quot;debate&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Two great experts have already had a famous debate on the subject in 1992 — The Tanenbaum-Torvalds Debate.
+The dabate happened 15 years ago. But, you see, many words they said are exactly correct now.&lt;/p&gt;
+&lt;h2 id=&quot;references&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#references&quot; aria-label=&quot;references permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/openbook/opensources/book/appa.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.oreilly.com/openbook/opensources/book/appa.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Use Different Desktop Managers of Ubuntu]]></title><description><![CDATA[desktop managers are important to ubuntu GUI, it's useful to learn the method for changing them.]]></description><link>https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/use-different-desktop-managers-of-ubuntu</guid><pubDate>Sat, 21 Apr 2007 22:30:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
