@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Oct 2021 01:36:13 GMT</lastBuildDate><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 14:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Oct 2021 03:08:44 GMT</lastBuildDate><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 14:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -201,7 +201,7 @@ rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Get the inode of the name-garbled file&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;username@domain.com script&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; -il
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; -il
 total &lt;span class=&quot;token number&quot;&gt;125252&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
 &lt;span class=&quot;token number&quot;&gt;200556696&lt;/span&gt; -rwxr-xr-x &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; x x &lt;span class=&quot;token number&quot;&gt;676&lt;/span&gt; Mar &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;:20 common.sh
@@ -209,7 +209,7 @@ total &lt;span class=&quot;token number&quot;&gt;125252&lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Process files based on the inode, for example, delete&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;username@domain.com script&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;$ find. -inum &lt;span class=&quot;token number&quot;&gt;200556696&lt;/span&gt; -exec &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ find. -inum &lt;span class=&quot;token number&quot;&gt;200556696&lt;/span&gt; -exec &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Tips to Make Vim Shown White Space Characters]]></title><description><![CDATA[tips of vim set list usage.]]></description><link>https://alexxyjiang.github.io/posts/tips-to-make-vim-shown-white-space-characters</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tips-to-make-vim-shown-white-space-characters</guid><pubDate>Fri, 20 Jan 2012 21:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -257,7 +257,61 @@ While editing text files with &lt;strong&gt;vi/vim&lt;/strong&gt;, we often need
 &lt;p&gt;By default, ‘\t’ is shown as ‘^I’, ‘\n’ is shown as ’$’, and ’ ’ is kept not changed. You may also want to customize the representations, this could be configured via the &lt;strong&gt;listchars/lcs&lt;/strong&gt; option, e.g,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;lcs&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;tab&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;trail&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;eol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;space&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You may refer to the vim help documents (section listchars) for more details.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;listchars&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel and Monolithic Operating System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Mon, 11 Jun 2007 07:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;listchars&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Tips of Python Import]]></title><description><![CDATA[a tip of using python import]]></description><link>https://alexxyjiang.github.io/posts/tips-of-python-import</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tips-of-python-import</guid><pubDate>Mon, 21 Nov 2011 11:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/efdab8b34d8b3722014510d94aed5be0/4b190/python-import.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAEABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABy5AB/8QAFRABAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQEAAQUCj//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABgQAQADAQAAAAAAAAAAAAAAAAEAEBEh/9oACAEBAAE/IcJHjX//2gAMAwEAAgADAAAAEPAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhABAAEFAAAAAAAAAAAAAAAAAREAECFBUf/aAAgBAQABPxAyckvaMoat/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/efdab8b34d8b3722014510d94aed5be0/8ac56/python-import.webp 240w,
+/static/efdab8b34d8b3722014510d94aed5be0/d3be9/python-import.webp 480w,
+/static/efdab8b34d8b3722014510d94aed5be0/d00b9/python-import.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/efdab8b34d8b3722014510d94aed5be0/09b79/python-import.jpg 240w,
+/static/efdab8b34d8b3722014510d94aed5be0/7cc5e/python-import.jpg 480w,
+/static/efdab8b34d8b3722014510d94aed5be0/4b190/python-import.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/efdab8b34d8b3722014510d94aed5be0/4b190/python-import.jpg&quot;
+            alt=&quot;import&quot;
+            title=&quot;import&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;import&lt;/strong&gt; statement is a statement used to load modules in python. It can load system modules or user-defined modules. When a module with the same name exists, generally, the user module would be taken first.&lt;/p&gt;
+&lt;p&gt;I wrote a small program to sample a batch of random numbers yesterday.&lt;/p&gt;
+&lt;p&gt;But when I accidentally named the file “random.py”, and I used an “import random” statement to load the system library inside it, the python executor showed that no related functions could be found.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ python random.py
+Traceback &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;most recent call last&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:
+  File &lt;span class=&quot;token string&quot;&gt;&quot;random.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;module&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;import&lt;/span&gt; random
+  File &lt;span class=&quot;token string&quot;&gt;&quot;./random.py&quot;&lt;/span&gt;, line &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;module&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    random.seed&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+AttributeError: &lt;span class=&quot;token string&quot;&gt;&apos;module&apos;&lt;/span&gt; object has no attribute &lt;span class=&quot;token string&quot;&gt;&apos;seed&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Later, I recalled the problem of the same name. I listed the files under the same path and found that there was a “random.pyc” file listed, indicating that the python executor was loading the “python.py” file itself when executing “import random”, instead of loading the system library.&lt;/p&gt;
+&lt;p&gt;After deleting “random.pyc” and renaming the script, the problem has been resolved :)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ python rand.py
+&lt;span class=&quot;token number&quot;&gt;0.57140259469&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel and Monolithic Operating System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Mon, 11 Jun 2007 07:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
