@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Oct 2021 03:08:44 GMT</lastBuildDate><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 14:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Nov 2021 00:54:29 GMT</lastBuildDate><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 14:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -311,7 +311,54 @@ AttributeError: &lt;span class=&quot;token string&quot;&gt;&apos;module&apos;&lt
 &lt;p&gt;Later, I recalled the problem of the same name. I listed the files under the same path and found that there was a “random.pyc” file listed, indicating that the python executor was loading the “python.py” file itself when executing “import random”, instead of loading the system library.&lt;/p&gt;
 &lt;p&gt;After deleting “random.pyc” and renaming the script, the problem has been resolved :)&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ python rand.py
-&lt;span class=&quot;token number&quot;&gt;0.57140259469&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel and Monolithic Operating System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Mon, 11 Jun 2007 07:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;span class=&quot;token number&quot;&gt;0.57140259469&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Intel Wifi Support in Debain Squeeze]]></title><description><![CDATA[non free firmwares are usually the drivers solutions]]></description><link>https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-squeeze</guid><pubDate>Mon, 14 Feb 2011 17:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1421b8480cc1375b16da53489476ca4d/4b190/intel-wifi.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB9tm6NCsXyEA//8QAGhAAAwEAAwAAAAAAAAAAAAAAAQISAAMQIf/aAAgBAQABBQK/bytWCkM1heIEL3//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAABAQkAAAAAAAAAAAAAAAABAAIQESAiMUFRYf/aAAgBAQAGPwIjT2+lU3RiMyf/xAAcEAEBAQABBQAAAAAAAAAAAAABEQAhIDFBcYH/2gAIAQEAAT8hAgL2OKYF+4ip4Y73amAJtc7iAVvR/9oADAMBAAIAAwAAABAjyDz/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAWEQADAAAAAAAAAAAAAAAAAAABIDH/2gAIAQIBAT8QET//xAAcEAEAAwACAwAAAAAAAAAAAAABABExIEEhUWH/2gAIAQEAAT8QXkloQPIXoEGlLyek2OdO98qMgrodS4Sql23eH//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/1421b8480cc1375b16da53489476ca4d/8ac56/intel-wifi.webp 240w,
+/static/1421b8480cc1375b16da53489476ca4d/d3be9/intel-wifi.webp 480w,
+/static/1421b8480cc1375b16da53489476ca4d/d00b9/intel-wifi.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/1421b8480cc1375b16da53489476ca4d/09b79/intel-wifi.jpg 240w,
+/static/1421b8480cc1375b16da53489476ca4d/7cc5e/intel-wifi.jpg 480w,
+/static/1421b8480cc1375b16da53489476ca4d/4b190/intel-wifi.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/1421b8480cc1375b16da53489476ca4d/4b190/intel-wifi.jpg&quot;
+            alt=&quot;intel-wifi&quot;
+            title=&quot;intel-wifi&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+To support some wireless device in debian squeeze which is not supported by default, we often need some addition firmware [non-free]. For example, my “Intel WiFi Link 5100 AGN” could be supported via adding the &lt;strong&gt;firmware-iwlwifi&lt;/strong&gt; package. There are two basic ways to install firmware:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add firmware when installing the system. In this way, debian-installer will automatically complete the firmware activation of the corresponding hardware;&lt;/li&gt;
+&lt;li&gt;Add firmware after installing the system. In this way, some service daemons may need to be restarted;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I choose the second solution, shell command like this.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install firmware-iwlwifi &amp;amp;&amp;amp; /etc/init.d/networking restart&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel and Monolithic Operating System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Mon, 11 Jun 2007 07:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
