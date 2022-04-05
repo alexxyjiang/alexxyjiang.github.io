@@ -201,7 +201,7 @@
   Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/dealing-with-linux-files-via-inode/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/use-a-socks5-proxy-via-proxychains
+/posts/using-a-socks5-proxy-via-proxychains
   Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
@@ -212,7 +212,7 @@
   Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/use-a-socks5-proxy-via-proxychains/page-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/using-a-socks5-proxy-via-proxychains/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/file-system
   Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
