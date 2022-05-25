@@ -7,7 +7,7 @@
   Referrer-Policy: same-origin
 /component---cache-caches-gatsby-plugin-offline-app-shell-js-fd4fb51a6fac1c18bdde.js
   Cache-Control: public, max-age=31536000, immutable
-/styles.08b6f1b92a40a3f4c705.css
+/styles.df24740150fa618c04d0.css
   Cache-Control: public, max-age=31536000, immutable
 /styles-407fe62976dc5310c43e.js
   Cache-Control: public, max-age=31536000, immutable
@@ -31,7 +31,7 @@
   Cache-Control: public, max-age=31536000, immutable
 /component---src-templates-index-template-js-fdd8536acd3c57081720.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-ea75621fd9fa6835fdc6.js
+/webpack-runtime-0bced17a1060b3dea3b3.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-b2f816f437730bdc94bf.js
   Cache-Control: public, max-age=31536000, immutable
@@ -46,7 +46,7 @@
 /sw.js
   Cache-Control: no-cache
 /offline-plugin-app-shell-fallback/
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -56,7 +56,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
 /404
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -68,7 +68,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -81,7 +81,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin
 /categories
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -93,20 +93,8 @@
   Link: </component---src-templates-categories-list-template-js-2181ec47d28e5c35d3e9.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/categories/page-data.json>; rel=preload; as=fetch; crossorigin
-/pages/about/
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
-  Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
-  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js>; rel=preload; as=script
-  Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
-  Link: </component---src-templates-page-template-js-d8aeb4e67f2e8af3e6cd.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/pages/about/page-data.json>; rel=preload; as=fetch; crossorigin
 /pages/contacts/
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -117,8 +105,8 @@
   Link: </component---src-templates-page-template-js-d8aeb4e67f2e8af3e6cd.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/pages/contacts/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/comments-about-the-microkernel-and-monolithic-operating-system
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+/pages/about/
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -126,47 +114,11 @@
   Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
+  Link: </component---src-templates-page-template-js-d8aeb4e67f2e8af3e6cd.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/comments-about-the-microkernel-and-monolithic-operating-system/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/intel-wifi-support-in-debian-squeeze
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
-  Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
-  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js>; rel=preload; as=script
-  Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/intel-wifi-support-in-debian-squeeze/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/different-desktop-managers-of-ubuntu
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
-  Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
-  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js>; rel=preload; as=script
-  Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/different-desktop-managers-of-ubuntu/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/tips-to-make-vim-shown-white-space-characters
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
-  Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
-  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js>; rel=preload; as=script
-  Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/tips-to-make-vim-shown-white-space-characters/page-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/pages/about/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/tips-of-python-import
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -177,8 +129,20 @@
   Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/tips-of-python-import/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/comments-about-the-microkernel-and-monolithic-operating-system
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
+  Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
+  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js>; rel=preload; as=script
+  Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/comments-about-the-microkernel-and-monolithic-operating-system/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -189,20 +153,8 @@
   Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/dealing-with-linux-files-via-inode
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
-  Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
-  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js>; rel=preload; as=script
-  Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/dealing-with-linux-files-via-inode/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/using-a-socks5-proxy-via-proxychains
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -213,8 +165,56 @@
   Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/using-a-socks5-proxy-via-proxychains/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/different-desktop-managers-of-ubuntu
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
+  Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
+  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js>; rel=preload; as=script
+  Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/different-desktop-managers-of-ubuntu/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/intel-wifi-support-in-debian-squeeze
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
+  Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
+  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js>; rel=preload; as=script
+  Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/intel-wifi-support-in-debian-squeeze/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/dealing-with-linux-files-via-inode
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
+  Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
+  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js>; rel=preload; as=script
+  Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/dealing-with-linux-files-via-inode/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/tips-to-make-vim-shown-white-space-characters
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
+  Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
+  Link: </dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js>; rel=preload; as=script
+  Link: </app-e4cb74749ff4e0616b7f.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/tips-to-make-vim-shown-white-space-characters/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/file-system
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -226,7 +226,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/file-system/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/gui-desktop
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -238,7 +238,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/gui-desktop/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/kernel
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -250,7 +250,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/kernel/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/linux-system
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -262,7 +262,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/linux-system/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/linux-system/page/1
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -274,7 +274,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/linux-system/page/1/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/operating-system
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -286,7 +286,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/operating-system/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/programming
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -298,7 +298,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/programming/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/proxy
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -310,7 +310,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/proxy/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/python
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -322,7 +322,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/python/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/raspberry-pi
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -334,7 +334,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/raspberry-pi/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/vim
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -346,7 +346,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/vim/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/wifi
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -358,7 +358,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/wifi/page-data.json>; rel=preload; as=fetch; crossorigin
 /category/linux-system
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -370,7 +370,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/category/linux-system/page-data.json>; rel=preload; as=fetch; crossorigin
 /category/linux-system/page/1
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -382,7 +382,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/category/linux-system/page/1/page-data.json>; rel=preload; as=fetch; crossorigin
 /category/operating-system
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -394,7 +394,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/category/operating-system/page-data.json>; rel=preload; as=fetch; crossorigin
 /category/programming
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -406,7 +406,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/category/programming/page-data.json>; rel=preload; as=fetch; crossorigin
 /
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -418,7 +418,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
 /page/1
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
@@ -430,7 +430,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/page/1/page-data.json>; rel=preload; as=fetch; crossorigin
 /404.html
-  Link: </webpack-runtime-ea75621fd9fa6835fdc6.js>; rel=preload; as=script
+  Link: </webpack-runtime-0bced17a1060b3dea3b3.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
   Link: </532a2f07-d05f238db5f768b1710d.js>; rel=preload; as=script
