@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 25 May 2022 11:30:10 GMT</lastBuildDate><item><title><![CDATA[Using a Socks5 Proxy via ProxyChains]]></title><description><![CDATA[instructions about how to enable a sock5 proxy via proxychains.]]></description><link>https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</guid><pubDate>Fri, 01 Apr 2022 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 13 Aug 2022 06:56:43 GMT</lastBuildDate><item><title><![CDATA[Setting up VirtualBox on Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox on debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-on-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-on-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ad82441b4db838026574d1131e29c885/4b190/vbox-bullseye.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAceqL0iAP//EABgQAAIDAAAAAAAAAAAAAAAAAAEQAhIT/9oACAEBAAEFAqRyIZX/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAREiAh/9oACAEBAAY/AmO1/8QAGhABAQACAwAAAAAAAAAAAAAAAREQQQAxcf/aAAgBAQABPyER3lk4ADe9Z08x/9oADAMBAAIAAwAAABD7P//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQACAgMAAAAAAAAAAAAAAAEQEQBBIVHR/9oACAEBAAE/EGEVFUr3KWV0akBw6R//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/ad82441b4db838026574d1131e29c885/8ac56/vbox-bullseye.webp 240w,
+/static/ad82441b4db838026574d1131e29c885/d3be9/vbox-bullseye.webp 480w,
+/static/ad82441b4db838026574d1131e29c885/d00b9/vbox-bullseye.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/ad82441b4db838026574d1131e29c885/09b79/vbox-bullseye.jpg 240w,
+/static/ad82441b4db838026574d1131e29c885/7cc5e/vbox-bullseye.jpg 480w,
+/static/ad82441b4db838026574d1131e29c885/4b190/vbox-bullseye.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/ad82441b4db838026574d1131e29c885/4b190/vbox-bullseye.jpg&quot;
+            alt=&quot;vbox-bullseye&quot;
+            title=&quot;vbox-bullseye&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Oracle VM VirtualBox&lt;/strong&gt; is a type-2 hypervisor for x86 virtualization developed by Oracle Corporation. To install it to debian bullseye, there’re a few steps.&lt;/p&gt;
+&lt;h2 id=&quot;install-the-debian-package&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#install-the-debian-package&quot; aria-label=&quot;install the debian package permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Install the debian package&lt;/h2&gt;
+&lt;p&gt;This part is quite easy. We just need to add a new apt source, import the related pgp key, and install the package.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;add following line to a new file under &lt;strong&gt;/etc/apt/sources.list.d&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian bullseye non-free contrib&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;import the key and run &lt;strong&gt;apt&lt;/strong&gt; commands&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# wget -q -O - http://download.virtualbox.org/virtualbox/debian/oracle_vbox_2016.asc | apt-key add -&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt update --fix-missing&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install virtualbox&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;(optional) you may download the extension pack from &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;oracle&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;optional-uefi-secure-boot&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#optional-uefi-secure-boot&quot; aria-label=&quot;optional uefi secure boot permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;(Optional) UEFI Secure Boot&lt;/h2&gt;
+&lt;p&gt;If you see some error message like,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;If your system is using EFI Secure Boot you may need to sign the kernel modules (vboxdrv, vboxnetflt, vboxnetadp, vboxpci) before you can load them. Please see your Linux system&apos;s documentation for more information.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;you have to sign your kernel module.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;first, you need to generate and import your &lt;strong&gt;MOK&lt;/strong&gt;(Machine Owner Key).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install mokutil openssl&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# openssl req -new -x509 -newkey rsa:2048 -keyout vbox.key -outform DER -out vbox.der -subj &quot;/CN=Virtual Box/&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# mokutil --import vbox.der&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;after doing this, please reboot your machine to make sure the import operation is &lt;strong&gt;executed&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;then please sign the modules, follow the instructions from &lt;a href=&quot;https://wiki.debian.org/SecureBoot#Using_your_key_to_sign_modules&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;debian&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# environment variables&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# VERSION=&quot;$(uname -r)&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# SHORT_VERSION=&quot;$(uname -r | cut -d . -f 1-2)&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# MODULES_DIR=/lib/modules/$VERSION&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# KBUILD_DIR=/usr/lib/linux-kbuild-$SHORT_VERSION&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# sign modules, one by one (sign multiple modules is not supported)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# &quot;$KBUILD_DIR&quot;/scripts/sign-file sha256 /path-to/vbox.key /path-to/vbox.der vboxdrv.ko&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# &quot;$KBUILD_DIR&quot;/scripts/sign-file sha256 /path-to/vbox.key /path-to/vbox.der vboxnetadp.ko&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# &quot;$KBUILD_DIR&quot;/scripts/sign-file sha256 /path-to/vbox.key /path-to/vbox.der vboxnetflt.ko&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Using a Socks5 Proxy via ProxyChains]]></title><description><![CDATA[instructions about how to enable a sock5 proxy via proxychains.]]></description><link>https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</guid><pubDate>Fri, 01 Apr 2022 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;

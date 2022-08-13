@@ -12,6 +12,7 @@
 <url> <loc>https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-squeeze</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/posts/tips-to-make-vim-shown-white-space-characters</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/posts/setting-up-virtualbox-on-debian-11-bullseye</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/file-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/gui-desktop</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/kernel</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -23,6 +24,7 @@
 <url> <loc>https://alexxyjiang.github.io/tag/python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/raspberry-pi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/vim</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/tag/virtual-machine</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/wifi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/category/linux-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/category/linux-system/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
