@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 13 Aug 2022 06:56:43 GMT</lastBuildDate><item><title><![CDATA[Setting up VirtualBox on Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox on debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-on-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-on-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 13 Aug 2022 07:37:53 GMT</lastBuildDate><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -440,7 +440,7 @@ AttributeError: &lt;span class=&quot;token string&quot;&gt;&apos;module&apos;&lt
 &lt;p&gt;Later, I recalled the problem of the same name. I listed the files under the same path and found that there was a “random.pyc” file listed, indicating that the python executor was loading the “python.py” file itself when executing “import random”, instead of loading the system library.&lt;/p&gt;
 &lt;p&gt;After deleting “random.pyc” and renaming the script, the problem has been resolved :)&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ python rand.py
-&lt;span class=&quot;token number&quot;&gt;0.57140259469&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Intel Wifi Support in Debain Squeeze]]></title><description><![CDATA[non free firmwares are usually the drivers solutions]]></description><link>https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-squeeze</guid><pubDate>Mon, 14 Feb 2011 17:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;span class=&quot;token number&quot;&gt;0.57140259469&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Intel Wifi Support in Debain 6 Squeeze]]></title><description><![CDATA[non free firmwares are usually the drivers solutions]]></description><link>https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</guid><pubDate>Mon, 14 Feb 2011 17:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -487,7 +487,48 @@ To support some wireless device in debian squeeze which is not supported by defa
 &lt;li&gt;Add firmware after installing the system. In this way, some service daemons may need to be restarted;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I choose the second solution, shell command like this.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install firmware-iwlwifi &amp;amp;&amp;amp; /etc/init.d/networking restart&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel and Monolithic Operating System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Mon, 11 Jun 2007 07:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install firmware-iwlwifi &amp;amp;&amp;amp; /etc/init.d/networking restart&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[About Big Endian and Little Endian]]></title><description><![CDATA[notes about data storage in computer memory.]]></description><link>https://alexxyjiang.github.io/posts/about-big-endian-and-little-endian</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/about-big-endian-and-little-endian</guid><pubDate>Fri, 22 Oct 2010 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/32fad48af119b9f6c9341a78654760a1/4b190/endianness.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHuxapogUgNAf/EABkQAAMAAwAAAAAAAAAAAAAAAAABAhAhMf/aAAgBAQABBQKicMnhQls//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwIf/8QAGhAAAQUBAAAAAAAAAAAAAAAAAAEQESExQf/aAAgBAQABPyGUUdtgUlmwJSb/2gAMAwEAAgADAAAAECDPPP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABsQAQEBAQEAAwAAAAAAAAAAAAERACFBEDFR/9oACAEBAAE/EAunPSW7gBw+CWvh67gUj+YaXERdGT6wQhv/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/32fad48af119b9f6c9341a78654760a1/8ac56/endianness.webp 240w,
+/static/32fad48af119b9f6c9341a78654760a1/d3be9/endianness.webp 480w,
+/static/32fad48af119b9f6c9341a78654760a1/d00b9/endianness.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/32fad48af119b9f6c9341a78654760a1/09b79/endianness.jpg 240w,
+/static/32fad48af119b9f6c9341a78654760a1/7cc5e/endianness.jpg 480w,
+/static/32fad48af119b9f6c9341a78654760a1/4b190/endianness.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/32fad48af119b9f6c9341a78654760a1/4b190/endianness.jpg&quot;
+            alt=&quot;endianness&quot;
+            title=&quot;endianness&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Big Endian and Little Endian are two major endianness of computer memory. The Big Endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. In contrast, the Little Endian system, stores the least-significant byte at the smallest address.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel and Monolithic Operating System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Mon, 11 Jun 2007 07:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
