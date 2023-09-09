@@ -15,6 +15,7 @@
 <url> <loc>https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/posts/tips-of-python-import</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/posts/best-practise-of-bash</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/computer-memory</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/data-storage</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/file-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -28,6 +29,7 @@
 <url> <loc>https://alexxyjiang.github.io/tag/proxy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/raspberry-pi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/tag/shell</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/vim</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/virtual-machine</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/wifi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 Sep 2023 01:15:48 GMT</lastBuildDate><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 Sep 2023 01:03:18 GMT</lastBuildDate><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -575,7 +575,58 @@ To support some wireless device in debian squeeze which is not supported by defa
         &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Big Endian and Little Endian are two major endianness of computer memory. The Big Endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. In contrast, the Little Endian system, stores the least-significant byte at the smallest address.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel and Monolithic Operating System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Mon, 11 Jun 2007 07:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;Big Endian and Little Endian are two major endianness of computer memory. The Big Endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. In contrast, the Little Endian system, stores the least-significant byte at the smallest address.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Best Practise of Bash]]></title><description><![CDATA[tips of using bash.]]></description><link>https://alexxyjiang.github.io/posts/best-practise-of-bash</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/best-practise-of-bash</guid><pubDate>Mon, 09 Jul 2007 13:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/22a0759753739a9147a02a47473ed09c/4b190/bash.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdaAsA//xAAZEAACAwEAAAAAAAAAAAAAAAAAAQIDESP/2gAIAQEAAQUCtc0dhbn/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAEAAQUAAAAAAAAAAAAAAAABABESITFB/9oACAEBAAY/AiwqrOTO5//EABkQAAIDAQAAAAAAAAAAAAAAAAABITFREf/aAAgBAQABPyFotoPEUMWOuH//2gAMAwEAAgADAAAAEAPP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHRABAAIBBQEAAAAAAAAAAAAAAQARUSExgZHB0f/aAAgBAQABPxCncog1eW42g6SWzy+V1PmQn//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/22a0759753739a9147a02a47473ed09c/8ac56/bash.webp 240w,
+/static/22a0759753739a9147a02a47473ed09c/d3be9/bash.webp 480w,
+/static/22a0759753739a9147a02a47473ed09c/d00b9/bash.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/22a0759753739a9147a02a47473ed09c/09b79/bash.jpg 240w,
+/static/22a0759753739a9147a02a47473ed09c/7cc5e/bash.jpg 480w,
+/static/22a0759753739a9147a02a47473ed09c/4b190/bash.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/22a0759753739a9147a02a47473ed09c/4b190/bash.jpg&quot;
+            alt=&quot;bash&quot;
+            title=&quot;bash&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+The UNIX-like operating system users should be familiar with shells. Most of the shells provide tips to help users with the commands. Here are some examples to make use of &lt;strong&gt;bash&lt;/strong&gt; (the Bourne Again SHell).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the up/down arrow keys
+The basic usage of history records is to use your up/down arrow keys to browse the history records, press enter when you want to issue the history record again.&lt;/li&gt;
+&lt;li&gt;the tab completion
+After typing a few prefix letters of a command, a Tab could be pressed to complete the command.&lt;/li&gt;
+&lt;li&gt;use &lt;strong&gt;!$&lt;/strong&gt; to replace the last parameters entered
+It would be useful if you want to operate several times on the same files.&lt;/li&gt;
+&lt;li&gt;start the command with &lt;strong&gt;!&lt;/strong&gt;
+The auto completion will be limited to history records when you hit the tab.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel and Monolithic Operating System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Mon, 11 Jun 2007 07:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
