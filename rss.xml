@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 Sep 2023 01:03:18 GMT</lastBuildDate><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 Sep 2023 01:06:42 GMT</lastBuildDate><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -575,7 +575,59 @@ To support some wireless device in debian squeeze which is not supported by defa
         &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Big Endian and Little Endian are two major endianness of computer memory. The Big Endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. In contrast, the Little Endian system, stores the least-significant byte at the smallest address.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Best Practise of Bash]]></title><description><![CDATA[tips of using bash.]]></description><link>https://alexxyjiang.github.io/posts/best-practise-of-bash</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/best-practise-of-bash</guid><pubDate>Mon, 09 Jul 2007 13:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;Big Endian and Little Endian are two major endianness of computer memory. The Big Endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. In contrast, the Little Endian system, stores the least-significant byte at the smallest address.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Modify the MAC Address of the Ethernet Card under Linux]]></title><description><![CDATA[hack of modifying mac address under linux.]]></description><link>https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</guid><pubDate>Sat, 05 Dec 2009 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9e6f4e8ee04c7beb72c984f2671a264c/4b190/ethernet-cable-mac.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHXiyCB4f/EABkQAAIDAQAAAAAAAAAAAAAAAAIRAAEgIv/aAAgBAQABBQIrBIp1j//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAAhAQIgkdH/2gAIAQEABj8C4K2xxh//xAAbEAACAQUAAAAAAAAAAAAAAAABEQAgIUFhgf/aAAgBAQABPyEbIuVI8IBWw9Uf/9oADAMBAAIAAwAAABBzz//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAwEBPxAVf//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAgEBPxAxf//EAB4QAQADAAAHAAAAAAAAAAAAAAEAESEQMUFRgcHR/9oACAEBAAE/EGtPKBp+QOmDte9cs8T3CCUSjtw//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/9e6f4e8ee04c7beb72c984f2671a264c/8ac56/ethernet-cable-mac.webp 240w,
+/static/9e6f4e8ee04c7beb72c984f2671a264c/d3be9/ethernet-cable-mac.webp 480w,
+/static/9e6f4e8ee04c7beb72c984f2671a264c/d00b9/ethernet-cable-mac.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/9e6f4e8ee04c7beb72c984f2671a264c/09b79/ethernet-cable-mac.jpg 240w,
+/static/9e6f4e8ee04c7beb72c984f2671a264c/7cc5e/ethernet-cable-mac.jpg 480w,
+/static/9e6f4e8ee04c7beb72c984f2671a264c/4b190/ethernet-cable-mac.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/9e6f4e8ee04c7beb72c984f2671a264c/4b190/ethernet-cable-mac.jpg&quot;
+            alt=&quot;ether-mac&quot;
+            title=&quot;ether-mac&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Sometimes, we need to modify the MAC address of the ethernet card for some reason. For example, the SJTU network requires the MAC address to be static. In that case, we may modify the MAC address of the ethernet card in the operating system to simulate a different hardware card and pass the check.&lt;/p&gt;
+&lt;p&gt;Linux system has provided the basic tool &lt;strong&gt;ifconfig&lt;/strong&gt; to help us, and we can finish the modification in following commands.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# shut down the desired ethernet interface.&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# ifconfig eth0 down&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# modify the MAC address.&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# ifconfig eth0 hw ether 00:00:00:00:00:01&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# reactive the ethernet interface.&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# ifconfig eth0 up&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This change is not permanent as the MAC address on the interface eth0 will revert to the default on the next system reboot. If you need the operating system to change the MAC address everytime when booting, please modify the configuration file &lt;strong&gt;/etc/network/interfaces&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;allow-hotplug eth0
+iface eth0 inet dhcp
+  hwaddress ether 08:00:00:00:00:01&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Best Practise of Bash]]></title><description><![CDATA[tips of using bash.]]></description><link>https://alexxyjiang.github.io/posts/best-practise-of-bash</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/best-practise-of-bash</guid><pubDate>Mon, 09 Jul 2007 13:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
