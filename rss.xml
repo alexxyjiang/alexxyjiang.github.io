@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 Sep 2023 01:06:42 GMT</lastBuildDate><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 14 Nov 2023 11:43:03 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9f244d33ecd52a91b2e8d6f83aea9d4e/4b190/openssh-debian-openwrt.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAHbIgaP/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAECAyP/2gAIAQEAAQUCm2O9Dof/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGo/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABgQAAMBAQAAAAAAAAAAAAAAAAABESEx/9oACAEBAAY/AnG8Mp2H/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAERIUFhkbH/2gAIAQEAAT8hdgrcskCrYlkux//aAAwDAQACAAMAAAAQh8//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QdMg//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERITH/2gAIAQIBAT8QVdJZ/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARIUFRwf/aAAgBAQABPxDSAL6NMN+RFAPVTGE6ybPZ/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/9f244d33ecd52a91b2e8d6f83aea9d4e/8ac56/openssh-debian-openwrt.webp 240w,
+/static/9f244d33ecd52a91b2e8d6f83aea9d4e/d3be9/openssh-debian-openwrt.webp 480w,
+/static/9f244d33ecd52a91b2e8d6f83aea9d4e/d00b9/openssh-debian-openwrt.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/9f244d33ecd52a91b2e8d6f83aea9d4e/09b79/openssh-debian-openwrt.jpg 240w,
+/static/9f244d33ecd52a91b2e8d6f83aea9d4e/7cc5e/openssh-debian-openwrt.jpg 480w,
+/static/9f244d33ecd52a91b2e8d6f83aea9d4e/4b190/openssh-debian-openwrt.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/9f244d33ecd52a91b2e8d6f83aea9d4e/4b190/openssh-debian-openwrt.jpg&quot;
+            alt=&quot;openssh-debian-openwrt&quot;
+            title=&quot;openssh-debian-openwrt&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;After I upgraded my Debian 11 Bullseye system to Debian 12 Bookworm recently, I occasionally found the &lt;strong&gt;scp&lt;/strong&gt; command between Debian 12 Bookworm on my PC and OpenWRT 22.03 on my router was broken. The error message is&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;ash: /usr/libexec/sftp-server: not found
+scp: Connection closed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After debugging, I found the root cause.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the scp server side, OpenWRT 22.03 uses &lt;em&gt;Dropbear v2022.82&lt;/em&gt; which only supports legacy scp protocol by default&lt;/li&gt;
+&lt;li&gt;the scp client side, Debian 12 Bookworm uses &lt;em&gt;OpenSSH 9.2&lt;/em&gt; which requires sftp protocol by default&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The change comes from the default OpenSSH version change of debian, Debian 11 Bullseye uses &lt;em&gt;OpenSSH 8.4&lt;/em&gt; but Debian 12 Bookworm uses &lt;em&gt;OpenSSH 9.2&lt;/em&gt;. Due to the release note of &lt;a href=&quot;https://www.openssh.com/txt/release-9.0&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;openssh 9.0&lt;/a&gt;. Since &lt;em&gt;OpenSSH 9.0&lt;/em&gt;, OpenSSH switches scp from using the legacy scp/rcp protocol to using the sftp protocol by default.&lt;/p&gt;
+&lt;p&gt;The solution is quite simple. We have two choices,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;By following the &lt;a href=&quot;https://man.openbsd.org/scp.1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;man page of scp&lt;/a&gt;, we can add the “-O” option to force using the legacy scp protocol on the client side to avoid this error, like&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;scp&lt;/span&gt; -O source_user@source_machine:source_path destination_user@destination_machine:destination_path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Another choice is to install sftp server on the server side, to enable the sftp protocol support&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;opkg update
+opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-sftp-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
