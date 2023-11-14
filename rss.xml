@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 14 Nov 2023 11:43:03 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 14 Nov 2023 11:47:19 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -392,7 +392,63 @@ rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;/span&gt;
 As the title, this is my first contribution to fix a bug for the project “urltools”. I feel happy to get this merged.&lt;/p&gt;
 &lt;p&gt;This bug fix only convert the %-pattern to a single character when % is followed by valid hex-numbers, or the decoder should do nothing.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dealing with Linux Files via inode]]></title><description><![CDATA[dealing with linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 17:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tip of Redirecting the Command "svn diff"]]></title><description><![CDATA[tips of redirecting svn diff to help coding.]]></description><link>https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</guid><pubDate>Tue, 25 Jun 2013 11:25:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f0db4ae35e5b28b9aa3720b89294dea6/4b190/svn-diff.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 15%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAHJkGgJ/wD/xAAWEAEBAQAAAAAAAAAAAAAAAAABAEL/2gAIAQEAAQUCVs3/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BrX//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAYEAADAQEAAAAAAAAAAAAAAAAAARExYf/aAAgBAQABPyGzR5fSn//aAAwDAQACAAMAAAAQ8/8A/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIVH/2gAIAQMBAT8Qyqiun//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAAICAwAAAAAAAAAAAAAAAAABEVExQZH/2gAIAQEAAT8Q2vCGbkOXYlb6f//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/f0db4ae35e5b28b9aa3720b89294dea6/8ac56/svn-diff.webp 240w,
+/static/f0db4ae35e5b28b9aa3720b89294dea6/d3be9/svn-diff.webp 480w,
+/static/f0db4ae35e5b28b9aa3720b89294dea6/d00b9/svn-diff.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/f0db4ae35e5b28b9aa3720b89294dea6/09b79/svn-diff.jpg 240w,
+/static/f0db4ae35e5b28b9aa3720b89294dea6/7cc5e/svn-diff.jpg 480w,
+/static/f0db4ae35e5b28b9aa3720b89294dea6/4b190/svn-diff.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/f0db4ae35e5b28b9aa3720b89294dea6/4b190/svn-diff.jpg&quot;
+            alt=&quot;svn-diff&quot;
+            title=&quot;svn-diff&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+The default output mode of &lt;strong&gt;svn diff&lt;/strong&gt; is verbose. If you have many modifications, it is sometimes difficult to see the differences.
+Funtunately, &lt;em&gt;svn&lt;/em&gt; has provided options for customizing &lt;strong&gt;svn diff&lt;/strong&gt; output.&lt;/p&gt;
+&lt;p&gt;To change the output of &lt;strong&gt;svn diff&lt;/strong&gt;, we need a script file (such as &lt;strong&gt;svndiff.sh&lt;/strong&gt;) with following content,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;#!/bin/sh
+DIFF=&quot;/usr/bin/vimdiff&quot;
+
+# Subversion provides the paths we need as the sixth and seventh parameters
+LEFT=${6}
+RIGHT=${7}
+
+# diff command
+${DIFF} ${LEFT} ${RIGHT}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then modify the svn configuration file &lt;strong&gt;~/.subversion/config&lt;/strong&gt; and make sure the following configuration is written:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;[helpers]
+diff-cmd = /path/to/svndiff.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then, &lt;strong&gt;svn diff&lt;/strong&gt; will call the &lt;strong&gt;svndiff.sh&lt;/strong&gt; script, which uses &lt;em&gt;vimdiff&lt;/em&gt; in &lt;em&gt;svn&lt;/em&gt; difference mode.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dealing with Linux Files via inode]]></title><description><![CDATA[dealing with linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 17:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
