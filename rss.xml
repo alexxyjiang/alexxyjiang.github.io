@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Dec 2023 12:39:29 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Dec 2023 12:43:52 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -392,7 +392,50 @@ rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;/span&gt;
 As the title, this is my first contribution to fix a bug for the project “urltools”. I feel happy to get this merged.&lt;/p&gt;
 &lt;p&gt;This bug fix only convert the %-pattern to a single character when % is followed by valid hex-numbers, or the decoder should do nothing.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tip of Redirecting the Command "svn diff"]]></title><description><![CDATA[tips of redirecting svn diff to help coding.]]></description><link>https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</guid><pubDate>Tue, 25 Jun 2013 11:25:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[First Glance of OpenWRT]]></title><description><![CDATA[experience of first-time openwrt installation.]]></description><link>https://alexxyjiang.github.io/posts/first-glance-of-openwrt</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/first-glance-of-openwrt</guid><pubDate>Tue, 13 May 2014 22:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2f7ca4a531323fe8df2c04ed2ac2c672/4b190/tl-mr13u.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHt16ASP//EABkQAAEFAAAAAAAAAAAAAAAAABEAAQISIP/aAAgBAQABBQKRVnOP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAACAhMf/aAAgBAQAGPwKGL//EABkQAQADAQEAAAAAAAAAAAAAAAEAESEgMf/aAAgBAQABPyFFwJB6WGHm8f/aAAwDAQACAAMAAAAQ8A//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAYEAADAQEAAAAAAAAAAAAAAAAQMUERAf/aAAgBAQABPxBUguscxrFUUf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/2f7ca4a531323fe8df2c04ed2ac2c672/8ac56/tl-mr13u.webp 240w,
+/static/2f7ca4a531323fe8df2c04ed2ac2c672/d3be9/tl-mr13u.webp 480w,
+/static/2f7ca4a531323fe8df2c04ed2ac2c672/d00b9/tl-mr13u.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/2f7ca4a531323fe8df2c04ed2ac2c672/09b79/tl-mr13u.jpg 240w,
+/static/2f7ca4a531323fe8df2c04ed2ac2c672/7cc5e/tl-mr13u.jpg 480w,
+/static/2f7ca4a531323fe8df2c04ed2ac2c672/4b190/tl-mr13u.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/2f7ca4a531323fe8df2c04ed2ac2c672/4b190/tl-mr13u.jpg&quot;
+            alt=&quot;mr13u&quot;
+            title=&quot;mr13u&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;By chance, I learned there is a widely used router OS named &lt;strong&gt;OpenWRT&lt;/strong&gt;. OpenWRT stands out as a powerful and flexible open-source firmware for routers and other embedded devices, allowing users to customize and enhance the functionality of their network devices.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;http://wiki.openwrt.org/toh/tp-link/tl-mr13u&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;TP-Link TL-MR13U&lt;/a&gt; is a router that gained popularity for its portability and affordability. The most important feature is it contains a battery inside it. We could put it into pocket without power to provide wifi link 802.11n.&lt;/p&gt;
+&lt;p&gt;After installed OpenWRT Attitude Adjustment on the TL-MR13U, I’m happy to have the router OS replaced. It’s suitable to bring the brick in my vocation :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tip of Redirecting the Command "svn diff"]]></title><description><![CDATA[tips of redirecting svn diff to help coding.]]></description><link>https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</guid><pubDate>Tue, 25 Jun 2013 11:25:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;

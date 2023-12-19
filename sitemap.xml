@@ -20,6 +20,7 @@
 <url> <loc>https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/posts/exploring-the-gnu-compiler-collection-and-the-gnu-binutils</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/posts/first-glance-of-openwrt</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/computer-memory</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/data-storage</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/ethernet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -30,6 +31,7 @@
 <url> <loc>https://alexxyjiang.github.io/tag/kernel</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/linux-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/linux-system/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/tag/linux-system/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/open-wrt</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/operating-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -44,6 +46,7 @@
 <url> <loc>https://alexxyjiang.github.io/category/data-storage</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/category/linux-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/category/linux-system/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/category/linux-system/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/category/operating-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/category/programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
