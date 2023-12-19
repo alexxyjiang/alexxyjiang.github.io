@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Dec 2023 12:24:57 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Dec 2023 12:39:29 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -692,7 +692,61 @@ To support some wireless device in debian squeeze which is not supported by defa
         &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Big Endian and Little Endian are two major endianness of computer memory. The Big Endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. In contrast, the Little Endian system, stores the least-significant byte at the smallest address.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Modify the MAC Address of the Ethernet Card under Linux]]></title><description><![CDATA[hack of modifying mac address under linux.]]></description><link>https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</guid><pubDate>Sat, 05 Dec 2009 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;Big Endian and Little Endian are two major endianness of computer memory. The Big Endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. In contrast, the Little Endian system, stores the least-significant byte at the smallest address.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Exploring the GNU Compiler Collection and the GNU Binutils]]></title><description><![CDATA[exploring the lifecycle with GNU toolchain.]]></description><link>https://alexxyjiang.github.io/posts/exploring-the-gnu-compiler-collection-and-the-gnu-binutils</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/exploring-the-gnu-compiler-collection-and-the-gnu-binutils</guid><pubDate>Sun, 10 Oct 2010 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/537cbea384743520acf7cc078ffff1dd/4b190/executable.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe60Io//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAEFAl//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAXEAEBAQEAAAAAAAAAAAAAAAAAERAh/9oACAEBAAE/Ie7ER//aAAwDAQACAAMAAAAQww//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAACAgIDAAAAAAAAAAAAAAABEQAhMUFhcZH/2gAIAQEAAT8QJCm+oCSaJeFADuKkolViJz7P/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/537cbea384743520acf7cc078ffff1dd/8ac56/executable.webp 240w,
+/static/537cbea384743520acf7cc078ffff1dd/d3be9/executable.webp 480w,
+/static/537cbea384743520acf7cc078ffff1dd/d00b9/executable.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/537cbea384743520acf7cc078ffff1dd/09b79/executable.jpg 240w,
+/static/537cbea384743520acf7cc078ffff1dd/7cc5e/executable.jpg 480w,
+/static/537cbea384743520acf7cc078ffff1dd/4b190/executable.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/537cbea384743520acf7cc078ffff1dd/4b190/executable.jpg&quot;
+            alt=&quot;executable&quot;
+            title=&quot;executable&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;GNU Compiler Collection (GCC)&lt;/strong&gt; includes front ends for &lt;em&gt;C&lt;/em&gt;, &lt;em&gt;C++&lt;/em&gt;, &lt;em&gt;Objective-C&lt;/em&gt;, &lt;em&gt;Fortran&lt;/em&gt;, &lt;em&gt;Ada&lt;/em&gt;, &lt;em&gt;Go&lt;/em&gt;, and &lt;em&gt;D&lt;/em&gt;, as well as libraries for these languages. The &lt;strong&gt;GNU Binutils&lt;/strong&gt; includes a collection of binaries, like &lt;em&gt;ld&lt;/em&gt; (the GNU linker), &lt;em&gt;as&lt;/em&gt; (the GNU assembler) and &lt;em&gt;gold&lt;/em&gt; (a new, faster, ELF only linker). That’s major toolchain to build the &lt;strong&gt;ELF (Executable and Linkable Format)&lt;/strong&gt; executable in a linux system.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;preprocessing&lt;/strong&gt;
+Before the actual compilation process, the code undergoes a preprocessing stage. This stage involves macro expansion, file inclusion, and conditional compilation. The output provides a glimpse into the code’s transformation before it gets compiled. We can achieve the result by &lt;code class=&quot;language-text&quot;&gt;gcc -E&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;compilation&lt;/strong&gt;
+Once preprocessed, the code proceeds to the compilation stage. This stage translates the high-level programming code into assembly language, generating human-readable assembly code files. These files serve as an intermediary stage before further conversion into machine code. We can achieve the result by &lt;code class=&quot;language-text&quot;&gt;gcc -S&lt;/code&gt;. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;assembling&lt;/strong&gt;
+The assembling stage is the conversion of the generated assembly code into machine code or object code. The &lt;code class=&quot;language-text&quot;&gt;as&lt;/code&gt; assembler is employed for this purpose. This stage is critical in translating the code into a format that the computer’s processor can understand and execute. We can also achieve the result by &lt;code class=&quot;language-text&quot;&gt;gcc -c&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;linking&lt;/strong&gt;
+The final stage in the compilation process is linking, facilitated by the &lt;code class=&quot;language-text&quot;&gt;ld&lt;/code&gt; linker. This phase combines the object code generated during the assembling stage with other necessary libraries and modules to create a standalone executable file. The linker resolves symbols, addresses, and references, ensuring a cohesive and functional program. That’s the default output of &lt;code class=&quot;language-text&quot;&gt;gcc&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The output of gcc is an ELF executable in the linux environment. ELF is a standard file format that defines the structure for executables, object code, shared libraries, and even core dumps. The ELF executable encapsulates the entire program, comprising sections such as “.init” and “.fini.” The “.init” section contains the initialization code for the target file, executed before the main function. On the other hand, the “.fini” section holds the termination or cleanup code, executed after the main function completes its execution.&lt;/p&gt;
+&lt;p&gt;There’s a tool named &lt;em&gt;readelf&lt;/em&gt; which can dump the details of an ELF executable file.&lt;/p&gt;
+&lt;p&gt;By mastering these tools, we can deeply understand how an executable file is made in a linux system.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Modify the MAC Address of the Ethernet Card under Linux]]></title><description><![CDATA[hack of modifying mac address under linux.]]></description><link>https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</guid><pubDate>Sat, 05 Dec 2009 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;

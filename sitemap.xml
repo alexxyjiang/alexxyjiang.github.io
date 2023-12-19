@@ -19,9 +19,11 @@
 <url> <loc>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/posts/exploring-the-gnu-compiler-collection-and-the-gnu-binutils</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/computer-memory</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/data-storage</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/ethernet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/tag/executable-file</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/file-system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/gui-desktop</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/tag/github</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -47,4 +49,5 @@
 <url> <loc>https://alexxyjiang.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://alexxyjiang.github.io/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://alexxyjiang.github.io/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
