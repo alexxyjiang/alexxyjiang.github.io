@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Dec 2023 12:50:08 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Dec 2023 12:51:24 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -392,7 +392,50 @@ rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;/span&gt;
 As the title, this is my first contribution to fix a bug for the project “urltools”. I feel happy to get this merged.&lt;/p&gt;
 &lt;p&gt;This bug fix only convert the %-pattern to a single character when % is followed by valid hex-numbers, or the decoder should do nothing.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[First Glance of OpenWRT]]></title><description><![CDATA[experience of first-time openwrt installation.]]></description><link>https://alexxyjiang.github.io/posts/first-glance-of-openwrt</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/first-glance-of-openwrt</guid><pubDate>Tue, 13 May 2014 22:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Bootstrapping Metaphor in Computer Operating Systems]]></title><description><![CDATA[a story of the word bootstrapping]]></description><link>https://alexxyjiang.github.io/posts/the-bootstrapping-metaphor-in-computer-operating-systems</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-bootstrapping-metaphor-in-computer-operating-systems</guid><pubDate>Tue, 15 Dec 2015 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/975ed0432825eef6c7257b38dc2b4af7/4b190/bootstrap.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABtCAH/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAECEf/aAAgBAQABBQJ6Y5FB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGsf//EABkQAAIDAQAAAAAAAAAAAAAAAAABETFRkf/aAAgBAQAGPwKBYW+n/8QAGhABAAMAAwAAAAAAAAAAAAAAAQARIUFRYf/aAAgBAQABPyEO00PI7BAG/Ts7Jv/aAAwDAQACAAMAAAAQ/B//xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQMBAT8QdJX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQIBAT8QzEP/xAAYEAEAAwEAAAAAAAAAAAAAAAABABEh4f/aAAgBAQABPxBGvWKBMIRSs9S0V6t4p//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/975ed0432825eef6c7257b38dc2b4af7/8ac56/bootstrap.webp 240w,
+/static/975ed0432825eef6c7257b38dc2b4af7/d3be9/bootstrap.webp 480w,
+/static/975ed0432825eef6c7257b38dc2b4af7/d00b9/bootstrap.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/975ed0432825eef6c7257b38dc2b4af7/09b79/bootstrap.jpg 240w,
+/static/975ed0432825eef6c7257b38dc2b4af7/7cc5e/bootstrap.jpg 480w,
+/static/975ed0432825eef6c7257b38dc2b4af7/4b190/bootstrap.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/975ed0432825eef6c7257b38dc2b4af7/4b190/bootstrap.jpg&quot;
+            alt=&quot;bootstrap&quot;
+            title=&quot;bootstrap&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the 18th century, a fictional German nobleman named Baron Munchausen was created by the German writer Rudolf Erich Raspe. One of his tales involved the extraordinary feat of “pulling himself out of a swamp by his own hair.” This anecdote was recorded in the book “Baron Munchausen’s Narrative of His Marvellous Travels”. “Pull yourself up by your bootstraps” is a famous modification based on this. The term &lt;strong&gt;bootstrap&lt;/strong&gt; refers to the small loop at the back of the upper part of a knee-high boot, designed to assist in pulling the boot on. This seemingly physics-defying exaggeration sparked inspiration across diverse fields.&lt;/p&gt;
+&lt;p&gt;The bootstrapping process in computing mirrors the Baron’s exaggerated actions. During the booting sequence, a tiny program is first loaded into memory from BIOS, then the MBR, and BootManager of the Operating System. Finally, the operating system is fully loaded. This intricate process of gradually building up from minimal resources aligns with the notion of bootstrapping.&lt;/p&gt;
+&lt;p&gt;The metaphorical connection between Baron Munchausen’s improbable actions and the bootstrapping process in computing may seem far-fetched, yet it underscores the unexpected ways in which inspiration can arise. And that’s a famous story about why we call the starting process of operating systems &lt;strong&gt;bootstrap&lt;/strong&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[First Glance of OpenWRT]]></title><description><![CDATA[experience of first-time openwrt installation.]]></description><link>https://alexxyjiang.github.io/posts/first-glance-of-openwrt</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/first-glance-of-openwrt</guid><pubDate>Tue, 13 May 2014 22:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
