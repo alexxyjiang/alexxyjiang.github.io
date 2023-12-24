@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Dec 2023 12:43:52 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Dec 2023 12:50:08 GMT</lastBuildDate><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -647,7 +647,75 @@ AttributeError: &lt;span class=&quot;token string&quot;&gt;&apos;module&apos;&lt
 &lt;p&gt;Later, I recalled the problem of the same name. I listed the files under the same path and found that there was a “random.pyc” file listed, indicating that the python executor was loading the “python.py” file itself when executing “import random”, instead of loading the system library.&lt;/p&gt;
 &lt;p&gt;After deleting “random.pyc” and renaming the script, the problem has been resolved :)&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ python rand.py
-&lt;span class=&quot;token number&quot;&gt;0.57140259469&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Intel Wifi Support in Debain 6 Squeeze]]></title><description><![CDATA[non free firmwares are usually the drivers solutions.]]></description><link>https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</guid><pubDate>Mon, 14 Feb 2011 17:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;span class=&quot;token number&quot;&gt;0.57140259469&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Lesson Learned from a Sad Story of Bumblebee]]></title><description><![CDATA[a famous shell script bug from software Bumblebee and lesson learned.]]></description><link>https://alexxyjiang.github.io/posts/lesson-learned-from-a-sad-story-of-bumblebee</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/lesson-learned-from-a-sad-story-of-bumblebee</guid><pubDate>Mon, 20 Jun 2011 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f8875f76a7ee86836f806594dd766736/4b190/bug-bumblebee.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAYk2yxsyf//EABsQAQABBQEAAAAAAAAAAAAAAAERAAIDEBI0/9oACAEBAAEFAiA4GydY/PX/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAQQDAAAAAAAAAAAAAAAAEAABAxIxUZH/2gAIAQEABj8Cw3VbRkH/xAAcEAEAAQQDAAAAAAAAAAAAAAABEQAQITFRYfD/2gAIAQEAAT8hxCjzGptOZTDT0LN2ei3/2gAMAwEAAgADAAAAEJDf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EKa//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QZ//EABsQAAMAAgMAAAAAAAAAAAAAAAABETFxIWGh/9oACAEBAAE/EEZbDeFrgvmkUok1rqEXPAeGTNS4oZ//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/f8875f76a7ee86836f806594dd766736/8ac56/bug-bumblebee.webp 240w,
+/static/f8875f76a7ee86836f806594dd766736/d3be9/bug-bumblebee.webp 480w,
+/static/f8875f76a7ee86836f806594dd766736/d00b9/bug-bumblebee.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/f8875f76a7ee86836f806594dd766736/09b79/bug-bumblebee.jpg 240w,
+/static/f8875f76a7ee86836f806594dd766736/7cc5e/bug-bumblebee.jpg 480w,
+/static/f8875f76a7ee86836f806594dd766736/4b190/bug-bumblebee.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/f8875f76a7ee86836f806594dd766736/4b190/bug-bumblebee.jpg&quot;
+            alt=&quot;bug-bumblebee&quot;
+            title=&quot;bug-bumblebee&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;When you fail to check a variable, it may cause a whole system failure? This sad story of the software Bumblebee will tell you: &lt;strong&gt;YES&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Bumblebee is an open source project, which names after the Bumblebee in Transformers. It’s a project aiming to support NVIDIA Optimus technology under Linux. It works on Optimus Laptops without a graphical multiplexer. Optimus comes from NVIDIA, it’s a technology that allows an integrated GPU and discrete NVIDIA GPU to be built into and accessed by a laptop.&lt;/p&gt;
+&lt;p&gt;It’s a memorable incident known as the “Bumblebee” commit this May. The essence of the story lies in the aftermath of the commit, where the user describes having written commit messages along the lines of “GIANT BUG… causing /usr to be deleted… so sorry…“. The root cause is a missing space character in the installation script, which leads to a &lt;code class=&quot;language-text&quot;&gt;rm -rf /usr&lt;/code&gt; command. Which makes things worse, is that the bug lies in an installation shell script, which means in most cases, it executed by &lt;em&gt;root&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The fix commit of this bug looks like,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;diff&quot;&gt;&lt;pre class=&quot;language-diff&quot;&gt;&lt;code class=&quot;language-diff&quot;&gt;diff --git a/install.sh b/install.sh
+index 7d10ece..b1c571b 100755
+&lt;span class=&quot;token coord&quot;&gt;--- a/install.sh&lt;/span&gt;
+&lt;span class=&quot;token coord&quot;&gt;+++ b/install.sh&lt;/span&gt;
+&lt;span class=&quot;token coord&quot;&gt;@@ -37,7 +37,7 @@&lt;/span&gt;
+&lt;span class=&quot;token unchanged&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;#    You should have received a copy of the GNU General Public License
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;#    along with bumblebee.  If not, see &amp;lt;http://www.gnu.org/licenses/&gt;.
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;#
+&lt;/span&gt;&lt;span class=&quot;token deleted-sign deleted&quot;&gt;&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;BUMBLEBEEVERSION=1.4.31
+&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;BUMBLEBEEVERSION=1.4.32
+&lt;/span&gt;
+
+&lt;span class=&quot;token unchanged&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;ROOT_UID=0
+&lt;/span&gt;@@ -348,7 +348,7 @@ case &quot;$DISTRO&quot; in
+&lt;span class=&quot;token unchanged&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  ln -s /usr/lib/mesa/ld.so.conf /etc/alternatives/gl_conf
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  rm -rf /etc/alternatives/xorg_extra_modules
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  rm -rf /etc/alternatives/xorg_extra_modules-bumblebee
+&lt;/span&gt;&lt;span class=&quot;token deleted-sign deleted&quot;&gt;&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;  rm -rf /usr /lib/nvidia-current/xorg/xorg
+&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;  rm -rf /usr/lib/nvidia-current/xorg/xorg
+&lt;/span&gt;&lt;span class=&quot;token unchanged&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  ln -s /usr/lib/nvidia-current/xorg /etc/alternatives/xorg_extra_modules-bumblebee
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  ldconfig
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt; ;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;However, the most exciting thing is not this bug, but the &lt;a href=&quot;https://github.com/MrMEEE/bumblebee/commit/a047be85247755cdbe0acce6#diff-1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;code review comments&lt;/a&gt; about this bug from programmers around the world, which is really very joyful. Please watch closely!&lt;/p&gt;
+&lt;p&gt;The overall tone of the discussion reflects a mix of humor and understanding, with developers sharing their own experiences and lessons learned from unintentional file deletions. It emphasizes the importance of caution, code review, and adherence to best practices in software development to prevent potentially catastrophic mistakes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Intel Wifi Support in Debain 6 Squeeze]]></title><description><![CDATA[non free firmwares are usually the drivers solutions.]]></description><link>https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</guid><pubDate>Mon, 14 Feb 2011 17:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
