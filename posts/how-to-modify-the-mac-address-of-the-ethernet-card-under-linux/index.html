@@ -101,7 +101,7 @@
     </span>
 Sometimes, we need to modify the MAC address of the ethernet card for some reason. For example, the SJTU network requires the MAC address to be static. In that case, we may modify the MAC address of the ethernet card in the operating system to simulate a different hardware card and pass the check.</p>
 <p>Linux system has provided the basic tool <strong>ifconfig</strong> to help us, and we can finish the modification in following commands.</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># shut down the desired ethernet interface.</span>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment"># shut down the desired ethernet interface.</span>
 <span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># ifconfig eth0 down</span>
 <span class="token comment"># modify the MAC address.</span>
 <span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># ifconfig eth0 hw ether 00:00:00:00:00:01</span>

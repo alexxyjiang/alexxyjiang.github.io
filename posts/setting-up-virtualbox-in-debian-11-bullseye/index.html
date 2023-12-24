@@ -109,7 +109,7 @@
 </li>
 <li>
 <p>import the key and run <strong>apt</strong> commands</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># wget -q -O - http://download.virtualbox.org/virtualbox/debian/oracle_vbox_2016.asc | apt-key add -</span>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># wget -q -O - http://download.virtualbox.org/virtualbox/debian/oracle_vbox_2016.asc | apt-key add -</span>
 <span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># apt update --fix-missing</span>
 <span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># apt install virtualbox</span></code></pre></div>
 </li>
@@ -122,14 +122,14 @@
 <ul>
 <li>
 <p>first, you need to generate and import your <strong>MOK</strong>(Machine Owner Key).</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># apt install mokutil openssl</span>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># apt install mokutil openssl</span>
 <span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># openssl req -new -x509 -newkey rsa:2048 -keyout vbox.key -outform DER -out vbox.der -subj "/CN=Virtual Box/"</span>
 <span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># mokutil --import vbox.der</span></code></pre></div>
 <p>after doing this, please reboot your machine to make sure the import operation is <strong>executed</strong>.</p>
 </li>
 <li>
 <p>then please sign the modules, follow the instructions from <a href="https://wiki.debian.org/SecureBoot#Using_your_key_to_sign_modules" target="_blank" rel="nofollow noopener noreferrer">debian</a>.</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># environment variables</span>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment"># environment variables</span>
 <span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># VERSION="$(uname -r)"</span>
 <span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># SHORT_VERSION="$(uname -r | cut -d . -f 1-2)"</span>
 <span class="token punctuation">(</span>root<span class="token punctuation">)</span><span class="token comment"># MODULES_DIR=/lib/modules/$VERSION</span>
