@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[a personal blog built by Gatsby]]></description><link>https://alexxyjiang.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Dec 2023 13:01:43 GMT</lastBuildDate><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Jan 2024 08:40:04 GMT</lastBuildDate><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 05:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -11,7 +11,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 30%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdihKC//xAAZEAEAAgMAAAAAAAAAAAAAAAACAQMREiH/2gAIAQEAAQUCwpsZ2I4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAQAGPwK3ERiR/8QAGhAAAwADAQAAAAAAAAAAAAAAAAERIVFhcf/aAAgBAQABPyGz4RdY9qOCcTB//9oADAMBAAIAAwAAABAHz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABYRAQEBAAAAAAAAAAAAAAAAAAEAIf/aAAgBAgEBPxBci//EABsQAQACAwEBAAAAAAAAAAAAAAERIQAxYUFx/9oACAEBAAE/EKNkABZ1fPcFrk2EX6XnEPpddbc//9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 30%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdihKC//xAAZEAEAAgMAAAAAAAAAAAAAAAACAQMREiH/2gAIAQEAAQUCwpsZ2I4f/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxABAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAQAGPwLd4WLBf//EABsQAAIBBQAAAAAAAAAAAAAAAAERACFRYXGx/9oACAEBAAE/IXOij0i4RXIGEpP/2gAMAwEAAgADAAAAEAfP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAh/9oACAECAQE/EFyL/8QAGxABAAIDAQEAAAAAAAAAAAAAAREhADFhQXH/2gAIAQEAAT8Qm0kABZ1fPcFq3YxfsHOMfS6625//2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -34,6 +34,7 @@
             alt=&quot;movie-gif&quot;
             title=&quot;movie-gif&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -42,8 +43,8 @@
 &lt;p&gt;&lt;strong&gt;FFmpeg&lt;/strong&gt; is a free and open-source software project consisting of a suite of libraries and programs for handling video, audio, and other multimedia files and streams. It’s a powerful tool for professionals and enthusiasts.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;FFmpeg&lt;/strong&gt; can decode a file of its supported formats and reencode it. This feature could be used to convert file formats. Furthermore, FFmpeg supports for various filters enhances its utility in refining the output. Filters such as ‘scale’, ‘fps’, and ‘palettegen’ can integrated into the conversion process, allowing users to manipulate the dimensions, frame rate, and color palette.&lt;/p&gt;
 &lt;p&gt;A practical implementation of FFmpeg for converting a MOV video to a GIF image can be elucidated through the provided &lt;a href=&quot;https://gist.github.com/SheldonWangRJT/8d3f44a35c8d1386a396b9b49b43c385&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;code snippet&lt;/a&gt;. Command line could be,&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ ffmpeg -i input.mov -pix_fmt rgb8 -r &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; output.gif&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The example code take &lt;em&gt;RGB8&lt;/em&gt; as the output codec (&lt;code class=&quot;language-text&quot;&gt;-pix_fmt rgb8&lt;/code&gt;), and set frame rate to &lt;em&gt;10 Hz&lt;/em&gt; (&lt;code class=&quot;language-text&quot;&gt;-r 10&lt;/code&gt;) to reduce size. As &lt;code class=&quot;language-text&quot;&gt;-f&lt;/code&gt; is not specified, the &lt;em&gt;ffmpeg&lt;/em&gt; binary will guess the format on file extension, so the output will be automatically set to GIF image in the example.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ ffmpeg &lt;span class=&quot;token parameter variable&quot;&gt;-i&lt;/span&gt; input.mov &lt;span class=&quot;token parameter variable&quot;&gt;-pix_fmt&lt;/span&gt; rgb8 &lt;span class=&quot;token parameter variable&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; output.gif&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The example code take &lt;em&gt;RGB8&lt;/em&gt; as the output codec (&lt;code class=&quot;language-text&quot;&gt;-pix_fmt rgb8&lt;/code&gt;), and set frame rate to &lt;em&gt;10 Hz&lt;/em&gt; (&lt;code class=&quot;language-text&quot;&gt;-r 10&lt;/code&gt;) to reduce size. As &lt;code class=&quot;language-text&quot;&gt;-f&lt;/code&gt; is not specified, the &lt;em&gt;ffmpeg&lt;/em&gt; binary will guess the format on file extension, so the output will be automatically set to GIF image in the example.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[SCP Issue between Debian 12 Bookworm and OpenWRT 22.03]]></title><description><![CDATA[the root cause and resolution of the scp error between Debian 12 Bookworm and OpenWRT 22.03.]]></description><link>https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/scp-issue-between-debian-12-bookworm-and-openwrt-22.03</guid><pubDate>Sun, 12 Nov 2023 04:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -56,7 +57,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAHbIgaP/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAECAyP/2gAIAQEAAQUCm2O9Dof/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGo/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABgQAAMBAQAAAAAAAAAAAAAAAAABESEx/9oACAEBAAY/AnG8Mp2H/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAERIUFhkbH/2gAIAQEAAT8hdgrcskCrYlkux//aAAwDAQACAAMAAAAQh8//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QdMg//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERITH/2gAIAQIBAT8QVdJZ/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARIUFRwf/aAAgBAQABPxDSAL6NMN+RFAPVTGE6ybPZ/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 37.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAG7LIEf/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAECEv/aAAgBAQABBQKbZuxOz//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAwEBPwGpj//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AYr/xAAaEAACAgMAAAAAAAAAAAAAAAAAAREhMUGx/9oACAEBAAY/AnDdZNl9P//EABoQAAIDAQEAAAAAAAAAAAAAAAERACFBUZH/2gAIAQEAAT8hZATDHCmj6ilGex//2gAMAwEAAgADAAAAEPQf/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERYf/aAAgBAwEBPxB0zA//xAAXEQEBAQEAAAAAAAAAAAAAAAABACEx/9oACAECAQE/EDPYRf/EABwQAQACAgMBAAAAAAAAAAAAAAEAESFBUWGhwf/aAAgBAQABPxBjTtQ0ujfzUfhHlUXuGVS/J//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -79,6 +80,7 @@
             alt=&quot;openssh-debian-openwrt&quot;
             title=&quot;openssh-debian-openwrt&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -95,16 +97,14 @@ scp: Connection closed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The change comes from the default OpenSSH version change of debian, Debian 11 Bullseye uses &lt;em&gt;OpenSSH 8.4&lt;/em&gt; but Debian 12 Bookworm uses &lt;em&gt;OpenSSH 9.2&lt;/em&gt;. Due to the release note of &lt;a href=&quot;https://www.openssh.com/txt/release-9.0&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;openssh 9.0&lt;/a&gt;. Since &lt;em&gt;OpenSSH 9.0&lt;/em&gt;, OpenSSH switches scp from using the legacy scp/rcp protocol to using the sftp protocol by default.&lt;/p&gt;
 &lt;p&gt;The solution is quite simple. We have two choices,&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;By following the &lt;a href=&quot;https://man.openbsd.org/scp.1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;man page of scp&lt;/a&gt;, we can add the “-O” option to force using the legacy scp protocol on the client side to avoid this error, like&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;scp&lt;/span&gt; -O source_user@source_machine:source_path destination_user@destination_machine:destination_path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Another choice is to install sftp server on the server side, to enable the sftp protocol support&lt;/p&gt;
+&lt;li&gt;By following the &lt;a href=&quot;https://man.openbsd.org/scp.1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;man page of scp&lt;/a&gt;, we can add the “-O” option to force using the legacy scp protocol on the client side to avoid this error, like&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;scp&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-O&lt;/span&gt; source_user@source_machine:source_path destination_user@destination_machine:destination_path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Another choice is to install sftp server on the server side, to enable the sftp protocol support&lt;/li&gt;
+&lt;/ol&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;opkg update
-opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-sftp-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-sftp-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 07:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -117,7 +117,7 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAceqL0iAP//EABgQAAIDAAAAAAAAAAAAAAAAAAEQAhIT/9oACAEBAAEFAqRyIZX/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAREiAh/9oACAEBAAY/AmO1/8QAGhABAQACAwAAAAAAAAAAAAAAAREQQQAxcf/aAAgBAQABPyER3lk4ADe9Z08x/9oADAMBAAIAAwAAABD7P//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQACAgMAAAAAAAAAAAAAAAEQEQBBIVHR/9oACAEBAAE/EGEVFUr3KWV0akBw6R//2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAMAwEAAhADEAAAAceqL0iAP//EABgQAAIDAAAAAAAAAAAAAAAAAAEQAhIT/9oACAEBAAEFAqxyIZX/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAREiAh/9oACAEBAAY/AmO1/8QAGhABAQACAwAAAAAAAAAAAAAAAREQQQAxcf/aAAgBAQABPyEZ3lk4ADe9Z08x/9oADAMBAAIAAwAAABD7P//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAAICAwAAAAAAAAAAAAAAAAEREIEAIdH/2gAIAQEAAT8QPYCrVdxLJIUkFRH/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -140,6 +140,7 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
             alt=&quot;vbox-bullseye&quot;
             title=&quot;vbox-bullseye&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -149,16 +150,16 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
 &lt;h2 id=&quot;install-the-debian-package&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#install-the-debian-package&quot; aria-label=&quot;install the debian package permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Install the debian package&lt;/h2&gt;
 &lt;p&gt;This part is quite easy. We just need to add a new apt source, import the related pgp key, and install the package.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;add following line to a new file under &lt;strong&gt;/etc/apt/sources.list.d&lt;/strong&gt;.&lt;/p&gt;
+&lt;li&gt;add following line to a new file under &lt;strong&gt;/etc/apt/sources.list.d&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian bullseye non-free contrib&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;import the key and run &lt;strong&gt;apt&lt;/strong&gt; commands&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;import the key and run &lt;strong&gt;apt&lt;/strong&gt; commands&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# wget -q -O - http://download.virtualbox.org/virtualbox/debian/oracle_vbox_2016.asc | apt-key add -&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt update --fix-missing&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install virtualbox&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
+&lt;ul&gt;
 &lt;li&gt;(optional) you may download the extension pack from &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;oracle&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;optional-uefi-secure-boot&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#optional-uefi-secure-boot&quot; aria-label=&quot;optional uefi secure boot permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;(Optional) UEFI Secure Boot&lt;/h2&gt;
@@ -166,15 +167,15 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;If your system is using EFI Secure Boot you may need to sign the kernel modules (vboxdrv, vboxnetflt, vboxnetadp, vboxpci) before you can load them. Please see your Linux system&apos;s documentation for more information.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;you have to sign your kernel module.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;first, you need to generate and import your &lt;strong&gt;MOK&lt;/strong&gt;(Machine Owner Key).&lt;/p&gt;
+&lt;li&gt;first, you need to generate and import your &lt;strong&gt;MOK&lt;/strong&gt;(Machine Owner Key).&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install mokutil openssl&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# openssl req -new -x509 -newkey rsa:2048 -keyout vbox.key -outform DER -out vbox.der -subj &quot;/CN=Virtual Box/&quot;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# mokutil --import vbox.der&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;after doing this, please reboot your machine to make sure the import operation is &lt;strong&gt;executed&lt;/strong&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;then please sign the modules, follow the instructions from &lt;a href=&quot;https://wiki.debian.org/SecureBoot#Using_your_key_to_sign_modules&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;debian&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;then please sign the modules, follow the instructions from &lt;a href=&quot;https://wiki.debian.org/SecureBoot#Using_your_key_to_sign_modules&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;debian&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# environment variables&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# VERSION=&quot;$(uname -r)&quot;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# SHORT_VERSION=&quot;$(uname -r | cut -d . -f 1-2)&quot;&lt;/span&gt;
@@ -187,9 +188,7 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
 &lt;span class=&quot;token comment&quot;&gt;# don&apos;t forget to reimport signed modules&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# modprobe vboxdrv&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# modprobe vboxnetadp&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# modprobe vboxnetflt&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Using a Socks5 Proxy via ProxyChains]]></title><description><![CDATA[instructions about how to enable a sock5 proxy via proxychains.]]></description><link>https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</guid><pubDate>Fri, 01 Apr 2022 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# modprobe vboxnetflt&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Using a Socks5 Proxy via ProxyChains]]></title><description><![CDATA[instructions about how to enable a sock5 proxy via proxychains.]]></description><link>https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</guid><pubDate>Fri, 01 Apr 2022 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -202,7 +201,7 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABzm0YQcNFP//EABkQAAIDAQAAAAAAAAAAAAAAAAIRAAFBE//aAAgBAQABBQKjQYSYR3zz/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAExkQIhImH/2gAIAQEABj8C0lRGNHU+IYhH/8QAGhAAAgMBAQAAAAAAAAAAAAAAAREAIUFRgf/aAAgBAQABPyGwo5aMoQF5mc4QGvMKB04A2cn/2gAMAwEAAgADAAAAEJfP/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAh/9oACAEDAQE/ENGVv//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8Q4lhf/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARITFBUWHx/9oACAEBAAE/ENXAAUq/c4ajGEsdL3F4gMAPsYUaq01VrkBQFrqT/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAefTCQsqR//EABoQAAICAwAAAAAAAAAAAAAAAAIRAAEiI0H/2gAIAQEAAQUCo8HaJMI9fP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAEEAwEAAAAAAAAAAAAAAAABESKRECExcf/aAAgBAQAGPwLTUPGiXfBcIf/EABwQAAMBAAIDAAAAAAAAAAAAAAABESExQVGBwf/aAAgBAQABPyFqpcLgYEi9Rg/zA89RtCuUStPB/9oADAMBAAIAAwAAABBkH//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAEDAQE/ELTJ0//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8Qxoh//8QAHBABAAMAAgMAAAAAAAAAAAAAAQARITFBUWHR/9oACAEBAAE/EMXNQA77mMKO8W8XGcODiCvsYUaq019rkBQFrqT/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -225,6 +224,7 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
             alt=&quot;proxychains&quot;
             title=&quot;proxychains&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -232,12 +232,12 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;To enable a socks5 proxy for any binaries, even these which doesn’t natively support a sock5 proxy, we could use proxychains.&lt;/p&gt;
 &lt;p&gt;First, we should install proxychains. For debian based linux system, you may run&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# apt install proxychains4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install proxychains4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Please note, that tag &lt;strong&gt;proxychains&lt;/strong&gt; means the older version 3, and tag &lt;strong&gt;proxychains4&lt;/strong&gt; means the later version 4 (also called &lt;em&gt;proxychains-ng&lt;/em&gt; in some other platforms).&lt;/p&gt;
 &lt;p&gt;Then, please configure the proxy server in file &lt;strong&gt;/etc/proxychains.conf&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;socks5 [ip-address] [port]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After that, the socks5 proxy could be fetched like,&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;proxychains &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;command&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 14:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ proxychains &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;command&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 06:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -250,7 +250,7 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABXLrWJJUD/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQIAEQMQEv/aAAgBAQABBQImo1GPhbrf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAgMBAAAAAAAAAAAAAAAAADEBESAi/9oACAEBAAY/AlJRysf/xAAaEAEBAQADAQAAAAAAAAAAAAABEQAQITFx/9oACAEBAAE/IQUp8Mon1ezCUXJnj//aAAwDAQACAAMAAAAQzB//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBX/8QAGxABAAIDAQEAAAAAAAAAAAAAAQAhETFRYZH/2gAIAQEAAT8QuBdzkXRkIgiBbn5Lm2y9eQHCAy0bjuf/2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgME/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAa5dUQpGgf/EABoQAAICAwAAAAAAAAAAAAAAAAECABEDEBL/2gAIAQEAAQUCJqNRj4W63//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAEFAQAAAAAAAAAAAAAAAAABESAiMWH/2gAIAQEABj8CxRulch//xAAaEAEBAAIDAAAAAAAAAAAAAAABEQAgITFx/9oACAEBAAE/IQUp4Yont5GCUXR//9oADAMBAAIAAwAAABDsH//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EFf/xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMVFhkf/aAAgBAQABPxDYFXbyLosAgiBrfybNum89SjwRC1o7Hs//2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -273,6 +273,7 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
             alt=&quot;rpi-wifi&quot;
             title=&quot;rpi-wifi&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -291,14 +292,14 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
 &lt;p&gt;&lt;strong&gt;install the wireless card driver&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;plug-in the usb 3.0 device&lt;/em&gt;, prepare source code, the driver source code for realtek network chips could be downloaded from &lt;a href=&quot;https://github.com/alexxyjiang/rtl88x2bu/tree/5.8.7.1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;compile and install the driver, follow the instructions in source code &lt;a href=&quot;https://github.com/alexxyjiang/rtl88x2bu/blob/5.8.7.1/README.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;README&lt;/a&gt;. You should verify the driver is successfully installed via following command, and fetch the device name start with &lt;strong&gt;wlx&lt;/strong&gt;.&lt;/p&gt;
+&lt;li&gt;compile and install the driver, follow the instructions in source code &lt;a href=&quot;https://github.com/alexxyjiang/rtl88x2bu/blob/5.8.7.1/README.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;README&lt;/a&gt;. You should verify the driver is successfully installed via following command, and fetch the device name start with &lt;strong&gt;wlx&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ iwconfig&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If your wifi device is not found, you may need to unblock that,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# rfkill unblock wlan&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;turn on cpu overlock, disable the bluetooth and integrated wireless, add following lines to the &lt;strong&gt;/boot/config.txt&lt;/strong&gt; in Raspberry Pi 4. The file-system path &lt;strong&gt;/boot&lt;/strong&gt; may be mounted in read-only mode, you could re-mount that.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;turn on cpu overlock, disable the bluetooth and integrated wireless, add following lines to the &lt;strong&gt;/boot/config.txt&lt;/strong&gt; in Raspberry Pi 4. The file-system path &lt;strong&gt;/boot&lt;/strong&gt; may be mounted in read-only mode, you could re-mount that.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# overlocking
 arm_freq=1500
 over_voltage=2
@@ -306,19 +307,17 @@ over_voltage=2
 dtoverlay=disable-wifi
 dtoverlay=disable-bt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;configure the network&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;dhcpcd&lt;/strong&gt; static address for wireless card, append following lines to file &lt;strong&gt;/etc/dhcpcd.conf&lt;/strong&gt;, replace key information with yourself settings.&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;dhcpcd&lt;/strong&gt; static address for wireless card, append following lines to file &lt;strong&gt;/etc/dhcpcd.conf&lt;/strong&gt;, replace key information with yourself settings.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;interface %wlx_device_name%
 static ip_address=%ap_ipv4_address%/24
 nohook wpa_supplicant&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;dnsmasq&lt;/strong&gt; dhcp service and dns service, install the dnsmasq first,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;dnsmasq&lt;/strong&gt; dhcp service and dns service, install the dnsmasq first,&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install dnsmasq&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;then replace the &lt;strong&gt;/etc/dnsmasq.conf&lt;/strong&gt; file with following lines.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# dns cache size
@@ -338,9 +337,9 @@ no-resolv
 dhcp-mac=set:client_is_a_pi,B8:27:EB:*:*:*
 dhcp-reply-delay=tag:client_is_a_pi,2
 dhcp-range=%ipv4_address_start%,%ipv4_address_end%,%netmask%,6h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;hostapd&lt;/strong&gt; ap service binary, install the hostapd first,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;hostapd&lt;/strong&gt; ap service binary, install the hostapd first,&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install hostapd&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# systemctl unmask hostapd&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# systemctl enable hostapd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -373,17 +372,15 @@ wpa_passphrase=%network_passphrase%
 wpa_key_mgmt=WPA-PSK
 wpa_pairwise=CCMP
 rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;iptables&lt;/strong&gt; network forwarding, install iptables,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;iptables&lt;/strong&gt; network forwarding, install iptables,&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install netfilter-persistent iptables-persistent&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;add ipv4 forwarding, edit file &lt;strong&gt;/etc/sysctl.d/ipv4-forward.conf&lt;/strong&gt;,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;net.ipv4.ip_forward=1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;add masquerade iptables rule and save it as persistent rules,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# netfilter-persistent save&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;reboot your Raspberry Pi 4 and enable your ap&lt;/p&gt;
@@ -394,7 +391,7 @@ rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.raspberrypi.org/documentation/computers/configuration.html#setting-up-a-routed-wireless-access-point&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.raspberrypi.org/documentation/computers/configuration.html#setting-up-a-routed-wireless-access-point&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/alexxyjiang/rtl88x2bu/blob/5.8.7.1/README.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://github.com/alexxyjiang/rtl88x2bu/blob/5.8.7.1/README.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[My Remarkable First Contribution on Public Github]]></title><description><![CDATA[happy to get my bug fix to R package urltools merged.]]></description><link>https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</guid><pubDate>Sat, 20 Jan 2018 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[My Remarkable First Contribution on Public Github]]></title><description><![CDATA[happy to get my bug fix to R package urltools merged.]]></description><link>https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</guid><pubDate>Sat, 20 Jan 2018 02:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -407,7 +404,7 @@ rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAezHTUDGT//EABgQAQEBAQEAAAAAAAAAAAAAAAEAEQIQ/9oACAEBAAEFAnUN5tfGL//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/AYf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGn/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAEgITJBgf/aAAgBAQAGPwJ0zfWYw//EABsQAAIDAAMAAAAAAAAAAAAAAAERACExEFGR/9oACAEBAAE/ITXARpHYiSWPQLgt8XxuZn//2gAMAwEAAgADAAAAEJfv/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EFTIf//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/EFBF/8QAHBABAAICAwEAAAAAAAAAAAAAAREhADEQQVHB/9oACAEBAAE/EC1RICMWrdDjOEMEdbY+vzFNgDaNkb4sxsESesSqVbz/2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAezDVUDGT//EABkQAQACAwAAAAAAAAAAAAAAAAEAEQIQMf/aAAgBAQABBQJtC8Zbp6T/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwGH/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bp//EABoQAAICAwAAAAAAAAAAAAAAAAABICEyQYH/2gAIAQEABj8CdG+sxh//xAAbEAEAAgIDAAAAAAAAAAAAAAABESEAMRBRkf/aAAgBAQABPyFxyIah3kNWT0F4W+L5Nc//2gAMAwEAAgADAAAAEN/v/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EFTIf//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/EFBF/8QAGxABAAIDAQEAAAAAAAAAAAAAAREhADFBENH/2gAIAQEAAT8QLVkgIxSLShxjCGDvNjG/mKbAG0bI35dDYWTxxKpVvP/Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -430,14 +427,15 @@ rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
             alt=&quot;github-merge&quot;
             title=&quot;github-merge&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-As the title, this is my first contribution to fix a bug for the project “urltools”. I feel happy to get this merged.&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As the title, this is my first contribution to fix a bug for the project “urltools”. I feel happy to get this merged.&lt;/p&gt;
 &lt;p&gt;This bug fix only convert the %-pattern to a single character when % is followed by valid hex-numbers, or the decoder should do nothing.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Bootstrapping Metaphor in Computer Operating Systems]]></title><description><![CDATA[a story of the word bootstrapping]]></description><link>https://alexxyjiang.github.io/posts/the-bootstrapping-metaphor-in-computer-operating-systems</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-bootstrapping-metaphor-in-computer-operating-systems</guid><pubDate>Tue, 15 Dec 2015 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Bootstrapping Metaphor in Computer Operating Systems]]></title><description><![CDATA[a story of the word bootstrapping]]></description><link>https://alexxyjiang.github.io/posts/the-bootstrapping-metaphor-in-computer-operating-systems</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-bootstrapping-metaphor-in-computer-operating-systems</guid><pubDate>Tue, 15 Dec 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -450,7 +448,7 @@ As the title, this is my first contribution to fix a bug for the project “urlt
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 30%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABtCAH/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAECEf/aAAgBAQABBQJ6Y5FB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGsf//EABkQAAIDAQAAAAAAAAAAAAAAAAABETFRkf/aAAgBAQAGPwKBYW+n/8QAGhABAAMAAwAAAAAAAAAAAAAAAQARIUFRYf/aAAgBAQABPyEO00PI7BAG/Ts7Jv/aAAwDAQACAAMAAAAQ/B//xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQMBAT8QdJX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQIBAT8QzEP/xAAYEAEAAwEAAAAAAAAAAAAAAAABABEh4f/aAAgBAQABPxBGvWKBMIRSs9S0V6t4p//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 30%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABtCAH/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERAhL/2gAIAQEAAQUCdI8nB//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8BrH//xAAZEAACAwEAAAAAAAAAAAAAAAAAARExUZH/2gAIAQEABj8CgWFvp//EABoQAQADAAMAAAAAAAAAAAAAAAEAESFBUWH/2gAIAQEAAT8hDtNDyOwQBv07DtN//9oADAMBAAIAAwAAABD8H//EABYRAQEBAAAAAAAAAAAAAAAAABEAAf/aAAgBAwEBPxB0lf/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAgEBPxDMQ//EABgQAQADAQAAAAAAAAAAAAAAAAEAESHh/9oACAEBAAE/EEa9YoExhlKz1M1WreOf/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -473,6 +471,7 @@ As the title, this is my first contribution to fix a bug for the project “urlt
             alt=&quot;bootstrap&quot;
             title=&quot;bootstrap&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -480,7 +479,7 @@ As the title, this is my first contribution to fix a bug for the project “urlt
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;In the 18th century, a fictional German nobleman named Baron Munchausen was created by the German writer Rudolf Erich Raspe. One of his tales involved the extraordinary feat of “pulling himself out of a swamp by his own hair.” This anecdote was recorded in the book “Baron Munchausen’s Narrative of His Marvellous Travels”. “Pull yourself up by your bootstraps” is a famous modification based on this. The term &lt;strong&gt;bootstrap&lt;/strong&gt; refers to the small loop at the back of the upper part of a knee-high boot, designed to assist in pulling the boot on. This seemingly physics-defying exaggeration sparked inspiration across diverse fields.&lt;/p&gt;
 &lt;p&gt;The bootstrapping process in computing mirrors the Baron’s exaggerated actions. During the booting sequence, a tiny program is first loaded into memory from BIOS, then the MBR, and BootManager of the Operating System. Finally, the operating system is fully loaded. This intricate process of gradually building up from minimal resources aligns with the notion of bootstrapping.&lt;/p&gt;
-&lt;p&gt;The metaphorical connection between Baron Munchausen’s improbable actions and the bootstrapping process in computing may seem far-fetched, yet it underscores the unexpected ways in which inspiration can arise. And that’s a famous story about why we call the starting process of operating systems &lt;strong&gt;bootstrap&lt;/strong&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[First Glance of OpenWRT]]></title><description><![CDATA[experience of first-time openwrt installation.]]></description><link>https://alexxyjiang.github.io/posts/first-glance-of-openwrt</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/first-glance-of-openwrt</guid><pubDate>Tue, 13 May 2014 22:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;The metaphorical connection between Baron Munchausen’s improbable actions and the bootstrapping process in computing may seem far-fetched, yet it underscores the unexpected ways in which inspiration can arise. And that’s a famous story about why we call the starting process of operating systems &lt;strong&gt;bootstrap&lt;/strong&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[First Glance of OpenWRT]]></title><description><![CDATA[experience of first-time openwrt installation.]]></description><link>https://alexxyjiang.github.io/posts/first-glance-of-openwrt</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/first-glance-of-openwrt</guid><pubDate>Tue, 13 May 2014 14:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -493,7 +492,7 @@ As the title, this is my first contribution to fix a bug for the project “urlt
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHt16ASP//EABkQAAEFAAAAAAAAAAAAAAAAABEAAQISIP/aAAgBAQABBQKRVnOP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAACAhMf/aAAgBAQAGPwKGL//EABkQAQADAQEAAAAAAAAAAAAAAAEAESEgMf/aAAgBAQABPyFFwJB6WGHm8f/aAAwDAQACAAMAAAAQ8A//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAYEAADAQEAAAAAAAAAAAAAAAAQMUERAf/aAAgBAQABPxBUguscxrFUUf/Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHt03BI/8QAGRAAAQUAAAAAAAAAAAAAAAAAEQABAhIg/9oACAEBAAEFApFWc4//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAICEx/9oACAEBAAY/AoYv/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARISAx/9oACAEBAAE/IUXAkHpYYebx/9oADAMBAAIAAwAAABCgD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABkQAAIDAQAAAAAAAAAAAAAAABExABBBAf/aAAgBAQABPxBEguuHmQQa2tr/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -513,9 +512,10 @@ As the title, this is my first contribution to fix a bug for the project “urlt
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
             src=&quot;/static/2f7ca4a531323fe8df2c04ed2ac2c672/4b190/tl-mr13u.jpg&quot;
-            alt=&quot;mr13u&quot;
-            title=&quot;mr13u&quot;
+            alt=&quot;tl-mr13u&quot;
+            title=&quot;tl-mr13u&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -523,7 +523,7 @@ As the title, this is my first contribution to fix a bug for the project “urlt
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;By chance, I learned there is a widely used router OS named &lt;strong&gt;OpenWRT&lt;/strong&gt;. OpenWRT stands out as a powerful and flexible open-source firmware for routers and other embedded devices, allowing users to customize and enhance the functionality of their network devices.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;http://wiki.openwrt.org/toh/tp-link/tl-mr13u&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;TP-Link TL-MR13U&lt;/a&gt; is a router that gained popularity for its portability and affordability. The most important feature is it contains a battery inside it. We could put it into pocket without power to provide wifi link 802.11n.&lt;/p&gt;
-&lt;p&gt;After installed OpenWRT Attitude Adjustment on the TL-MR13U, I’m happy to have the router OS replaced. It’s suitable to bring the brick in my vocation :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tip of Redirecting the Command "svn diff"]]></title><description><![CDATA[tips of redirecting svn diff to help coding.]]></description><link>https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</guid><pubDate>Tue, 25 Jun 2013 11:25:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;After installed OpenWRT Attitude Adjustment on the TL-MR13U, I’m happy to have the router OS replaced. It’s suitable to bring the brick in my vocation :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tip of Redirecting the Command "svn diff"]]></title><description><![CDATA[tips of redirecting svn diff to help coding.]]></description><link>https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</guid><pubDate>Tue, 25 Jun 2013 03:25:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -536,7 +536,7 @@ As the title, this is my first contribution to fix a bug for the project “urlt
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 15%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAHJkGgJ/wD/xAAWEAEBAQAAAAAAAAAAAAAAAAABAEL/2gAIAQEAAQUCVs3/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BrX//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAYEAADAQEAAAAAAAAAAAAAAAAAARExYf/aAAgBAQABPyGzR5fSn//aAAwDAQACAAMAAAAQ8/8A/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIVH/2gAIAQMBAT8Qyqiun//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAAICAwAAAAAAAAAAAAAAAAABEVExQZH/2gAIAQEAAT8Q2vCGbkOXYlb6f//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 15%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAHJkGoJ/wD/xAAWEAEBAQAAAAAAAAAAAAAAAAABAEL/2gAIAQEAAQUCVs3/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAQIR/9oACAEDAQE/AbNl/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAGhAAAAcAAAAAAAAAAAAAAAAAAAEQETFBYf/aAAgBAQABPyF5Iqep/9oADAMBAAIAAwAAABBwH//EABcRAAMBAAAAAAAAAAAAAAAAAAABEWH/2gAIAQMBAT8QSKo0P//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQACAwEAAAAAAAAAAAAAAAEAESExUZH/2gAIAQEAAT8QpctEVULb1Levs//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -559,6 +559,7 @@ As the title, this is my first contribution to fix a bug for the project “urlt
             alt=&quot;svn-diff&quot;
             title=&quot;svn-diff&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -567,19 +568,19 @@ As the title, this is my first contribution to fix a bug for the project “urlt
 The default output mode of &lt;strong&gt;svn diff&lt;/strong&gt; is verbose. If you have many modifications, it is sometimes difficult to see the differences.
 Funtunately, &lt;em&gt;svn&lt;/em&gt; has provided options for customizing &lt;strong&gt;svn diff&lt;/strong&gt; output.&lt;/p&gt;
 &lt;p&gt;To change the output of &lt;strong&gt;svn diff&lt;/strong&gt;, we need a script file (such as &lt;strong&gt;svndiff.sh&lt;/strong&gt;) with following content,&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;#!/bin/sh
-DIFF=&quot;/usr/bin/vimdiff&quot;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;DIFF&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/usr/bin/vimdiff&quot;&lt;/span&gt;
 
-# Subversion provides the paths we need as the sixth and seventh parameters
-LEFT=${6}
-RIGHT=${7}
+&lt;span class=&quot;token comment&quot;&gt;# Subversion provides the paths we need as the sixth and seventh parameters&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;LEFT&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;${6}&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;RIGHT&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;${7}&lt;/span&gt;
 
-# diff command
-${DIFF} ${LEFT} ${RIGHT}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;token comment&quot;&gt;# diff command&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;${DIFF}&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;${LEFT}&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;${RIGHT}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Then modify the svn configuration file &lt;strong&gt;~/.subversion/config&lt;/strong&gt; and make sure the following configuration is written:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;[helpers]
 diff-cmd = /path/to/svndiff.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Then, &lt;strong&gt;svn diff&lt;/strong&gt; will call the &lt;strong&gt;svndiff.sh&lt;/strong&gt; script, which uses &lt;em&gt;vimdiff&lt;/em&gt; in &lt;em&gt;svn&lt;/em&gt; difference mode.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dealing with Linux Files via inode]]></title><description><![CDATA[dealing with linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 17:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;Then, &lt;strong&gt;svn diff&lt;/strong&gt; will call the &lt;strong&gt;svndiff.sh&lt;/strong&gt; script, which uses &lt;em&gt;vimdiff&lt;/em&gt; in &lt;em&gt;svn&lt;/em&gt; difference mode.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dealing with Linux Files via inode]]></title><description><![CDATA[dealing with linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 09:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -592,7 +593,7 @@ diff-cmd = /path/to/svndiff.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdp2gJD/xAAYEAADAQEAAAAAAAAAAAAAAAAAAREhAv/aAAgBAQABBQLbdTpCHJ//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAASBx/9oACAEBAAY/Apen/8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQUWH/2gAIAQEAAT8haDq6gveKWPCoihohwP/aAAwDAQACAAMAAAAQ4M//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhgbFB/9oACAEBAAE/EFF4WvSKkgAa9u4uEA2IogKGXijZO7hP/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdp2gJD/xAAZEAEAAwEBAAAAAAAAAAAAAAAAAREhAhL/2gAIAQEAAQUC162JUpy//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhABAQEAAAAAAAAAAAAAAAAAAQAg/9oACAEBAAY/AjLf/8QAHBAAAwABBQAAAAAAAAAAAAAAAAERMSFBUWGx/9oACAEBAAE/IbTZnAt3EK3pkQeiI9D/2gAMAwEAAgADAAAAEPAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHhABAAMAAQUBAAAAAAAAAAAAAQARIVExQWFxgcH/2gAIAQEAAT8QUbiy/E0iqhrzcTphh7jYAoeJeEre8Fb5/k//2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -612,9 +613,10 @@ diff-cmd = /path/to/svndiff.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
             src=&quot;/static/7e66bce6f2577126360c225f8569c666/4b190/filesystem.jpg&quot;
-            alt=&quot;file system&quot;
-            title=&quot;file system&quot;
+            alt=&quot;filesystem&quot;
+            title=&quot;filesystem&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -623,19 +625,17 @@ diff-cmd = /path/to/svndiff.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;In the UNIX/Linux system, name-garbled files are generated in some cases. It’s hard to operate on such kind of files via their file names.&lt;/p&gt;
 &lt;p&gt;Based on the implementation of the UNIX/Linux file system, each file is associated with inodes. We can operate on any file with inode as an alternative.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Get the inode of the name-garbled file&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; -il
+&lt;li&gt;Get the inode of the name-garbled file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-il&lt;/span&gt;
 total &lt;span class=&quot;token number&quot;&gt;125252&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
 &lt;span class=&quot;token number&quot;&gt;200556696&lt;/span&gt; -rwxr-xr-x &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; x x &lt;span class=&quot;token number&quot;&gt;676&lt;/span&gt; Mar &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;:20 common.sh
 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Process files based on the inode, for example, delete&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; -inum &lt;span class=&quot;token number&quot;&gt;200556696&lt;/span&gt; -exec &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Tips to Make Vim Shown White Space Characters]]></title><description><![CDATA[tips of vim set list usage.]]></description><link>https://alexxyjiang.github.io/posts/tips-to-make-vim-shown-white-space-characters</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tips-to-make-vim-shown-white-space-characters</guid><pubDate>Fri, 20 Jan 2012 21:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Process files based on the inode, for example, delete&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-inum&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200556696&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-exec&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Tips to Make Vim Shown White Space Characters]]></title><description><![CDATA[tips of vim set list usage.]]></description><link>https://alexxyjiang.github.io/posts/tips-to-make-vim-shown-white-space-characters</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tips-to-make-vim-shown-white-space-characters</guid><pubDate>Fri, 20 Jan 2012 13:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -648,7 +648,7 @@ total &lt;span class=&quot;token number&quot;&gt;125252&lt;/span&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABylyFD//EABcQAAMBAAAAAAAAAAAAAAAAAAABEBH/2gAIAQEAAQUCiMiP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAEQESExUXH/2gAIAQEAAT8hdyi0IjqMD//aAAwDAQACAAMAAAAQsw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEQMSFhcf/aAAgBAQABPxAGxc60pPBuNUwFr2f/2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAcouRjD/xAAXEAADAQAAAAAAAAAAAAAAAAAAARAR/9oACAEBAAEFAojIj//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABsQAAIBBQAAAAAAAAAAAAAAAAABEBEhMVFx/9oACAEBAAE/IXcotCI6jA//2gAMAwEAAgADAAAAELAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAICAwAAAAAAAAAAAAAAAQAREDEhYXH/2gAIAQEAAT8QBsXOtKTwbjVMBa9n/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -668,20 +668,21 @@ total &lt;span class=&quot;token number&quot;&gt;125252&lt;/span&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
             src=&quot;/static/f13a0c006860e522cb907ddfc4b4cf91/4b190/vim-lcs.jpg&quot;
-            alt=&quot;example&quot;
-            title=&quot;example&quot;
+            alt=&quot;vim-lcs&quot;
+            title=&quot;vim-lcs&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-While editing text files with &lt;strong&gt;vi/vim&lt;/strong&gt;, we often need the white space characters to be shown, like ‘\t’ (tabulation), ‘\n’ (end of line), and ’ ‘(space) to confirm the file syntax. How to show these characters in different ways? You may just use the following vim command,&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;While editing text files with &lt;strong&gt;vi/vim&lt;/strong&gt;, we often need the white space characters to be shown, like ‘\t’ (tabulation), ‘\n’ (end of line), and ’ ‘(space) to confirm the file syntax. How to show these characters in different ways? You may just use the following vim command,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;list&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;By default, ‘\t’ is shown as ‘^I’, ‘\n’ is shown as ’$’, and ’ ’ is kept not changed. You may also want to customize the representations, this could be configured via the &lt;strong&gt;listchars/lcs&lt;/strong&gt; option, e.g,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;lcs&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;tab&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;trail&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;eol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;space&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You may refer to the vim help documents (section listchars) for more details.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;listchars&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Tips of Python Import]]></title><description><![CDATA[a tip of using python import.]]></description><link>https://alexxyjiang.github.io/posts/tips-of-python-import</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tips-of-python-import</guid><pubDate>Mon, 21 Nov 2011 11:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;listchars&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Tips of Python Import]]></title><description><![CDATA[a tip of using python import.]]></description><link>https://alexxyjiang.github.io/posts/tips-of-python-import</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tips-of-python-import</guid><pubDate>Mon, 21 Nov 2011 03:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -694,7 +695,7 @@ While editing text files with &lt;strong&gt;vi/vim&lt;/strong&gt;, we often need
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 18.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAEABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABy5AB/8QAFRABAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQEAAQUCj//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABgQAQADAQAAAAAAAAAAAAAAAAEAEBEh/9oACAEBAAE/IcJHjX//2gAMAwEAAgADAAAAEPAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhABAAEFAAAAAAAAAAAAAAAAAREAECFBUf/aAAgBAQABPxAyckvaMoat/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 18.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAEABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAcusIB//xAAXEAADAQAAAAAAAAAAAAAAAAAAARAR/9oACAEBAAEFAsHP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFxABAQEBAAAAAAAAAAAAAAAAAREAEP/aAAgBAQABPyGEwjz/2gAMAwEAAgADAAAAEIAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRABAAIDAAAAAAAAAAAAAAAAARExABAh/9oACAEBAAE/EDpySheAoUa//9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -714,9 +715,10 @@ While editing text files with &lt;strong&gt;vi/vim&lt;/strong&gt;, we often need
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
             src=&quot;/static/efdab8b34d8b3722014510d94aed5be0/4b190/python-import.jpg&quot;
-            alt=&quot;import&quot;
-            title=&quot;import&quot;
+            alt=&quot;python-import&quot;
+            title=&quot;python-import&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -735,7 +737,7 @@ AttributeError: &lt;span class=&quot;token string&quot;&gt;&apos;module&apos;&lt
 &lt;p&gt;Later, I recalled the problem of the same name. I listed the files under the same path and found that there was a “random.pyc” file listed, indicating that the python executor was loading the “python.py” file itself when executing “import random”, instead of loading the system library.&lt;/p&gt;
 &lt;p&gt;After deleting “random.pyc” and renaming the script, the problem has been resolved :)&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ python rand.py
-&lt;span class=&quot;token number&quot;&gt;0.57140259469&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Lesson Learned from a Sad Story of Bumblebee]]></title><description><![CDATA[a famous shell script bug from software Bumblebee and lesson learned.]]></description><link>https://alexxyjiang.github.io/posts/lesson-learned-from-a-sad-story-of-bumblebee</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/lesson-learned-from-a-sad-story-of-bumblebee</guid><pubDate>Mon, 20 Jun 2011 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;span class=&quot;token number&quot;&gt;0.57140259469&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Lesson Learned from a Sad Story of Bumblebee]]></title><description><![CDATA[a famous shell script bug from software Bumblebee and lesson learned.]]></description><link>https://alexxyjiang.github.io/posts/lesson-learned-from-a-sad-story-of-bumblebee</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/lesson-learned-from-a-sad-story-of-bumblebee</guid><pubDate>Mon, 20 Jun 2011 13:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -748,7 +750,7 @@ AttributeError: &lt;span class=&quot;token string&quot;&gt;&apos;module&apos;&lt
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAYk2yxsyf//EABsQAQABBQEAAAAAAAAAAAAAAAERAAIDEBI0/9oACAEBAAEFAiA4GydY/PX/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAQQDAAAAAAAAAAAAAAAAEAABAxIxUZH/2gAIAQEABj8Cw3VbRkH/xAAcEAEAAQQDAAAAAAAAAAAAAAABEQAQITFRYfD/2gAIAQEAAT8hxCjzGptOZTDT0LN2ei3/2gAMAwEAAgADAAAAEJDf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EKa//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QZ//EABsQAAMAAgMAAAAAAAAAAAAAAAABETFxIWGh/9oACAEBAAE/EEZbDeFrgvmkUok1rqEXPAeGTNS4oZ//2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAYk2yxsyf//EABsQAQABBQEAAAAAAAAAAAAAAAERAAIDEBI0/9oACAEBAAEFAiA4GydY/PX/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAQQDAAAAAAAAAAAAAAAAEAABAxIxUZL/2gAIAQEABj8Cw3StoyD/xAAcEAEAAQQDAAAAAAAAAAAAAAABEQAQITFRYfD/2gAIAQEAAT8hxCjzCptOQzDT0LN2ei3/2gAMAwEAAgADAAAAEJDf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EKa//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QZ//EABoQAAMAAwEAAAAAAAAAAAAAAAABESExcaH/2gAIAQEAAT8QRlsXBHMF81QUSa5vEIueA9Mial1Q2f/Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -771,6 +773,7 @@ AttributeError: &lt;span class=&quot;token string&quot;&gt;&apos;module&apos;&lt
             alt=&quot;bug-bumblebee&quot;
             title=&quot;bug-bumblebee&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -803,7 +806,7 @@ index 7d10ece..b1c571b 100755
 &lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  ldconfig
 &lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt; ;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;However, the most exciting thing is not this bug, but the &lt;a href=&quot;https://github.com/MrMEEE/bumblebee/commit/a047be85247755cdbe0acce6#diff-1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;code review comments&lt;/a&gt; about this bug from programmers around the world, which is really very joyful. Please watch closely!&lt;/p&gt;
-&lt;p&gt;The overall tone of the discussion reflects a mix of humor and understanding, with developers sharing their own experiences and lessons learned from unintentional file deletions. It emphasizes the importance of caution, code review, and adherence to best practices in software development to prevent potentially catastrophic mistakes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Intel Wifi Support in Debain 6 Squeeze]]></title><description><![CDATA[non free firmwares are usually the drivers solutions.]]></description><link>https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</guid><pubDate>Mon, 14 Feb 2011 17:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;The overall tone of the discussion reflects a mix of humor and understanding, with developers sharing their own experiences and lessons learned from unintentional file deletions. It emphasizes the importance of caution, code review, and adherence to best practices in software development to prevent potentially catastrophic mistakes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Intel Wifi Support in Debain 6 Squeeze]]></title><description><![CDATA[non free firmwares are usually the drivers solutions.]]></description><link>https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</guid><pubDate>Mon, 14 Feb 2011 09:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -816,7 +819,7 @@ index 7d10ece..b1c571b 100755
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB9tm6NCsXyEA//8QAGhAAAwEAAwAAAAAAAAAAAAAAAQISAAMQIf/aAAgBAQABBQK/bytWCkM1heIEL3//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAABAQkAAAAAAAAAAAAAAAABAAIQESAiMUFRYf/aAAgBAQAGPwIjT2+lU3RiMyf/xAAcEAEBAQABBQAAAAAAAAAAAAABEQAhIDFBcYH/2gAIAQEAAT8hAgL2OKYF+4ip4Y73amAJtc7iAVvR/9oADAMBAAIAAwAAABAjyDz/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAWEQADAAAAAAAAAAAAAAAAAAABIDH/2gAIAQIBAT8QET//xAAcEAEAAwACAwAAAAAAAAAAAAABABExIEEhUWH/2gAIAQEAAT8QXkloQPIXoEGlLyek2OdO98qMgrodS4Sql23eH//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAMEAQIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB7eK+xYRicAH/xAAaEAADAQADAAAAAAAAAAAAAAABAhIAAxAh/9oACAEBAAEFAr9vK1YKQzWF4gQvf//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EAB4QAAEBCQAAAAAAAAAAAAAAAAEAAhARICIxQVFh/9oACAEBAAY/AiNPb6VTdGIzJ//EABsQAQEBAAIDAAAAAAAAAAAAAAERACExIEGB/9oACAEBAAE/IQIC1HFMC/cRU9Md3b2mgTa53EArfD//2gAMAwEAAgADAAAAEGPPPP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABYRAAMAAAAAAAAAAAAAAAAAAAEgMf/aAAgBAgEBPxARP//EABwQAQADAAIDAAAAAAAAAAAAAAEAETFBYSAhUf/aAAgBAQABPxBeS0DYPsT4CDal5PCbHGtd1CoK6HFdxhaql23fD//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -839,6 +842,7 @@ index 7d10ece..b1c571b 100755
             alt=&quot;intel-wifi&quot;
             title=&quot;intel-wifi&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -846,11 +850,15 @@ index 7d10ece..b1c571b 100755
     &lt;/span&gt;
 To support some wireless device in debian squeeze which is not supported by default, we often need some addition firmware [non-free]. For example, my “Intel WiFi Link 5100 AGN” could be supported via adding the &lt;strong&gt;firmware-iwlwifi&lt;/strong&gt; package. There are two basic ways to install firmware:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Add firmware when installing the system. In this way, debian-installer will automatically complete the firmware activation of the corresponding hardware;&lt;/li&gt;
-&lt;li&gt;Add firmware after installing the system. In this way, some service daemons may need to be restarted;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add firmware when installing the system. In this way, debian-installer will automatically complete the firmware activation of the corresponding hardware;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add firmware after installing the system. In this way, some service daemons may need to be restarted;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I choose the second solution, shell command like this.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install firmware-iwlwifi &amp;amp;&amp;amp; /etc/init.d/networking restart&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[About Big Endian and Little Endian]]></title><description><![CDATA[notes about data storage in computer memory.]]></description><link>https://alexxyjiang.github.io/posts/about-big-endian-and-little-endian</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/about-big-endian-and-little-endian</guid><pubDate>Fri, 22 Oct 2010 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install firmware-iwlwifi &amp;amp;&amp;amp; /etc/init.d/networking restart&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[About Big Endian and Little Endian]]></title><description><![CDATA[notes about data storage in computer memory.]]></description><link>https://alexxyjiang.github.io/posts/about-big-endian-and-little-endian</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/about-big-endian-and-little-endian</guid><pubDate>Fri, 22 Oct 2010 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -863,7 +871,7 @@ To support some wireless device in debian squeeze which is not supported by defa
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHuxapogUgNAf/EABkQAAMAAwAAAAAAAAAAAAAAAAABAhAhMf/aAAgBAQABBQKicMnhQls//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwIf/8QAGhAAAQUBAAAAAAAAAAAAAAAAAAEQESExQf/aAAgBAQABPyGUUdtgUlmwJSb/2gAMAwEAAgADAAAAECDPPP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABsQAQEBAQEAAwAAAAAAAAAAAAERACFBEDFR/9oACAEBAAE/EAunPSW7gBw+CWvh67gUj+YaXERdGT6wQhv/2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHuxapogUgNAf/EABkQAAMAAwAAAAAAAAAAAAAAAAABAhAhMf/aAAgBAQABBQKicMnhQls//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwIf/8QAGhAAAQUBAAAAAAAAAAAAAAAAAQAQESExQf/aAAgBAQABPyGUUu2wiFmyEKTf/9oADAMBAAIAAwAAABAgwDz/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAaEAEBAQEBAQEAAAAAAAAAAAABEQAhMUEQ/9oACAEBAAE/EAu3PpLdwAIfhLWefXULJ5zDS4FJe6QnDBCG/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -886,12 +894,13 @@ To support some wireless device in debian squeeze which is not supported by defa
             alt=&quot;endianness&quot;
             title=&quot;endianness&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Big Endian and Little Endian are two major endianness of computer memory. The Big Endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. In contrast, the Little Endian system, stores the least-significant byte at the smallest address.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Exploring the GNU Compiler Collection and the GNU Binutils]]></title><description><![CDATA[exploring the lifecycle with GNU toolchain.]]></description><link>https://alexxyjiang.github.io/posts/exploring-the-gnu-compiler-collection-and-the-gnu-binutils</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/exploring-the-gnu-compiler-collection-and-the-gnu-binutils</guid><pubDate>Sun, 10 Oct 2010 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;Big Endian and Little Endian are two major endianness of computer memory. The Big Endian system stores the most significant byte of a word at the smallest memory address and the least significant byte at the largest. In contrast, the Little Endian system, stores the least-significant byte at the smallest address.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Exploring the GNU Compiler Collection and the GNU Binutils]]></title><description><![CDATA[exploring the lifecycle with GNU toolchain.]]></description><link>https://alexxyjiang.github.io/posts/exploring-the-gnu-compiler-collection-and-the-gnu-binutils</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/exploring-the-gnu-compiler-collection-and-the-gnu-binutils</guid><pubDate>Sun, 10 Oct 2010 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -904,7 +913,7 @@ To support some wireless device in debian squeeze which is not supported by defa
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe60Io//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAEFAl//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAXEAEBAQEAAAAAAAAAAAAAAAAAERAh/9oACAEBAAE/Ie7ER//aAAwDAQACAAMAAAAQww//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAACAgIDAAAAAAAAAAAAAAABEQAhMUFhcZH/2gAIAQEAAT8QJCm+oCSaJeFADuKkolViJz7P/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3VAD/8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFxABAQEBAAAAAAAAAAAAAAAAABEQIf/aAAgBAQABPyHuxEf/2gAMAwEAAgADAAAAEMAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxAAAwACAwAAAAAAAAAAAAAAAAERIWExQZH/2gAIAQEAAT8QbTFom28N3gSfZEkIxojfp//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -927,6 +936,7 @@ To support some wireless device in debian squeeze which is not supported by defa
             alt=&quot;executable&quot;
             title=&quot;executable&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -934,18 +944,24 @@ To support some wireless device in debian squeeze which is not supported by defa
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;GNU Compiler Collection (GCC)&lt;/strong&gt; includes front ends for &lt;em&gt;C&lt;/em&gt;, &lt;em&gt;C++&lt;/em&gt;, &lt;em&gt;Objective-C&lt;/em&gt;, &lt;em&gt;Fortran&lt;/em&gt;, &lt;em&gt;Ada&lt;/em&gt;, &lt;em&gt;Go&lt;/em&gt;, and &lt;em&gt;D&lt;/em&gt;, as well as libraries for these languages. The &lt;strong&gt;GNU Binutils&lt;/strong&gt; includes a collection of binaries, like &lt;em&gt;ld&lt;/em&gt; (the GNU linker), &lt;em&gt;as&lt;/em&gt; (the GNU assembler) and &lt;em&gt;gold&lt;/em&gt; (a new, faster, ELF only linker). That’s major toolchain to build the &lt;strong&gt;ELF (Executable and Linkable Format)&lt;/strong&gt; executable in a linux system.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;preprocessing&lt;/strong&gt;
-Before the actual compilation process, the code undergoes a preprocessing stage. This stage involves macro expansion, file inclusion, and conditional compilation. The output provides a glimpse into the code’s transformation before it gets compiled. We can achieve the result by &lt;code class=&quot;language-text&quot;&gt;gcc -E&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;compilation&lt;/strong&gt;
-Once preprocessed, the code proceeds to the compilation stage. This stage translates the high-level programming code into assembly language, generating human-readable assembly code files. These files serve as an intermediary stage before further conversion into machine code. We can achieve the result by &lt;code class=&quot;language-text&quot;&gt;gcc -S&lt;/code&gt;. &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;assembling&lt;/strong&gt;
-The assembling stage is the conversion of the generated assembly code into machine code or object code. The &lt;code class=&quot;language-text&quot;&gt;as&lt;/code&gt; assembler is employed for this purpose. This stage is critical in translating the code into a format that the computer’s processor can understand and execute. We can also achieve the result by &lt;code class=&quot;language-text&quot;&gt;gcc -c&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;linking&lt;/strong&gt;
-The final stage in the compilation process is linking, facilitated by the &lt;code class=&quot;language-text&quot;&gt;ld&lt;/code&gt; linker. This phase combines the object code generated during the assembling stage with other necessary libraries and modules to create a standalone executable file. The linker resolves symbols, addresses, and references, ensuring a cohesive and functional program. That’s the default output of &lt;code class=&quot;language-text&quot;&gt;gcc&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;preprocessing&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Before the actual compilation process, the code undergoes a preprocessing stage. This stage involves macro expansion, file inclusion, and conditional compilation. The output provides a glimpse into the code’s transformation before it gets compiled. We can achieve the result by &lt;code class=&quot;language-text&quot;&gt;gcc -E&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;compilation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once preprocessed, the code proceeds to the compilation stage. This stage translates the high-level programming code into assembly language, generating human-readable assembly code files. These files serve as an intermediary stage before further conversion into machine code. We can achieve the result by &lt;code class=&quot;language-text&quot;&gt;gcc -S&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;assembling&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The assembling stage is the conversion of the generated assembly code into machine code or object code. The &lt;code class=&quot;language-text&quot;&gt;as&lt;/code&gt; assembler is employed for this purpose. This stage is critical in translating the code into a format that the computer’s processor can understand and execute. We can also achieve the result by &lt;code class=&quot;language-text&quot;&gt;gcc -c&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;linking&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The final stage in the compilation process is linking, facilitated by the &lt;code class=&quot;language-text&quot;&gt;ld&lt;/code&gt; linker. This phase combines the object code generated during the assembling stage with other necessary libraries and modules to create a standalone executable file. The linker resolves symbols, addresses, and references, ensuring a cohesive and functional program. That’s the default output of &lt;code class=&quot;language-text&quot;&gt;gcc&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;The output of gcc is an ELF executable in the linux environment. ELF is a standard file format that defines the structure for executables, object code, shared libraries, and even core dumps. The ELF executable encapsulates the entire program, comprising sections such as “.init” and “.fini.” The “.init” section contains the initialization code for the target file, executed before the main function. On the other hand, the “.fini” section holds the termination or cleanup code, executed after the main function completes its execution.&lt;/p&gt;
 &lt;p&gt;There’s a tool named &lt;em&gt;readelf&lt;/em&gt; which can dump the details of an ELF executable file.&lt;/p&gt;
-&lt;p&gt;By mastering these tools, we can deeply understand how an executable file is made in a linux system.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Modify the MAC Address of the Ethernet Card under Linux]]></title><description><![CDATA[hack of modifying mac address under linux.]]></description><link>https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</guid><pubDate>Sat, 05 Dec 2009 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;By mastering these tools, we can deeply understand how an executable file is made in a linux system.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Modify the MAC Address of the Ethernet Card under Linux]]></title><description><![CDATA[hack of modifying mac address under linux.]]></description><link>https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</guid><pubDate>Sat, 05 Dec 2009 14:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -958,7 +974,7 @@ The final stage in the compilation process is linking, facilitated by the &lt;co
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHXiyCB4f/EABkQAAIDAQAAAAAAAAAAAAAAAAIRAAEgIv/aAAgBAQABBQIrBIp1j//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAAhAQIgkdH/2gAIAQEABj8C4K2xxh//xAAbEAACAQUAAAAAAAAAAAAAAAABEQAgIUFhgf/aAAgBAQABPyEbIuVI8IBWw9Uf/9oADAMBAAIAAwAAABBzz//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAwEBPxAVf//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAgEBPxAxf//EAB4QAQADAAAHAAAAAAAAAAAAAAEAESEQMUFRgcHR/9oACAEBAAE/EGtPKBp+QOmDte9cs8T3CCUSjtw//9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHXiyCB4f/EABkQAAIDAQAAAAAAAAAAAAAAAAIRAAEgIv/aAAgBAQABBQIrBIp1j//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAAhAQIgkdH/2gAIAQEABj8C4K2xxh//xAAbEAACAQUAAAAAAAAAAAAAAAABEQAgIUFhgf/aAAgBAQABPyEbIuVI8IBWw9Uf/9oADAMBAAIAAwAAABBzz//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAwEBPxAVf//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAgEBPxAxf//EAB4QAQEAAgAHAAAAAAAAAAAAAAERACEQQVGBscHR/9oACAEBAAE/EGsbIFr8MDpg7nvnqnbPcMPOQyHTh//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -978,9 +994,10 @@ The final stage in the compilation process is linking, facilitated by the &lt;co
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
             src=&quot;/static/9e6f4e8ee04c7beb72c984f2671a264c/4b190/ethernet-cable-mac.jpg&quot;
-            alt=&quot;ether-mac&quot;
-            title=&quot;ether-mac&quot;
+            alt=&quot;ethernet-cable-mac&quot;
+            title=&quot;ethernet-cable-mac&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -997,7 +1014,7 @@ Sometimes, we need to modify the MAC address of the ethernet card for some reaso
 &lt;p&gt;This change is not permanent as the MAC address on the interface eth0 will revert to the default on the next system reboot. If you need the operating system to change the MAC address everytime when booting, please modify the configuration file &lt;strong&gt;/etc/network/interfaces&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;allow-hotplug eth0
 iface eth0 inet dhcp
-  hwaddress ether 08:00:00:00:00:01&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Best Practise of Bash]]></title><description><![CDATA[tips of using bash.]]></description><link>https://alexxyjiang.github.io/posts/best-practise-of-bash</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/best-practise-of-bash</guid><pubDate>Mon, 09 Jul 2007 13:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+  hwaddress ether 08:00:00:00:00:01&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Best Practise of Bash]]></title><description><![CDATA[tips of using bash.]]></description><link>https://alexxyjiang.github.io/posts/best-practise-of-bash</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/best-practise-of-bash</guid><pubDate>Mon, 09 Jul 2007 05:55:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1010,7 +1027,7 @@ iface eth0 inet dhcp
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdaAsA//xAAZEAACAwEAAAAAAAAAAAAAAAAAAQIDESP/2gAIAQEAAQUCtc0dhbn/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAEAAQUAAAAAAAAAAAAAAAABABESITFB/9oACAEBAAY/AiwqrOTO5//EABkQAAIDAQAAAAAAAAAAAAAAAAABITFREf/aAAgBAQABPyFotoPEUMWOuH//2gAMAwEAAgADAAAAEAPP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHRABAAIBBQEAAAAAAAAAAAAAAQARUSExgZHB0f/aAAgBAQABPxCncog1eW42g6SWzy+V1PmQn//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 37.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdaAsA//xAAZEAACAwEAAAAAAAAAAAAAAAABAgADESP/2gAIAQEAAQUCtLgdou5//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECIhExQf/aAAgBAQAGPwKizJs4W2f/xAAaEAABBQEAAAAAAAAAAAAAAAAAASExQXFR/9oACAEBAAE/IU1GGFmHOwf/2gAMAwEAAgADAAAAEHAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAAEFAQEAAAAAAAAAAAAAAREAITFBUZGh/9oACAEBAAE/EDOCBIoO89pbBlYd5t8qy3GdK//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -1033,6 +1050,7 @@ iface eth0 inet dhcp
             alt=&quot;bash&quot;
             title=&quot;bash&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -1040,15 +1058,21 @@ iface eth0 inet dhcp
     &lt;/span&gt;
 The UNIX-like operating system users should be familiar with shells. Most of the shells provide tips to help users with the commands. Here are some examples to make use of &lt;strong&gt;bash&lt;/strong&gt; (the Bourne Again SHell).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;the up/down arrow keys
-The basic usage of history records is to use your up/down arrow keys to browse the history records, press enter when you want to issue the history record again.&lt;/li&gt;
-&lt;li&gt;the tab completion
-After typing a few prefix letters of a command, a Tab could be pressed to complete the command.&lt;/li&gt;
-&lt;li&gt;use &lt;strong&gt;!$&lt;/strong&gt; to replace the last parameters entered
-It would be useful if you want to operate several times on the same files.&lt;/li&gt;
-&lt;li&gt;start the command with &lt;strong&gt;!&lt;/strong&gt;
-The auto completion will be limited to history records when you hit the tab.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel and Monolithic Operating System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Mon, 11 Jun 2007 07:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;li&gt;the up/down arrow keys&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The basic usage of history records is to use your up/down arrow keys to browse the history records, press enter when you want to issue the history record again.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the tab completion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After typing a few prefix letters of a command, a Tab could be pressed to complete the command.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;use &lt;strong&gt;!$&lt;/strong&gt; to replace the last parameters entered&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It would be useful if you want to operate several times on the same files.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;start the command with &lt;strong&gt;!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The auto completion will be limited to history records when you hit the tab.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Comments about the Microkernel and Monolithic Operating System]]></title><description><![CDATA[the greatest debate on operating system kernels.]]></description><link>https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/comments-about-the-microkernel-and-monolithic-operating-system</guid><pubDate>Sun, 10 Jun 2007 23:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1061,7 +1085,7 @@ The auto completion will be limited to history records when you hit the tab.&lt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGytZYcwg//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADBBITFP/aAAgBAQABBQIWN1tYLPQgnJRM5tEFs//EABcRAAMBAAAAAAAAAAAAAAAAAAABMRH/2gAIAQMBAT8BtMR//8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQIBAT8BV//EABoQAAIDAQEAAAAAAAAAAAAAAAABAhEhMmH/2gAIAQEABj8CURXZlmLwjhyj/8QAHBABAAICAwEAAAAAAAAAAAAAAQARIUFRgaHB/9oACAEBAAE/IRXTL5CtrBTDED7gwUsNtTaVvyMXyT//2gAMAwEAAgADAAAAEN//AP/EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQMBAT8QeSkMYj//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EFVhWP/EABsQAQEAAwEBAQAAAAAAAAAAAAERACExcVFh/9oACAEBAAE/EKzDYR168xBQvhby1IsV5fm8LrEE3j9wU1adkwLtWquf/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGytZYcwg//xAAaEAACAwEBAAAAAAAAAAAAAAABAgADBBMS/9oACAEBAAEFAhY3W1gsGhBOSibm8oLZ/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAExEf/aAAgBAwEBPwG0xH//xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAgEBPwFX/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAECESEyYf/aAAgBAQAGPwJRFdmWYvCOHKP/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhQVGh/9oACAEBAAE/IRXRt+QrqwpqWgF7sGCuFN5OtWxi/Sf/2gAMAwEAAgADAAAAEDz/AP/EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQMBAT8QeSkMYj//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EFVhWP/EABoQAAIDAQEAAAAAAAAAAAAAAAERACExcVH/2gAIAQEAAT8QDcSwIldchh0wlKuU2T5cEgERBdMuNuqNSqB7TazP/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -1084,6 +1108,7 @@ The auto completion will be limited to history records when you hit the tab.&lt;
             alt=&quot;debate&quot;
             title=&quot;debate&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
@@ -1093,9 +1118,9 @@ The auto completion will be limited to history records when you hit the tab.&lt;
 The dabate happened 15 years ago. But, you see, many words they said are exactly correct now.&lt;/p&gt;
 &lt;h2 id=&quot;references&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#references&quot; aria-label=&quot;references permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;References&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/openbook/opensources/book/appa.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.oreilly.com/openbook/opensources/book/appa.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Different Desktop Managers of Ubuntu]]></title><description><![CDATA[desktop managers are important to ubuntu GUI, it's useful to learn the method for changing them.]]></description><link>https://alexxyjiang.github.io/posts/different-desktop-managers-of-ubuntu</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/different-desktop-managers-of-ubuntu</guid><pubDate>Sat, 21 Apr 2007 22:30:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Tanenbaum-Torvalds debate wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/openbook/opensources/book/appa.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Tanenbaum-Torvalds debate e-mails&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Different Desktop Managers of Ubuntu]]></title><description><![CDATA[desktop managers are important to ubuntu GUI, it's useful to learn the method for changing them.]]></description><link>https://alexxyjiang.github.io/posts/different-desktop-managers-of-ubuntu</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/different-desktop-managers-of-ubuntu</guid><pubDate>Sat, 21 Apr 2007 14:30:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1108,7 +1133,7 @@ The dabate happened 15 years ago. But, you see, many words they said are exactly
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAMB/9oADAMBAAIQAxAAAAFevnG49IRDX//EABkQAQEAAwEAAAAAAAAAAAAAAAECAAMSEP/aAAgBAQABBQLRA5zJNbAZc6fP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BFn//xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAIAQIBAT8Byj//xAAYEAACAwAAAAAAAAAAAAAAAAABECAhMf/aAAgBAQAGPwKzDV//xAAaEAADAQADAAAAAAAAAAAAAAAAAREhMUFx/9oACAEBAAE/IdhHlO2RBSjryJq1hNn/2gAMAwEAAgADAAAAEHAv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EFYbAX//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAgEBPxBDKv/EABoQAQACAwEAAAAAAAAAAAAAAAEAESExUUH/2gAIAQEAAT8QBCR9ZQ4fxlCjDYQopENCCUtz/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAMB/9oADAMBAAIQAxAAAAFexm249IRDX//EABoQAQEAAgMAAAAAAAAAAAAAAAECAAMQERL/2gAIAQEAAQUC0SOdSTWwGXPTx//EABYRAQEBAAAAAAAAAAAAAAAAAAABIf/aAAgBAwEBPwGVj//EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAgBAgEBPwHKP//EABgQAAIDAAAAAAAAAAAAAAAAAAEQICEx/9oACAEBAAY/ArMNX//EABoQAQEBAAMBAAAAAAAAAAAAAAEAESExQXH/2gAIAQEAAT8hzEPl7xYINm3uFOVC5f/aAAwDAQACAAMAAAAQOC//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QVw2Cf//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/EEMq/8QAGxABAQACAwEAAAAAAAAAAAAAAQARMSFBUWH/2gAIAQEAAT8QGFi7PMeD/bAoMbCKMIiQgu0v/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
@@ -1128,9 +1153,10 @@ The dabate happened 15 years ago. But, you see, many words they said are exactly
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
             src=&quot;/static/c85bd00ea2f07b2c39953bdd961cdbfb/4b190/ubuntu.jpg&quot;
-            alt=&quot;ubuntu logo&quot;
-            title=&quot;ubuntu logo&quot;
+            alt=&quot;ubuntu&quot;
+            title=&quot;ubuntu&quot;
             loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;

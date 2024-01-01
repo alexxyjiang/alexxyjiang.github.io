@@ -27,43 +27,24 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-0bced17a1060b3dea3b3.js"
+    "url": "webpack-runtime-ff0d14acb167248009d5.js"
   },
   {
-    "url": "styles.df24740150fa618c04d0.css"
+    "url": "framework-745d5d28c0250a1a333b.js"
   },
   {
-    "url": "styles-407fe62976dc5310c43e.js"
+    "url": "styles.462ccd878fdc76b93a3f.css"
   },
   {
-    "url": "framework-b2f816f437730bdc94bf.js"
-  },
-  {
-    "url": "532a2f07-d05f238db5f768b1710d.js"
-  },
-  {
-    "url": "dc6a8720040df98778fe970bf6c000a41750d3ae-b56c7ed930d47e54d4ed.js"
-  },
-  {
-    "url": "app-e4cb74749ff4e0616b7f.js"
+    "url": "app-c460e8f27104d9307f7e.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "ce2c8b7d11d446a2ad6a2b5980284c2d"
-  },
-  {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-fd4fb51a6fac1c18bdde.js"
-  },
-  {
-    "url": "polyfill-b11f7ed7be365f7aa0c9.js"
-  },
-  {
-    "url": "manifest.json",
-    "revision": "525f8fdc673f544887998e2e653a54c5"
+    "revision": "ec6c0f9735ef5b1860cfc7bda07deab0"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "6a5286b1252f5d8a299ff3992bcd1742"
+    "revision": "5469d9e5f02430060f3f1249219be4e2"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -89,6 +70,24 @@ const MessageAPI = {
 
   clearPathResources: event => {
     event.waitUntil(idbKeyval.clear())
+
+    // We detected compilation hash mismatch
+    // we should clear runtime cache as data
+    // files might be out of sync and we should
+    // do fresh fetches for them
+    event.waitUntil(
+      caches.keys().then(function (keyList) {
+        return Promise.all(
+          keyList.map(function (key) {
+            if (key && key.includes(`runtime`)) {
+              return caches.delete(key)
+            }
+
+            return Promise.resolve()
+          })
+        )
+      })
+    )
   },
 
   enableOfflineShell: () => {
@@ -155,7 +154,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-e4cb74749ff4e0616b7f.js`))) {
+  if (!resources || !(await caches.match(`/app-c460e8f27104d9307f7e.js`))) {
     return await fetch(event.request)
   }
 
