@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 09 Sep 2024 14:43:17 GMT</lastBuildDate><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 10 Sep 2024 13:20:44 GMT</lastBuildDate><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -99,12 +99,12 @@ scp: Connection closed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;By following the &lt;a href=&quot;https://man.openbsd.org/scp.1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;man page of scp&lt;/a&gt;, we can add the “-O” option to force using the legacy scp protocol on the client side to avoid this error, like&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;scp&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-O&lt;/span&gt; source_user@source_machine:source_path destination_user@destination_machine:destination_path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;scp&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-O&lt;/span&gt; source_user@source_machine:source_path destination_user@destination_machine:destination_path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;Another choice is to install sftp server on the server side, to enable the sftp protocol support&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;opkg update
-opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-sftp-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# opkg update&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# opkg install openssh-sftp-server&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in debian 11 bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -232,12 +232,12 @@ opkg &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openssh-s
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;To enable a socks5 proxy for any binaries, even these which doesn’t natively support a sock5 proxy, we could use proxychains.&lt;/p&gt;
 &lt;p&gt;First, we should install proxychains. For debian based linux system, you may run&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# apt install proxychains4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install proxychains4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Please note, that tag &lt;strong&gt;proxychains&lt;/strong&gt; means the older version 3, and tag &lt;strong&gt;proxychains4&lt;/strong&gt; means the later version 4 (also called &lt;em&gt;proxychains-ng&lt;/em&gt; in some other platforms).&lt;/p&gt;
 &lt;p&gt;Then, please configure the proxy server in file &lt;strong&gt;/etc/proxychains.conf&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;socks5 [ip-address] [port]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After that, the socks5 proxy could be fetched like,&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;proxychains &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;command&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 14:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ proxychains &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;command&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Setting up a Routed Wireless Access Point with Raspberry Pi 4B]]></title><description><![CDATA[instructions about how to install software and set up a routed wireless AP with Pi 4B.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-a-routed-wireless-access-point-with-raspberry-pi-4b</guid><pubDate>Sat, 21 Aug 2021 14:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -489,7 +489,7 @@ rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;/span&gt;
 As the title, this is my first contribution to fix a bug for the project “urltools”. I feel happy to get this merged.&lt;/p&gt;
 &lt;p&gt;This bug fix only convert the %-pattern to a single character when % is followed by valid hex-numbers, or the decoder should do nothing.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Bootstrapping Metaphor in Computer Operating Systems]]></title><description><![CDATA[a story of the word bootstrapping]]></description><link>https://alexxyjiang.github.io/posts/the-bootstrapping-metaphor-in-computer-operating-systems</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-bootstrapping-metaphor-in-computer-operating-systems</guid><pubDate>Tue, 15 Dec 2015 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Bootstrapping Metaphor in Computer Operating Systems]]></title><description><![CDATA[a story of the word bootstrapping.]]></description><link>https://alexxyjiang.github.io/posts/the-bootstrapping-metaphor-in-computer-operating-systems</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-bootstrapping-metaphor-in-computer-operating-systems</guid><pubDate>Tue, 15 Dec 2015 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -577,7 +577,7 @@ As the title, this is my first contribution to fix a bug for the project “urlt
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;By chance, I learned there is a widely used router OS named &lt;strong&gt;OpenWRT&lt;/strong&gt;. OpenWRT stands out as a powerful and flexible open-source firmware for routers and other embedded devices, allowing users to customize and enhance the functionality of their network devices.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;http://wiki.openwrt.org/toh/tp-link/tl-mr13u&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;TP-Link TL-MR13U&lt;/a&gt; is a router that gained popularity for its portability and affordability. The most important feature is it contains a battery inside it. We could put it into pocket without power to provide wifi link 802.11n.&lt;/p&gt;
-&lt;p&gt;After installed OpenWRT Attitude Adjustment on the TL-MR13U, I’m happy to have the router OS replaced. It’s suitable to bring the brick in my vocation :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tip of Redirecting the Command "svn diff"]]></title><description><![CDATA[tips of redirecting svn diff to help coding.]]></description><link>https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tip-of-redirecting-the-command-svn-diff</guid><pubDate>Tue, 25 Jun 2013 11:25:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;After installed OpenWRT Attitude Adjustment on the TL-MR13U, I’m happy to have the router OS replaced. It’s suitable to bring the brick in my vocation :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tips of Redirecting the Command "svn diff"]]></title><description><![CDATA[tips of redirecting svn diff to help coding.]]></description><link>https://alexxyjiang.github.io/posts/tips-of-redirecting-the-command-svn-diff</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/tips-of-redirecting-the-command-svn-diff</guid><pubDate>Tue, 25 Jun 2013 11:25:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1015,7 +1015,69 @@ To support some wireless device in debian squeeze which is not supported by defa
 &lt;p&gt;The final stage in the compilation process is linking, facilitated by the &lt;code class=&quot;language-text&quot;&gt;ld&lt;/code&gt; linker. This phase combines the object code generated during the assembling stage with other necessary libraries and modules to create a standalone executable file. The linker resolves symbols, addresses, and references, ensuring a cohesive and functional program. That’s the default output of &lt;code class=&quot;language-text&quot;&gt;gcc&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;The output of gcc is an ELF executable in the linux environment. ELF is a standard file format that defines the structure for executables, object code, shared libraries, and even core dumps. The ELF executable encapsulates the entire program, comprising sections such as “.init” and “.fini.” The “.init” section contains the initialization code for the target file, executed before the main function. On the other hand, the “.fini” section holds the termination or cleanup code, executed after the main function completes its execution.&lt;/p&gt;
 &lt;p&gt;There’s a tool named &lt;em&gt;readelf&lt;/em&gt; which can dump the details of an ELF executable file.&lt;/p&gt;
-&lt;p&gt;By mastering these tools, we can deeply understand how an executable file is made in a linux system.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Modify the MAC Address of the Ethernet Card under Linux]]></title><description><![CDATA[hack of modifying mac address under linux.]]></description><link>https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</guid><pubDate>Sat, 05 Dec 2009 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;By mastering these tools, we can deeply understand how an executable file is made in a linux system.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Avoid Using a Powerful "rm"]]></title><description><![CDATA[a powerful rm command may lead to unexpected deletion of files, we need some protection tricks.]]></description><link>https://alexxyjiang.github.io/posts/avoid-using-a-powerful-rm</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/avoid-using-a-powerful-rm</guid><pubDate>Tue, 13 Apr 2010 11:20:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bf3c120997e36184062582ec81848060/4b190/rm-monika.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAca1pNeAKE//xAAaEAACAwEBAAAAAAAAAAAAAAACAwABERIh/9oACAEBAAEFAsXhjzCK+klZTKjvGf/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/AQn/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAgIDAAAAAAAAAAAAAAAAAQIREkEhIjH/2gAIAQEABj8CjjJt7F2TtDqfGiVng6P/xAAcEAACAgIDAAAAAAAAAAAAAAAAIQERMUFRYZH/2gAIAQEAAT8hl3nGdIucpbqNyP03gct1R0EsCdIs/9oADAMBAAIAAwAAABDUD//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8QzG44f//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QBe2X/8QAHBABAAMAAwEBAAAAAAAAAAAAAQARITFBUWFx/9oACAEBAAE/EGoPDgORTPYRDqgEvAd/GV2jZgLtmfkSFegs4KYZuopjDyJXvUGf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/bf3c120997e36184062582ec81848060/8ac56/rm-monika.webp 240w,
+/static/bf3c120997e36184062582ec81848060/d3be9/rm-monika.webp 480w,
+/static/bf3c120997e36184062582ec81848060/d00b9/rm-monika.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/bf3c120997e36184062582ec81848060/09b79/rm-monika.jpg 240w,
+/static/bf3c120997e36184062582ec81848060/7cc5e/rm-monika.jpg 480w,
+/static/bf3c120997e36184062582ec81848060/4b190/rm-monika.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/bf3c120997e36184062582ec81848060/4b190/rm-monika.jpg&quot;
+            alt=&quot;rm-monika&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As we all know, rm is a potent deletion tool in the Linux environment, which can easily lead to the tragic consequence of deleting important files without prompts. I’ve made this mistake myself today, it’s terrifying. I wanted to delete all the files starting with “head”. But somehow I typed &lt;code class=&quot;language-text&quot;&gt;rm head *&lt;/code&gt; instead of &lt;code class=&quot;language-text&quot;&gt;rm head*&lt;/code&gt;. All key files were gone unexpectedly without any prompt.&lt;/p&gt;
+&lt;p&gt;After this incident, I took a lot of time to recover the files, and on the other hand, I took some time to seek some protection tricks to avoid this kind of disaster in the future. We’ve got two methods to avoid this kind of disaster:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;force &lt;code class=&quot;language-text&quot;&gt;rm&lt;/code&gt; to output prompts&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;rm -i&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Although this can force a check to be performed whenever a file is being deleted, it is a bit too verbose.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;move the deleted file to the Recycle Bin&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;create a script file named &lt;code class=&quot;language-text&quot;&gt;rm&lt;/code&gt; in the &lt;code class=&quot;language-text&quot;&gt;~/.local/bin&lt;/code&gt; directory, and add the following content, give the script file executable permission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$@&lt;/span&gt; ~/.trash/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;create the Recycle Bin directory &lt;code class=&quot;language-text&quot;&gt;~/.trash&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; ~/.trash&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The advantage is that all deletions are converted to moving to the Recycle Bin &lt;code class=&quot;language-text&quot;&gt;~/.trash&lt;/code&gt;, but some options of &lt;code class=&quot;language-text&quot;&gt;rm&lt;/code&gt; are not supported by &lt;code class=&quot;language-text&quot;&gt;mv&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The current solution is not perfect yet, we need further exploration.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Modify the MAC Address of the Ethernet Card under Linux]]></title><description><![CDATA[hack of modifying mac address under linux.]]></description><link>https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</guid><pubDate>Sat, 05 Dec 2009 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1891,7 +1953,7 @@ The dabate happened 15 years ago. But, you see, many words they said are exactly
 &lt;li&gt;&lt;strong&gt;xfce&lt;/strong&gt;: xubuntu-desktop&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;e.g.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install ubuntu-desktop&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install ubuntu-desktop&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After the installation, of course, we should set default-display-manager on ubuntu. There are two ways to do so,&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Edit file “/etc/X11/default-display-manager”, change display manager name in it and save, then reboot.&lt;/li&gt;
