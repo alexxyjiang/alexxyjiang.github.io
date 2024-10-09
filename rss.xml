@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Sep 2024 23:34:19 GMT</lastBuildDate><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Oct 2024 13:32:00 GMT</lastBuildDate><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -280,11 +280,11 @@ scp: Connection closed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;To set up a routed wireless access point with Raspberry Pi 4B is very interesting. The Raspberry Pi is shipped together with some integrated wireless actually, manufactured by &lt;strong&gt;Raspberry Pi Trading Ltd&lt;/strong&gt;. The performance of the integrated wireless is fair but not good enough. It supports 802.11a/b/g/n/ac, but it’s a little unstable.&lt;/p&gt;
-&lt;p&gt;To enable a more stable 802.11ac/ax wireless network, I believe some extended antenna wireless card is required. My choice is the &lt;a href=&quot;https://www.szedup.com/product-item/edup-802-11ac-ep-ac1686-receiver-wifi-usb-wifi-adapter-1300mbps-wireless-dongle/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;EDUP 802.11ac EP-AC1686&lt;/a&gt;, which is the cheapest RTL8812BU chipset. Because I would take the 1Gps wired port as the upstream of the Raspberry Pi network, the 1300Mbps 802.11ac wireless network is good enough.&lt;/p&gt;
+&lt;p&gt;To enable a more stable 802.11ac/ax wireless network, I believe some extended antenna wireless card is required. My choice is the &lt;a href=&quot;https://www.szedup.com/product-item/edup-802-11ac-ep-ac1686-receiver-wifi-usb-wifi-adapter-1300mbps-wireless-dongle&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;EDUP 802.11ac EP-AC1686&lt;/a&gt;, which is the cheapest RTL8812BU chipset. Because I would take the 1Gps wired port as the upstream of the Raspberry Pi network, the 1300Mbps 802.11ac wireless network is good enough.&lt;/p&gt;
 &lt;h2 id=&quot;hardware&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hardware&quot; aria-label=&quot;hardware permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hardware&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.raspberrypi.org/products/raspberry-pi-4-model-b/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Raspberry Pi 4B ver 1.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.szedup.com/product-item/edup-802-11ac-ep-ac1686-receiver-wifi-usb-wifi-adapter-1300mbps-wireless-dongle/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;EDUP 802.11ac EP-AC1686&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.raspberrypi.org/products/raspberry-pi-4-model-b&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Raspberry Pi 4B ver 1.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.szedup.com/product-item/edup-802-11ac-ep-ac1686-receiver-wifi-usb-wifi-adapter-1300mbps-wireless-dongle&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;EDUP 802.11ac EP-AC1686&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#software&quot; aria-label=&quot;software permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Software&lt;/h2&gt;
 &lt;ol&gt;
@@ -628,7 +628,7 @@ index 2daadddee6..53834fb81d 100644
 &lt;li&gt;&lt;strong&gt;RTE&lt;/strong&gt; (Recognizing Textual Entailment): A binary classification task where the goal is to predict whether a premise entails a hypothesis.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;WNLI&lt;/strong&gt; (Winograd Schema Challenge): A binary classification task where the goal is to predict whether a sentence exhibits coreference resolution.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The official website for the GLUE benchmark dataset is &lt;a href=&quot;https://gluebenchmark.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;. The website provides detailed information about the dataset, including the tasks, the evaluation metrics, and the leaderboard. The website also provides links to the datasets and the evaluation scripts.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Remarkable First Contribution on Public Github]]></title><description><![CDATA[happy to get my bug fix to R package urltools merged.]]></description><link>https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</guid><pubDate>Sat, 20 Jan 2018 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;The official website for the GLUE benchmark dataset is &lt;a href=&quot;https://gluebenchmark.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;. The website provides detailed information about the dataset, including the tasks, the evaluation metrics, and the leaderboard. The website also provides links to the datasets and the evaluation scripts.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Remarkable First Contribution on Public Github]]></title><description><![CDATA[happy to get my bug fix to R package urltools merged.]]></description><link>https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</guid><pubDate>Sat, 20 Jan 2018 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -672,7 +672,81 @@ index 2daadddee6..53834fb81d 100644
     &lt;/span&gt;
 As the title, this is my first contribution to fix a bug for the project “urltools”. I feel happy to get this merged.&lt;/p&gt;
 &lt;p&gt;This bug fix only convert the %-pattern to a single character when % is followed by valid hex-numbers, or the decoder should do nothing.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Understanding of Knowledge Distilling]]></title><description><![CDATA[knowledge distilling is a method to compress a large model into a smaller one.]]></description><link>https://alexxyjiang.github.io/posts/my-understanding-of-knowledge-distilling</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/my-understanding-of-knowledge-distilling</guid><pubDate>Tue, 08 Mar 2016 10:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Time to Play with Docker]]></title><description><![CDATA[docker is a great tool for virtualization, it's a lightweight alternative to virtual machines.]]></description><link>https://alexxyjiang.github.io/posts/time-to-play-with-docker</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/time-to-play-with-docker</guid><pubDate>Thu, 20 Jul 2017 18:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4aaa1d60e83ff887717aab0e710ed7b2/4b190/docker.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB0U3qVJ8kNP/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMREgT/2gAIAQEAAQUC9FpWVXFYnXLvpBVIp0f/xAAYEQACAwAAAAAAAAAAAAAAAAABAhARMf/aAAgBAwEBPwEhr2P/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8BEyf/xAAeEAACAQMFAAAAAAAAAAAAAAAAAQIQEUESISIxsf/aAAgBAQAGPwLTHZvJLLl6cuyzSLqCp//EABoQAQADAQEBAAAAAAAAAAAAAAEAESExcYH/2gAIAQEAAT8hPIBRG+BOwkM+ICpBn2N0jXdzYliVs//aAAwDAQACAAMAAAAQHB//xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhMf/aAAgBAwEBPxB6aoLD/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/EAYSf//EAB4QAQEAAQQDAQAAAAAAAAAAAAERACExQWFRcYGh/9oACAEBAAE/ELIAtGx13je/MFoQxiB56p+4ht0VacC9h684350FK0JX5tkVtQAbszP/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/4aaa1d60e83ff887717aab0e710ed7b2/8ac56/docker.webp 240w,
+/static/4aaa1d60e83ff887717aab0e710ed7b2/d3be9/docker.webp 480w,
+/static/4aaa1d60e83ff887717aab0e710ed7b2/d00b9/docker.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/4aaa1d60e83ff887717aab0e710ed7b2/09b79/docker.jpg 240w,
+/static/4aaa1d60e83ff887717aab0e710ed7b2/7cc5e/docker.jpg 480w,
+/static/4aaa1d60e83ff887717aab0e710ed7b2/4b190/docker.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/4aaa1d60e83ff887717aab0e710ed7b2/4b190/docker.jpg&quot;
+            alt=&quot;docker&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the field of virtualization, &lt;strong&gt;Docker&lt;/strong&gt; is a great tool which is very lightweight compared to the triditional virtual machines. It enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code, you can significantly reduce the delay between writing code and running it in production.&lt;/p&gt;
+&lt;p&gt;To start the journey with Docker, first, we need to install Docker on our machine. The community version of Docker is free and open-source, and it’s available for most of the operating systems like Linux, Windows, and macOS.&lt;/p&gt;
+&lt;h2 id=&quot;official-installation-instructions&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#official-installation-instructions&quot; aria-label=&quot;official installation instructions permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Official Installation Instructions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/desktop/install/linux&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Install Docker on Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/desktop/install/mac-install&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Install Docker on macOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/desktop/install/windows-install&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Install Docker on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;useful-docker-commands&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#useful-docker-commands&quot; aria-label=&quot;useful docker commands permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Useful Docker Commands&lt;/h2&gt;
+&lt;p&gt;After installing Docker, you can start playing with it. Here are some basic example commands in daily use. More commands can be found in the &lt;a href=&quot;https://docs.docker.com/engine/reference/commandline/docker&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;official documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;whole-system&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#whole-system&quot; aria-label=&quot;whole system permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;whole system&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker login&lt;/code&gt; - Log in to a Docker registry&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker info&lt;/code&gt; - Display system-wide information&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker version&lt;/code&gt; - Show the Docker version information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;images&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#images&quot; aria-label=&quot;images permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;images&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker images&lt;/code&gt; - List images&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker rmi&lt;/code&gt; - Remove one or more images&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker pull&lt;/code&gt; - Pull an image or a repository from a registry&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker push&lt;/code&gt; - Push an image or a repository to a registry&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker build&lt;/code&gt; - Build an image from a Dockerfile&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;containers&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#containers&quot; aria-label=&quot;containers permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;containers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker ps&lt;/code&gt; - List containers&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker run&lt;/code&gt; - Run a command in a new container&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker kill&lt;/code&gt; - Kill one or more running containers&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker exec&lt;/code&gt; - Run a command in a running container&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker commit&lt;/code&gt; - Create a new image from a container’s changes&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker cp&lt;/code&gt; - Copy files/folders between a container and the local filesystem&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[My Understanding of Knowledge Distilling]]></title><description><![CDATA[knowledge distilling is a method to compress a large model into a smaller one.]]></description><link>https://alexxyjiang.github.io/posts/my-understanding-of-knowledge-distilling</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/my-understanding-of-knowledge-distilling</guid><pubDate>Tue, 08 Mar 2016 10:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
