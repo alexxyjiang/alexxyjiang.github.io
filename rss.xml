@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Oct 2024 13:32:00 GMT</lastBuildDate><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 10 Oct 2024 13:47:36 GMT</lastBuildDate><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1172,7 +1172,63 @@ ${DIFF} ${LEFT} ${RIGHT}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Then modify the svn configuration file &lt;strong&gt;~/.subversion/config&lt;/strong&gt; and make sure the following configuration is written:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;[helpers]
 diff-cmd = /path/to/svndiff.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Then, &lt;strong&gt;svn diff&lt;/strong&gt; will call the &lt;strong&gt;svndiff.sh&lt;/strong&gt; script, which uses &lt;em&gt;vimdiff&lt;/em&gt; in &lt;em&gt;svn&lt;/em&gt; difference mode.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dealing with Linux Files via inode]]></title><description><![CDATA[dealing with linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 17:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;Then, &lt;strong&gt;svn diff&lt;/strong&gt; will call the &lt;strong&gt;svndiff.sh&lt;/strong&gt; script, which uses &lt;em&gt;vimdiff&lt;/em&gt; in &lt;em&gt;svn&lt;/em&gt; difference mode.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[An Interesting Finding of C Array Symbols]]></title><description><![CDATA[it's very interesting to find that the array symbols in C are actually pointers.]]></description><link>https://alexxyjiang.github.io/posts/an-interesting-finding-of-c-array-symbols</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/an-interesting-finding-of-c-array-symbols</guid><pubDate>Thu, 05 Jul 2012 21:25:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a865ec0a3ef371ac4e5052c4b688aab8/4b190/array_symbols.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAcagQD//xAAXEAEBAQEAAAAAAAAAAAAAAAAAIQER/9oACAEBAAEFAt4iP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAQEBAAAAAAAAAAAAAAAAADEAEP/aAAgBAQAGPwJnP//EABwQAAIABwAAAAAAAAAAAAAAAAABESExUYGh8f/aAAgBAQABPyGtOsDXEhdo/9oADAMBAAIAAwAAABCDz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQACAQUAAAAAAAAAAAAAAAEAESExYXGh8P/aAAgBAQABPxCyjkJWh7gwpM7nzmf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/a865ec0a3ef371ac4e5052c4b688aab8/8ac56/array_symbols.webp 240w,
+/static/a865ec0a3ef371ac4e5052c4b688aab8/d3be9/array_symbols.webp 480w,
+/static/a865ec0a3ef371ac4e5052c4b688aab8/d00b9/array_symbols.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/a865ec0a3ef371ac4e5052c4b688aab8/09b79/array_symbols.jpg 240w,
+/static/a865ec0a3ef371ac4e5052c4b688aab8/7cc5e/array_symbols.jpg 480w,
+/static/a865ec0a3ef371ac4e5052c4b688aab8/4b190/array_symbols.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/a865ec0a3ef371ac4e5052c4b688aab8/4b190/array_symbols.jpg&quot;
+            alt=&quot;array_symbols&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Please check the programming code in C/C++ below:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c&quot;&gt;&lt;pre class=&quot;language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// array_symbols.c&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;stdio.h&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; foo&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;foo &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;foo&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;%p\t%p\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; foo&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;foo&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The output may be like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;0x16f21afc8	0x16f21afc8&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The two addresses are the same, which means that in C/C++, array names and addressing array names are equivalent, the array’s name itself acts as a pointer to its first element.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dealing with Linux Files via inode]]></title><description><![CDATA[dealing with linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 17:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
