@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Oct 2024 13:46:14 GMT</lastBuildDate><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 16 Oct 2024 13:24:10 GMT</lastBuildDate><item><title><![CDATA[The Debian Slim Docker Image]]></title><description><![CDATA[the slim image is a lightweight alternative.]]></description><link>https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</guid><pubDate>Sun, 08 Sep 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b8977602031815b4cf721263316542d6/4b190/slim-girl-anime.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQDBQL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAfFnNtG5iKbE1doYf//EABoQAAMAAwEAAAAAAAAAAAAAAAECAwAEEhH/2gAIAQEAAQUCsPE1k4yb+Tq/eajMyqDzszWcdEk0Iz//xAAVEQEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAwEBPwEp/8QAFREBAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQIBAT8BIf/EAB0QAQABBQADAAAAAAAAAAAAAAEAAhESIUEQMVH/2gAIAQEABj8CppfsyPVoaghYCJwhuGPWJy3j/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARITFBUf/aAAgBAQABPyEEnZ3ro3f2IXUqyCeblkIEVpRoW4pm/CCcn//aAAwDAQACAAMAAAAQX/cD/8QAFxEAAwEAAAAAAAAAAAAAAAAAABARQf/aAAgBAwEBPxDYRv/EABYRAAMAAAAAAAAAAAAAAAAAABEgQf/aAAgBAgEBPxCFP//EAB4QAQEAAgICAwAAAAAAAAAAAAERACExQXHBYZHR/9oACAEBAAE/ECQb7Hov7kDKIBzVuEPgWnlx3doT5U9ZU4YjkXr6yPOjhDW8XwAxWRfWSFGiCW8+cTAASyXP/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/b8977602031815b4cf721263316542d6/8ac56/slim-girl-anime.webp 240w,
+/static/b8977602031815b4cf721263316542d6/d3be9/slim-girl-anime.webp 480w,
+/static/b8977602031815b4cf721263316542d6/d00b9/slim-girl-anime.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/b8977602031815b4cf721263316542d6/09b79/slim-girl-anime.jpg 240w,
+/static/b8977602031815b4cf721263316542d6/7cc5e/slim-girl-anime.jpg 480w,
+/static/b8977602031815b4cf721263316542d6/4b190/slim-girl-anime.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/b8977602031815b4cf721263316542d6/4b190/slim-girl-anime.jpg&quot;
+            alt=&quot;slim-girl-anime&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Recently I occasionally learned there’s a group of docker images naming &lt;strong&gt;debian-slim&lt;/strong&gt;. I’m curious about what’s the difference between the &lt;strong&gt;debian-slim&lt;/strong&gt; and the &lt;strong&gt;debian&lt;/strong&gt;. The first difference between the debian-slim and the debian is the size of the docker image. The debian-slim is much smaller than the debian.&lt;/p&gt;
+&lt;p&gt;Due to the answer to this &lt;a href=&quot;https://stackoverflow.com/questions/56798497/what-is-the-difference-between-debian-and-debian-slim&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;stackoverflow question&lt;/a&gt;, the debian-slim is a lightweight alternative to the debian. The difference in the dockerfile shows that they rely on different versions of the &lt;em&gt;rootfs.tar.xz&lt;/em&gt;. It indicates that the changes are managed by the debian team. The rules of how to build the &lt;strong&gt;debian-slim&lt;/strong&gt; images are inside two files. By keeping the files listed in the &lt;a href=&quot;https://github.com/debuerreotype/debuerreotype/blob/master/scripts/.slimify-includes&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;includes&lt;/a&gt; and removing the files listed in the &lt;a href=&quot;https://github.com/debuerreotype/debuerreotype/blob/master/scripts/.slimify-excludes&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;excludes&lt;/a&gt;, the debian-slim image is built.&lt;/p&gt;
+&lt;p&gt;On the other side, I tried to use the debian-slim images (acutally the &lt;em&gt;debian:bookworm-slim&lt;/em&gt;) to build my docker image. It’s really easy to use and the size of my image has been cut off a lot, and &lt;strong&gt;debian-slim&lt;/strong&gt; is finally comparable to the &lt;strong&gt;alpine&lt;/strong&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
