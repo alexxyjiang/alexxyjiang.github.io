@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 16 Oct 2024 13:24:10 GMT</lastBuildDate><item><title><![CDATA[The Debian Slim Docker Image]]></title><description><![CDATA[the slim image is a lightweight alternative.]]></description><link>https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</guid><pubDate>Sun, 08 Sep 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 21 Oct 2024 13:13:27 GMT</lastBuildDate><item><title><![CDATA[The Debian Slim Docker Image]]></title><description><![CDATA[the slim image is a lightweight alternative.]]></description><link>https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</guid><pubDate>Sun, 08 Sep 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -42,7 +42,106 @@
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Recently I occasionally learned there’s a group of docker images naming &lt;strong&gt;debian-slim&lt;/strong&gt;. I’m curious about what’s the difference between the &lt;strong&gt;debian-slim&lt;/strong&gt; and the &lt;strong&gt;debian&lt;/strong&gt;. The first difference between the debian-slim and the debian is the size of the docker image. The debian-slim is much smaller than the debian.&lt;/p&gt;
 &lt;p&gt;Due to the answer to this &lt;a href=&quot;https://stackoverflow.com/questions/56798497/what-is-the-difference-between-debian-and-debian-slim&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;stackoverflow question&lt;/a&gt;, the debian-slim is a lightweight alternative to the debian. The difference in the dockerfile shows that they rely on different versions of the &lt;em&gt;rootfs.tar.xz&lt;/em&gt;. It indicates that the changes are managed by the debian team. The rules of how to build the &lt;strong&gt;debian-slim&lt;/strong&gt; images are inside two files. By keeping the files listed in the &lt;a href=&quot;https://github.com/debuerreotype/debuerreotype/blob/master/scripts/.slimify-includes&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;includes&lt;/a&gt; and removing the files listed in the &lt;a href=&quot;https://github.com/debuerreotype/debuerreotype/blob/master/scripts/.slimify-excludes&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;excludes&lt;/a&gt;, the debian-slim image is built.&lt;/p&gt;
-&lt;p&gt;On the other side, I tried to use the debian-slim images (acutally the &lt;em&gt;debian:bookworm-slim&lt;/em&gt;) to build my docker image. It’s really easy to use and the size of my image has been cut off a lot, and &lt;strong&gt;debian-slim&lt;/strong&gt; is finally comparable to the &lt;strong&gt;alpine&lt;/strong&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;On the other side, I tried to use the debian-slim images (acutally the &lt;em&gt;debian:bookworm-slim&lt;/em&gt;) to build my docker image. It’s really easy to use and the size of my image has been cut off a lot, and &lt;strong&gt;debian-slim&lt;/strong&gt; is finally comparable to the &lt;strong&gt;alpine&lt;/strong&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building Docker Image with Multi-arch Support]]></title><description><![CDATA[the multi-arch docker image is a good practice for the cross-platform deployment.]]></description><link>https://alexxyjiang.github.io/posts/building-docker-image-with-multi-arch-support</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/building-docker-image-with-multi-arch-support</guid><pubDate>Wed, 28 Aug 2024 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f1fe386a90b93cdf44c3e690066dff8d/4b190/cross-arch-docker-image.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHrXZIpf//EABkQAAIDAQAAAAAAAAAAAAAAAAEhAhARMf/aAAgBAQABBQLWS48v/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQIBAT8Bp//EABcQAAMBAAAAAAAAAAAAAAAAAAABICH/2gAIAQEABj8CYjY//8QAGhABAAIDAQAAAAAAAAAAAAAAAQAREEFRYf/aAAgBAQABPyFdfPIwXYlO0ouJj//aAAwDAQACAAMAAAAQBM//xAAWEQADAAAAAAAAAAAAAAAAAAAQEUH/2gAIAQMBAT8QiH//xAAXEQEAAwAAAAAAAAAAAAAAAAAAIUFR/9oACAECAQE/ENJt/8QAGhABAQEBAQEBAAAAAAAAAAAAAREAIUFRsf/aAAgBAQABPxAtBCTr39xDSVePzMSH1CZ6IXAygzBDm//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/f1fe386a90b93cdf44c3e690066dff8d/8ac56/cross-arch-docker-image.webp 240w,
+/static/f1fe386a90b93cdf44c3e690066dff8d/d3be9/cross-arch-docker-image.webp 480w,
+/static/f1fe386a90b93cdf44c3e690066dff8d/d00b9/cross-arch-docker-image.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/f1fe386a90b93cdf44c3e690066dff8d/09b79/cross-arch-docker-image.jpg 240w,
+/static/f1fe386a90b93cdf44c3e690066dff8d/7cc5e/cross-arch-docker-image.jpg 480w,
+/static/f1fe386a90b93cdf44c3e690066dff8d/4b190/cross-arch-docker-image.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/f1fe386a90b93cdf44c3e690066dff8d/4b190/cross-arch-docker-image.jpg&quot;
+            alt=&quot;cross-arch-docker-image&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Cross-platform deployment is a common requirement for modern software development. The multi-arch docker image is a good practice for cross-platform deployment. Especially, if the docker image has to be deployed in the different CPU architectures, the multi-arch docker image will provide the best performance and compatibility. For example, if the docker engine is running on the arm64 CPU, the arm64 docker image will be pulled and executed, if no arm64 docker image is available, another arch docker image like amd64 will be pulled. This is a run-time emulation, and the performance will be abysmal.&lt;/p&gt;
+&lt;h2 id=&quot;how-to-build-a-multi-arch-docker-image&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-to-build-a-multi-arch-docker-image&quot; aria-label=&quot;how to build a multi arch docker image permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How to build a multi-arch docker image&lt;/h2&gt;
+&lt;p&gt;To build a multi-arch docker image, the &lt;a href=&quot;https://docs.docker.com/build/building/multi-platform&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;official guide&lt;/a&gt; is available.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We can use different strategies, one is real-time emulation with &lt;code class=&quot;language-text&quot;&gt;qemu&lt;/code&gt;, to achieve this, just execute the command below:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;--privileged&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--rm&lt;/span&gt; tonistiigi/binfmt &lt;span class=&quot;token parameter variable&quot;&gt;--install&lt;/span&gt; all&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then we can build the multi-arch docker image like below:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; build &lt;span class=&quot;token parameter variable&quot;&gt;--platform&lt;/span&gt; linux/amd64,linux/arm64 &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Another strategy is to use the &lt;code class=&quot;language-text&quot;&gt;buildx&lt;/code&gt; command, which is a new feature of the docker engine. The &lt;code class=&quot;language-text&quot;&gt;buildx&lt;/code&gt; command is a CLI plugin that extends the docker command with the full support of the features provided by Moby BuildKit builder toolkit. To use the &lt;code class=&quot;language-text&quot;&gt;buildx&lt;/code&gt; command, we need to install the &lt;code class=&quot;language-text&quot;&gt;buildx&lt;/code&gt; plugin first. For MacOS, the &lt;code class=&quot;language-text&quot;&gt;buildx&lt;/code&gt; plugin is already included in the docker desktop, for Debian, we need to install the &lt;code class=&quot;language-text&quot;&gt;buildx&lt;/code&gt; plugin manually like below:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# debian&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then we can use the &lt;code class=&quot;language-text&quot;&gt;buildx&lt;/code&gt; command to build the multi-arch docker images.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; buildx build &lt;span class=&quot;token parameter variable&quot;&gt;--platform&lt;/span&gt; linux/amd64,linux/arm64 &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;optimize-the-build-process&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#optimize-the-build-process&quot; aria-label=&quot;optimize the build process permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Optimize the build process&lt;/h2&gt;
+&lt;p&gt;Generally, previous guide are based on full emulation in building. When the multi-arch packages are pre-compiled, and we just install them in the building process, the performance is still acceptable. But if the compilation is required, the performance will be abysmal, because the full-emulation compilation is too slow.&lt;/p&gt;
+&lt;p&gt;To optimize this, please follow the &lt;a href=&quot;https://www.docker.com/blog/faster-multi-platform-builds-dockerfile-cross-compilation-guide&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;guide&lt;/a&gt;. Generally, we’re using a cross-compilation toolchain to build the multi-arch packages, and then install them in the building process. The performance will be improved significantly.&lt;/p&gt;
+&lt;p&gt;For example, to build an &lt;strong&gt;arm64&lt;/strong&gt; docker image,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;strong&gt;native&lt;/strong&gt; way is to build with arm64 hardware&lt;/li&gt;
+&lt;li&gt;the &lt;strong&gt;emulator&lt;/strong&gt; way is to build the arm64 packages on the amd64 machine with full-emulation&lt;/li&gt;
+&lt;li&gt;the &lt;strong&gt;cross&lt;/strong&gt; way is to build the arm64 packages on the amd64 machine with the arm64 toolchain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;native&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;emulator&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;cross&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;machine&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;arm64&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;amd64&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;amd64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;compiler&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;arm64&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;arm64&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;amd64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;target&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;arm64&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;arm64&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;arm64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The &lt;strong&gt;cross&lt;/strong&gt; way is the best choice for the multi-arch docker image building when the hardware and the &lt;strong&gt;native&lt;/strong&gt; way are not available.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using FFmpeg to Convert a MOV Viedo to a GIF Image]]></title><description><![CDATA[a guide of using FFmpeg to convert a MOV Viedo to a GIF image.]]></description><link>https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-ffmpeg-to-convert-a-mov-viedo-to-a-gif-image</guid><pubDate>Wed, 20 Dec 2023 13:10:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
