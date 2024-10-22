@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 21 Oct 2024 13:13:27 GMT</lastBuildDate><item><title><![CDATA[The Debian Slim Docker Image]]></title><description><![CDATA[the slim image is a lightweight alternative.]]></description><link>https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</guid><pubDate>Sun, 08 Sep 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 22 Oct 2024 13:06:49 GMT</lastBuildDate><item><title><![CDATA[The Debian Slim Docker Image]]></title><description><![CDATA[the slim image is a lightweight alternative.]]></description><link>https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</guid><pubDate>Sun, 08 Sep 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -769,7 +769,65 @@ index 2daadddee6..53834fb81d 100644
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Understanding the GLUE Dataset]]></title><description><![CDATA[a summary of the General Language Understanding Evaluation (GLUE) benchmark dataset.]]></description><link>https://alexxyjiang.github.io/posts/understanding-the-glue-dataset</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/understanding-the-glue-dataset</guid><pubDate>Wed, 24 Apr 2019 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Tiny Syntactic Sugar for Wrapping a Scala Class with Serializable Trait]]></title><description><![CDATA[sometimes we need to implement the Serializable trait for a class, here's a tiny syntactic sugar.]]></description><link>https://alexxyjiang.github.io/posts/a-tiny-syntactic-sugar-for-wrapping-a-scala-class-with-serializable-trait</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-tiny-syntactic-sugar-for-wrapping-a-scala-class-with-serializable-trait</guid><pubDate>Wed, 03 Jul 2019 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6866f0a91149b0f6b36efb2383a06617/4b190/sweet-alice.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB0laGhZH/xAAYEAADAQEAAAAAAAAAAAAAAAAAARESIf/aAAgBAQABBQKIUuaTmUmj/8QAFREBAQAAAAAAAAAAAAAAAAAAEQD/2gAIAQMBAT8BSL//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8BSpD/xAAZEAACAwEAAAAAAAAAAAAAAAAAEAERIUH/2gAIAQEABj8COF6oX//EABsQAQACAgMAAAAAAAAAAAAAAAEAESExQYGx/9oACAEBAAE/IXJQYYOAMQ/BlLQoZua9z//aAAwDAQACAAMAAAAQgO//xAAXEQEBAQEAAAAAAAAAAAAAAAABACER/9oACAEDAQE/EFZLh2//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAgEBPxABLG//xAAdEAEAAwACAwEAAAAAAAAAAAABABEhMUFRcYGx/9oACAEBAAE/EBgUIt7vXyZgwLZW+eo3CL5wIoiaD+TpsI3t1t+4KQcCJ//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/6866f0a91149b0f6b36efb2383a06617/8ac56/sweet-alice.webp 240w,
+/static/6866f0a91149b0f6b36efb2383a06617/d3be9/sweet-alice.webp 480w,
+/static/6866f0a91149b0f6b36efb2383a06617/d00b9/sweet-alice.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/6866f0a91149b0f6b36efb2383a06617/09b79/sweet-alice.jpg 240w,
+/static/6866f0a91149b0f6b36efb2383a06617/7cc5e/sweet-alice.jpg 480w,
+/static/6866f0a91149b0f6b36efb2383a06617/4b190/sweet-alice.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/6866f0a91149b0f6b36efb2383a06617/4b190/sweet-alice.jpg&quot;
+            alt=&quot;sweet alice&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In Scala / Spark programming, we sometimes need to implement the &lt;code class=&quot;language-text&quot;&gt;Serializable&lt;/code&gt; trait for a class, for passing the data between the Spark executors. To achieve this, we could declare a companion object with an &lt;code class=&quot;language-text&quot;&gt;apply&lt;/code&gt; method, and then use the &lt;code class=&quot;language-text&quot;&gt;apply&lt;/code&gt; method to create an instance of the class. Here’s a tiny syntactic sugar for this.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;scala&quot;&gt;&lt;pre class=&quot;language-scala&quot;&gt;&lt;code class=&quot;language-scala&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token namespace&quot;&gt;scala&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reflect&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;/span&gt;ClassTag
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; SerializeVariable&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;T&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ClassTag&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;constructor&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;=&gt;&lt;/span&gt; T&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;AnyRef&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; Serializable &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token annotation punctuation&quot;&gt;@transient&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;lazy&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;val&lt;/span&gt; instance&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; T &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; constructor
+  &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; get&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; T &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; instance
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;object&lt;/span&gt; SerializeVariable &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; apply&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;T&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ClassTag&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;constructor&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;=&gt;&lt;/span&gt; T&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; SerializeVariable&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;T&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; SerializeVariable&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;T&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;constructor&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The usage is simple, just wrap the class with the &lt;code class=&quot;language-text&quot;&gt;SerializeVariable&lt;/code&gt; class, and then use the &lt;code class=&quot;language-text&quot;&gt;get&lt;/code&gt; method to get the instance.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;scala&quot;&gt;&lt;pre class=&quot;language-scala&quot;&gt;&lt;code class=&quot;language-scala&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// wrapper&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;val&lt;/span&gt; normalizer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; SerializeVariable&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; JsonRegexAspectNormalizer&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// extract&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; extract&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;normalizer&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; SerializeVariable&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;JsonRegexAspectNormalizer&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; JsonRegexAspectNormalizer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; normalizer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That’s all. It’s a simple solution and easy to use. I hope you like it.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Understanding the GLUE Dataset]]></title><description><![CDATA[a summary of the General Language Understanding Evaluation (GLUE) benchmark dataset.]]></description><link>https://alexxyjiang.github.io/posts/understanding-the-glue-dataset</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/understanding-the-glue-dataset</guid><pubDate>Wed, 24 Apr 2019 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
