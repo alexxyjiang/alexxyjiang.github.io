@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 22 Oct 2024 13:06:49 GMT</lastBuildDate><item><title><![CDATA[The Debian Slim Docker Image]]></title><description><![CDATA[the slim image is a lightweight alternative.]]></description><link>https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</guid><pubDate>Sun, 08 Sep 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 30 Oct 2024 13:14:33 GMT</lastBuildDate><item><title><![CDATA[A Powerful Tool to Diagnosis Docker Images "dive"]]></title><description><![CDATA[tips of docker image diagnosis.]]></description><link>https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</guid><pubDate>Wed, 30 Oct 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/28277ef3a365ddd589ff90dd3bb7f8d2/4b190/docker-detective.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQDBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAAB68V02XoDQzC1Df/EABsQAAMAAgMAAAAAAAAAAAAAAAECAwAQERMi/9oACAEBAAEFArV61S5DZYeU4o2kQJr/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAwEBPwEj/8QAFREBAQAAAAAAAAAAAAAAAAAAASD/2gAIAQIBAT8BWP/EAB0QAAEEAgMAAAAAAAAAAAAAABEAARAxIkFRYWL/2gAIAQEABj8C9PSzI7iiEOJcbj//xAAbEAEAAwADAQAAAAAAAAAAAAABABEhEDFRkf/aAAgBAQABPyEKB8EN2tdR1Bss6iIRJWRgpmt5+uuP/9oADAMBAAIAAwAAABAUyID/xAAWEQEBAQAAAAAAAAAAAAAAAAABESD/2gAIAQMBAT8QKLj/xAAWEQEBAQAAAAAAAAAAAAAAAAARASD/2gAIAQIBAT8QGmP/xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhEEExUWGB8f/aAAgBAQABPxCUTIjV36wq0xJqa/MAkqKJ3gFyQ6+cpcwaG68ffOuUq03j/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/28277ef3a365ddd589ff90dd3bb7f8d2/8ac56/docker-detective.webp 240w,
+/static/28277ef3a365ddd589ff90dd3bb7f8d2/d3be9/docker-detective.webp 480w,
+/static/28277ef3a365ddd589ff90dd3bb7f8d2/d00b9/docker-detective.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/28277ef3a365ddd589ff90dd3bb7f8d2/09b79/docker-detective.jpg 240w,
+/static/28277ef3a365ddd589ff90dd3bb7f8d2/7cc5e/docker-detective.jpg 480w,
+/static/28277ef3a365ddd589ff90dd3bb7f8d2/4b190/docker-detective.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/28277ef3a365ddd589ff90dd3bb7f8d2/4b190/docker-detective.jpg&quot;
+            alt=&quot;docker-detective&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;To diagnose docker images and get detailed information of the image, including the command history, file system changes, and size of the layers, we need powerful tools. The official &lt;strong&gt;docker&lt;/strong&gt; is shipped with a few commands to help on this, but sometimes that’s not enough. Fortunately, the community has developed a more powerful tool called &lt;strong&gt;dive&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;official-commands&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#official-commands&quot; aria-label=&quot;official commands permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Official Commands&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;docker history&lt;/strong&gt;: To get the history of the image layers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;history&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;docker inspect&lt;/strong&gt;: To get the detailed information of the image, including the configuration, environment variables, and labels.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; inspect &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;docker scout&lt;/strong&gt;: To get the security information of the image, including the vulnerabilities and compliance issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; scout quickview &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;dive&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dive&quot; aria-label=&quot;dive permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dive&lt;/h2&gt;
+&lt;p&gt;The output of the official docker commands is a little limited and sometimes hard to read. If we replace that with &lt;strong&gt;dive&lt;/strong&gt;, we can get a more detailed and interactive view of the image layers, like,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ dive &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;strong&gt;dive&lt;/strong&gt; will provide a more detailed view of the image layers, including the command history, file system changes, and size of the layers. It also provides an interactive view to explore the image layers, like,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;                                                                                                                      │ Current Layer Contents ├───────────────────────────────────────────────────────────────────────────────────────────
+┃ ● Layers ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Permission     UID:GID       Size  Filetree
+Cmp   Size  Command                                                                                                   drwxr-xr-x         0:0     919 kB  ├── bin
+    8.8 MB  FROM blobs                                                                                                -rwxrwxrwx         0:0        0 B  │   ├── arch → /bin/busybox
+    138 MB  RUN /bin/sh -c addgroup -g 1000 node     &amp;amp;&amp;amp; adduser -u 1000 -G node -s /bin/sh -D node     &amp;amp;&amp;amp; apk add --n -rwxrwxrwx         0:0        0 B  │   ├── ash → /bin/busybox
+    5.6 MB  RUN /bin/sh -c apk add --no-cache --virtual .build-deps-yarn curl gnupg tar   &amp;amp;&amp;amp; export GNUPGHOME=&quot;$(mkte -rwxrwxrwx         0:0        0 B  │   ├── base64 → /bin/busybox
+     388 B  COPY docker-entrypoint.sh /usr/local/bin/ # buildkit                                                      -rwxrwxrwx         0:0        0 B  │   ├── bbconfig → /bin/busybox
+     68 MB  RUN /bin/sh -c apk update   &amp;amp;&amp;amp; apk add --no-cache curl git tzdata util-linux vim zsh # buildkit           -rwxr-xr-x         0:0     919 kB  │   ├── busybox
+    123 MB  RUN /bin/sh -c npm install -g gatsby-cli # buildkit                                                       -rwxrwxrwx         0:0        0 B  │   ├── cat → /bin/busybox
+    3.0 kB  RUN |1 uid=1000 /bin/sh -c if [ $uid -eq 1000 ]; then deluser node; fi; # buildkit                        -rwxrwxrwx         0:0        0 B  │   ├── chattr → /bin/busybox
+    3.0 kB  RUN |1 uid=1000 /bin/sh -c adduser -u $uid -D -s /bin/zsh editor # buildkit                               -rwxrwxrwx         0:0        0 B  │   ├── chgrp → /bin/busybox
+     354 B  COPY .zshrc /home/editor/zshrc_template # buildkit                                                        -rwxrwxrwx         0:0        0 B  │   ├── chmod → /bin/busybox
+       0 B  WORKDIR /home/editor                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── chown → /bin/busybox
+     10 MB  RUN |1 uid=1000 /bin/sh -c env REPO=&quot;alexxyjiang/ohmyzsh&quot; zsh -c &quot;$(curl -fsSL https://raw.githubusercont -rwxrwxrwx         0:0        0 B  │   ├── cp → /bin/busybox
+    4.7 MB  RUN |1 uid=1000 /bin/sh -c zsh zshrc_template &amp;amp;&amp;amp; cp zshrc_template .zshrc &amp;amp;&amp;amp; rm zshrc_template # buildkit -rwxrwxrwx         0:0        0 B  │   ├── date → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── dd → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── df → /bin/busybox
+│ Layer Details ├──────────────────────────────────────────────────────────────────────────────────────────────────── -rwxrwxrwx         0:0        0 B  │   ├── dmesg → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── dnsdomainname → /bin/busybox
+Tags:   (unavailable)                                                                                                 -rwxrwxrwx         0:0        0 B  │   ├── dumpkmap → /bin/busybox
+Id:     blobs                                                                                                         -rwxrwxrwx         0:0        0 B  │   ├── echo → /bin/busybox
+Digest: sha256:16113d51b7181f20135f51e8ffbaead20a7671cd783017601f198748ce8a8ebf                                       -rwxrwxrwx         0:0        0 B  │   ├── egrep → /bin/busybox
+Command:                                                                                                              -rwxrwxrwx         0:0        0 B  │   ├── false → /bin/busybox
+#(nop) ADD file:ee5bb8409915b11413f44cce4c22fed658aba4fb078a448e08dd4ac9a23581f2 in /                                 -rwxrwxrwx         0:0        0 B  │   ├── fatattr → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── fdflush → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── fgrep → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── fsync → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── getopt → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── grep → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── gunzip → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── gzip → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── hostname → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── ionice → /bin/busybox
+│ Image Details ├──────────────────────────────────────────────────────────────────────────────────────────────────── -rwxrwxrwx         0:0        0 B  │   ├── iostat → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── ipcalc → /bin/busybox
+Image name: alexxyjiang/blog-site-generator:latest                                                                    -rwxrwxrwx         0:0        0 B  │   ├── kbd_mode → /bin/busybox
+Total Image size: 359 MB                                                                                              -rwxrwxrwx         0:0        0 B  │   ├── kill → /bin/busybox
+Potential wasted space: 3.6 MB                                                                                        -rwxrwxrwx         0:0        0 B  │   ├── link → /bin/busybox
+Image efficiency score: 99 %                                                                                          -rwxrwxrwx         0:0        0 B  │   ├── linux32 → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── linux64 → /bin/busybox
+Count   Total Space  Path                                                                                             -rwxrwxrwx         0:0        0 B  │   ├── ln → /bin/busybox
+    4        880 kB  /etc/ssl/certs/ca-certificates.crt                                                               -rwxrwxrwx         0:0        0 B  │   ├── login → /bin/busybox
+    4        277 kB  /lib/apk/db/installed                                                                            -rwxrwxrwx         0:0        0 B  │   ├── ls → /bin/busybox
+    2        133 kB  /sbin/fdisk                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── lsattr → /bin/busybox
+    2         70 kB  /bin/dmesg                                                                                       -rwxrwxrwx         0:0        0 B  │   ├── lzop → /bin/busybox
+    2         68 kB  /usr/bin/logger                                                                                  -rwxrwxrwx         0:0        0 B  │   ├── makemime → /bin/busybox
+    2         68 kB  /usr/bin/cal                                                                                     -rwxrwxrwx         0:0        0 B  │   ├── mkdir → /bin/busybox
+    2         68 kB  /sbin/losetup                                                                                    -rwxrwxrwx         0:0        0 B  │   ├── mknod → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── mktemp → /bin/busybox
+                                                                                                                      -rwxrwxrwx         0:0        0 B  │   ├── more → /bin/busybox&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[The Debian Slim Docker Image]]></title><description><![CDATA[the slim image is a lightweight alternative.]]></description><link>https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/the-debian-slim-docker-image</guid><pubDate>Sun, 08 Sep 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -230,7 +339,7 @@
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;After I upgraded my Debian 11 Bullseye system to Debian 12 Bookworm recently, I occasionally found the &lt;strong&gt;scp&lt;/strong&gt; command between Debian 12 Bookworm on my PC and OpenWRT 22.03 on my router was broken. The error message is&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;ash: /usr/libexec/sftp-server: not found
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ash: /usr/libexec/sftp-server: not found
 scp: Connection closed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After debugging, I found the root cause.&lt;/p&gt;
 &lt;ol&gt;
@@ -922,8 +1031,8 @@ index 2daadddee6..53834fb81d 100644
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-As the title, this is my first contribution to fix a bug for the project “urltools”. I feel happy to get this merged.&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As the title, this is my first contribution to fix a bug for the project “urltools”. I feel happy to get this merged.&lt;/p&gt;
 &lt;p&gt;This bug fix only convert the %-pattern to a single character when % is followed by valid hex-numbers, or the decoder should do nothing.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/Ironholds/urltools/pull/87&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;The pull request&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Time to Play with Docker]]></title><description><![CDATA[docker is a great tool for virtualization, it's a lightweight alternative to virtual machines.]]></description><link>https://alexxyjiang.github.io/posts/time-to-play-with-docker</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/time-to-play-with-docker</guid><pubDate>Thu, 20 Jul 2017 18:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -1047,9 +1156,9 @@ As the title, this is my first contribution to fix a bug for the project “urlt
 &lt;h2 id=&quot;oh-my-zsh&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#oh-my-zsh&quot; aria-label=&quot;oh my zsh permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;oh-my-zsh&lt;/h2&gt;
 &lt;p&gt;As introduced by my friend, I learned there is a powerful zsh configuration framework called &lt;strong&gt;oh-my-zsh&lt;/strong&gt;. It makes it easy to customize and enhance zsh with plugins, themes, and other features. By using oh-my-zsh, you can easily customize your zsh configuration and make it more powerful and user-friendly. You can also easily add new features and functionality to your shell by using the plugins provided by oh-my-zsh. You can also easily change the appearance of your shell by using the themes provided by oh-my-zsh. By using oh-my-zsh, you can make your shell more modern, feature-rich, interactive, efficient, secure, and fun.&lt;/p&gt;
 &lt;p&gt;The installation of &lt;strong&gt;oh-my-zsh&lt;/strong&gt; is very easy. Please just run the following command in your shell:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sh&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-fsSL&lt;/span&gt; https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sh&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-fsSL&lt;/span&gt; https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After that, don’t forget to change your default shell to the &lt;strong&gt;zsh&lt;/strong&gt; by running the following command:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;chsh &lt;span class=&quot;token parameter variable&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;zsh&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ chsh &lt;span class=&quot;token parameter variable&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;zsh&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Then, you can restart your shell to see the changes.&lt;/p&gt;
 &lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;I’ve just started my journey with the &lt;strong&gt;zsh&lt;/strong&gt; and &lt;strong&gt;oh-my-zsh&lt;/strong&gt;. I found it to be very powerful and user-friendly. I hope more ane more people will join the community with me and enjoy the fun of the shell.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Understanding of Knowledge Distilling]]></title><description><![CDATA[knowledge distilling is a method to compress a large model into a smaller one.]]></description><link>https://alexxyjiang.github.io/posts/my-understanding-of-knowledge-distilling</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/my-understanding-of-knowledge-distilling</guid><pubDate>Tue, 08 Mar 2016 10:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
@@ -1462,9 +1571,8 @@ c-16-25.333-24-45-24-59z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/spa
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-The default output mode of &lt;strong&gt;svn diff&lt;/strong&gt; is verbose. If you have many modifications, it is sometimes difficult to see the differences.
-Funtunately, &lt;em&gt;svn&lt;/em&gt; has provided options for customizing &lt;strong&gt;svn diff&lt;/strong&gt; output.&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The default output mode of &lt;strong&gt;svn diff&lt;/strong&gt; is verbose. If you have many modifications, it is sometimes difficult to see the differences. Funtunately, &lt;em&gt;svn&lt;/em&gt; has provided options for customizing &lt;strong&gt;svn diff&lt;/strong&gt; output.&lt;/p&gt;
 &lt;p&gt;To change the output of &lt;strong&gt;svn diff&lt;/strong&gt;, we need a script file (such as &lt;strong&gt;svndiff.sh&lt;/strong&gt;) with following content,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;#!/bin/sh
 DIFF=&quot;/usr/bin/vimdiff&quot;
@@ -1630,8 +1738,8 @@ total &lt;span class=&quot;token number&quot;&gt;125252&lt;/span&gt;
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-While editing text files with &lt;strong&gt;vi/vim&lt;/strong&gt;, we often need the white space characters to be shown, like ‘\t’ (tabulation), ‘\n’ (end of line), and ’ ‘(space) to confirm the file syntax. How to show these characters in different ways? You may just use the following vim command,&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;While editing text files with &lt;strong&gt;vi/vim&lt;/strong&gt;, we often need the white space characters to be shown, like ‘\t’ (tabulation), ‘\n’ (end of line), and ’ ‘(space) to confirm the file syntax. How to show these characters in different ways? You may just use the following vim command,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;list&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;By default, ‘\t’ is shown as ‘^I’, ‘\n’ is shown as ’$’, and ’ ’ is kept not changed. You may also want to customize the representations, this could be configured via the &lt;strong&gt;listchars/lcs&lt;/strong&gt; option, e.g,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vim&quot;&gt;&lt;pre class=&quot;language-vim&quot;&gt;&lt;code class=&quot;language-vim&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;lcs&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;tab&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;trail&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;eol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;space&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -1735,7 +1843,7 @@ AttributeError: &lt;span class=&quot;token string&quot;&gt;&apos;module&apos;&lt
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;When you fail to check a variable, it may cause a whole system failure? This sad story of the software Bumblebee will tell you: &lt;strong&gt;YES&lt;/strong&gt;!&lt;/p&gt;
 &lt;p&gt;Bumblebee is an open source project, which names after the Bumblebee in Transformers. It’s a project aiming to support NVIDIA Optimus technology under Linux. It works on Optimus Laptops without a graphical multiplexer. Optimus comes from NVIDIA, it’s a technology that allows an integrated GPU and discrete NVIDIA GPU to be built into and accessed by a laptop.&lt;/p&gt;
-&lt;p&gt;It’s a memorable incident known as the “Bumblebee” commit this May. The essence of the story lies in the aftermath of the commit, where the user describes having written commit messages along the lines of “GIANT BUG… causing /usr to be deleted… so sorry…“. The root cause is a missing space character in the installation script, which leads to a &lt;code class=&quot;language-text&quot;&gt;rm -rf /usr&lt;/code&gt; command. Which makes things worse, is that the bug lies in an installation shell script, which means in most cases, it executed by &lt;em&gt;root&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;It’s a memorable incident known as the “Bumblebee” commit this May. The essence of the story lies in the aftermath of the commit, where the user describes having written commit messages along the lines of “GIANT BUG… causing /usr to be deleted… so sorry…“. The root cause is a missing space character in the installation script, which leads to a &lt;code class=&quot;language-text&quot;&gt;rm -rf /usr&lt;/code&gt; command. What makes things worse, is that the bug lies in an installation shell script, which means in most cases, it’s executed by &lt;em&gt;root&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The fix commit of this bug looks like,&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;diff&quot;&gt;&lt;pre class=&quot;language-diff&quot;&gt;&lt;code class=&quot;language-diff&quot;&gt;diff --git a/install.sh b/install.sh
 index 7d10ece..b1c571b 100755
@@ -1801,8 +1909,8 @@ index 7d10ece..b1c571b 100755
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-To support some wireless device in debian squeeze which is not supported by default, we often need some addition firmware [non-free]. For example, my “Intel WiFi Link 5100 AGN” could be supported via adding the &lt;strong&gt;firmware-iwlwifi&lt;/strong&gt; package. There are two basic ways to install firmware:&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;To support some wireless device in debian squeeze which is not supported by default, we often need some addition firmware [non-free]. For example, my “Intel WiFi Link 5100 AGN” could be supported via adding the &lt;strong&gt;firmware-iwlwifi&lt;/strong&gt; package. There are two basic ways to install firmware:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Add firmware when installing the system. In this way, debian-installer will automatically complete the firmware activation of the corresponding hardware;&lt;/p&gt;
@@ -2018,8 +2126,8 @@ To support some wireless device in debian squeeze which is not supported by defa
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-Sometimes, we need to modify the MAC address of the ethernet card for some reason. For example, the SJTU network requires the MAC address to be static. In that case, we may modify the MAC address of the ethernet card in the operating system to simulate a different hardware card and pass the check.&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Sometimes, we need to modify the MAC address of the ethernet card for some reason. For example, the SJTU network requires the MAC address to be static. In that case, we may modify the MAC address of the ethernet card in the operating system to simulate a different hardware card and pass the check.&lt;/p&gt;
 &lt;p&gt;Linux system has provided the basic tool &lt;strong&gt;ifconfig&lt;/strong&gt; to help us, and we can finish the modification in following commands.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# shut down the desired ethernet interface.&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# ifconfig eth0 down&lt;/span&gt;
@@ -2832,8 +2940,8 @@ $ &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; modules&lt;/cod
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-The UNIX-like operating system users should be familiar with shells. Most of the shells provide tips to help users with the commands. Here are some examples to make use of &lt;strong&gt;bash&lt;/strong&gt; (the Bourne Again SHell).&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The UNIX-like operating system users should be familiar with shells. Most of the shells provide tips to help users with the commands. Here are some examples to make use of &lt;strong&gt;bash&lt;/strong&gt; (the Bourne Again SHell).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;the up/down arrow keys&lt;/li&gt;
 &lt;/ul&gt;
