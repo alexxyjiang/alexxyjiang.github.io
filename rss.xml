@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 Nov 2024 04:20:20 GMT</lastBuildDate><item><title><![CDATA[A Powerful Tool to Diagnosis Docker Images "dive"]]></title><description><![CDATA[tips of docker image diagnosis.]]></description><link>https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</guid><pubDate>Wed, 30 Oct 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 14 Nov 2024 13:30:18 GMT</lastBuildDate><item><title><![CDATA[A Powerful Tool to Diagnosis Docker Images "dive"]]></title><description><![CDATA[tips of docker image diagnosis.]]></description><link>https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</guid><pubDate>Wed, 30 Oct 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -878,7 +878,62 @@ index 2daadddee6..53834fb81d 100644
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Tiny Syntactic Sugar for Wrapping a Scala Class with Serializable Trait]]></title><description><![CDATA[sometimes we need to implement the Serializable trait for a class, here's a tiny syntactic sugar.]]></description><link>https://alexxyjiang.github.io/posts/a-tiny-syntactic-sugar-for-wrapping-a-scala-class-with-serializable-trait</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-tiny-syntactic-sugar-for-wrapping-a-scala-class-with-serializable-trait</guid><pubDate>Wed, 03 Jul 2019 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Docker Engine with Nvidia GPU Support]]></title><description><![CDATA[tips to enable Nvidia GPU support in Docker Engine.]]></description><link>https://alexxyjiang.github.io/posts/docker-engine-with-nvidia-gpu-support</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/docker-engine-with-nvidia-gpu-support</guid><pubDate>Mon, 25 Nov 2019 23:20:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/390f459a8e04c0ba7c94aef3d5e3bc7c/4b190/nvidia-docker.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHfjZYYCv/EABkQAAIDAQAAAAAAAAAAAAAAAAASARARIv/aAAgBAQABBQIltpej/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAABARIf/aAAgBAQAGPwIjur//xAAbEAEAAgIDAAAAAAAAAAAAAAABEBEAITFhcf/aAAgBAQABPyHFyy3Z5KEXsd6j/9oADAMBAAIAAwAAABDrz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxBNn//EABoQAQEAAwEBAAAAAAAAAAAAAAERABAhUXH/2gAIAQEAAT8QVuCQu1jwe6ncX4BAGL6a/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/390f459a8e04c0ba7c94aef3d5e3bc7c/8ac56/nvidia-docker.webp 240w,
+/static/390f459a8e04c0ba7c94aef3d5e3bc7c/d3be9/nvidia-docker.webp 480w,
+/static/390f459a8e04c0ba7c94aef3d5e3bc7c/d00b9/nvidia-docker.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/390f459a8e04c0ba7c94aef3d5e3bc7c/09b79/nvidia-docker.jpg 240w,
+/static/390f459a8e04c0ba7c94aef3d5e3bc7c/7cc5e/nvidia-docker.jpg 480w,
+/static/390f459a8e04c0ba7c94aef3d5e3bc7c/4b190/nvidia-docker.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/390f459a8e04c0ba7c94aef3d5e3bc7c/4b190/nvidia-docker.jpg&quot;
+            alt=&quot;nvidia-docker&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;By default, Docker containers do not have access to the GPU. However, you can enable GPU support in Docker by using the &lt;a href=&quot;https://github.com/NVIDIA/nvidia-docker&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;NVIDIA Docker&lt;/a&gt;. This post is a step-by-step guide to enabling Nvidia GPU support in Docker Engine.&lt;/p&gt;
+&lt;h2 id=&quot;prerequisites-and-verification&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#prerequisites-and-verification&quot; aria-label=&quot;prerequisites and verification permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Prerequisites and Verification&lt;/h2&gt;
+&lt;p&gt;Before you start, ensure you have installed the NVIDIA GPU drivers on your system. You can check the driver installation by running the following command:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;nvidia-smi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And you can also verify your docker engine installation by running:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;--gpus&lt;/span&gt; all nvidia/cuda:10.1-runtime nvidia-smi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If the command returns the GPU information, the drivers/docker engine is installed correctly.&lt;/p&gt;
+&lt;h2 id=&quot;install-nvidia-container-toolkit&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#install-nvidia-container-toolkit&quot; aria-label=&quot;install nvidia container toolkit permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Install NVIDIA Container Toolkit&lt;/h2&gt;
+&lt;p&gt;If GPU support is not enabled, you can continue with the following steps to install the NVIDIA Docker.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | apt-key add -&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# DISTRIBUTION=$(. /etc/os-release;echo $ID$VERSION_ID)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# curl -s -L https://nvidia.github.io/nvidia-docker/$DISTRIBUTION/nvidia-docker.list | tee /etc/apt/sources.list.d/nvidia-docker.list&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt update --fix-missing &amp;amp;&amp;amp; apt-get install -y nvidia-docker&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# systemctl restart docker&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[A Tiny Syntactic Sugar for Wrapping a Scala Class with Serializable Trait]]></title><description><![CDATA[sometimes we need to implement the Serializable trait for a class, here's a tiny syntactic sugar.]]></description><link>https://alexxyjiang.github.io/posts/a-tiny-syntactic-sugar-for-wrapping-a-scala-class-with-serializable-trait</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-tiny-syntactic-sugar-for-wrapping-a-scala-class-with-serializable-trait</guid><pubDate>Wed, 03 Jul 2019 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
