@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 03 Dec 2024 00:25:38 GMT</lastBuildDate><item><title><![CDATA[A Powerful Tool to Diagnosis Docker Images "dive"]]></title><description><![CDATA[tips of docker image diagnosis.]]></description><link>https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</guid><pubDate>Wed, 30 Oct 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 03 Dec 2024 14:10:35 GMT</lastBuildDate><item><title><![CDATA[A Powerful Tool to Diagnosis Docker Images "dive"]]></title><description><![CDATA[tips of docker image diagnosis.]]></description><link>https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</guid><pubDate>Wed, 30 Oct 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1160,7 +1160,72 @@ index 2daadddee6..53834fb81d 100644
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Docker Engine with Nvidia GPU Support]]></title><description><![CDATA[tips to enable Nvidia GPU support in Docker Engine.]]></description><link>https://alexxyjiang.github.io/posts/docker-engine-with-nvidia-gpu-support</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/docker-engine-with-nvidia-gpu-support</guid><pubDate>Mon, 25 Nov 2019 23:20:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Rehearsal of Machine Learning on Coursera]]></title><description><![CDATA[the rehearsal lessons means a lot to me, it is a good way to review the knowledge and skills.]]></description><link>https://alexxyjiang.github.io/posts/rehearsal-of-machine-learning-on-coursera</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/rehearsal-of-machine-learning-on-coursera</guid><pubDate>Sun, 09 Aug 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6ce67eec77c8f7ce005a8217be850ea5/4b190/ml-course.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAd2AuD//xAAVEAEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAQABBQJv/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFRABAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQEABj8Cj//EABsQAQAABwAAAAAAAAAAAAAAAAEAEBEhMUFR/9oACAEBAAE/IVfLsBR3L//aAAwDAQACAAMAAAAQA8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAEBAQADAAAAAAAAAAAAAAABEQAhQXH/2gAIAQEAAT8QsuBAoZ3oDV64aDv/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/6ce67eec77c8f7ce005a8217be850ea5/8ac56/ml-course.webp 240w,
+/static/6ce67eec77c8f7ce005a8217be850ea5/d3be9/ml-course.webp 480w,
+/static/6ce67eec77c8f7ce005a8217be850ea5/d00b9/ml-course.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/6ce67eec77c8f7ce005a8217be850ea5/09b79/ml-course.jpg 240w,
+/static/6ce67eec77c8f7ce005a8217be850ea5/7cc5e/ml-course.jpg 480w,
+/static/6ce67eec77c8f7ce005a8217be850ea5/4b190/ml-course.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/6ce67eec77c8f7ce005a8217be850ea5/4b190/ml-course.jpg&quot;
+            alt=&quot;ml-course&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;After years of working on traditional algorithm development on data structure, I recently changed to developing machine learning model-based algorithms. It’s time to rehearse the basics of machine learning, to adapt to my new job well.&lt;/p&gt;
+&lt;h2 id=&quot;machine-learning-on-coursera&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-on-coursera&quot; aria-label=&quot;machine learning on coursera permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning on Coursera&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;Machine Learning&lt;/strong&gt; course on Coursera is developed by Andrew Ng, a professor at Stanford University. The course is designed to provide a broad introduction to machine learning, data-mining, and statistical pattern recognition. The course is divided into 11 weeks, each week has a set of video lectures, quizzes, and programming assignments. The course is free to audit, but you need to pay for the certificate.&lt;/p&gt;
+&lt;p&gt;It contains the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction&lt;/li&gt;
+&lt;li&gt;Linear Regression with One Variable&lt;/li&gt;
+&lt;li&gt;Linear Regression with Multiple Variables&lt;/li&gt;
+&lt;li&gt;Octave/Matlab Tutorial&lt;/li&gt;
+&lt;li&gt;Logistic Regression&lt;/li&gt;
+&lt;li&gt;Regularization&lt;/li&gt;
+&lt;li&gt;Neural Networks: Representation&lt;/li&gt;
+&lt;li&gt;Neural Networks: Learning&lt;/li&gt;
+&lt;li&gt;Advice for Applying Machine Learning&lt;/li&gt;
+&lt;li&gt;Machine Learning System Design&lt;/li&gt;
+&lt;li&gt;Support Vector Machines&lt;/li&gt;
+&lt;li&gt;Unsupervised Learning&lt;/li&gt;
+&lt;li&gt;Principal Component Analysis&lt;/li&gt;
+&lt;li&gt;Anomaly Detection&lt;/li&gt;
+&lt;li&gt;Recommender Systems&lt;/li&gt;
+&lt;li&gt;Large Scale Machine Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rehearsal&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rehearsal&quot; aria-label=&quot;rehearsal permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Rehearsal&lt;/h2&gt;
+&lt;p&gt;The rehearsal process is mainly based on practices, which are the programming assignments. The assignments are designed to help you understand the concepts and techniques taught in the course. The assignments are written in &lt;strong&gt;Octave/Matlab&lt;/strong&gt;, which is a high-level language for numerical computations. The assignments are not difficult, but they are time-consuming. You need to spend a lot of time on them to understand the concepts and techniques.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Engine with Nvidia GPU Support]]></title><description><![CDATA[tips to enable Nvidia GPU support in Docker Engine.]]></description><link>https://alexxyjiang.github.io/posts/docker-engine-with-nvidia-gpu-support</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/docker-engine-with-nvidia-gpu-support</guid><pubDate>Mon, 25 Nov 2019 23:20:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
