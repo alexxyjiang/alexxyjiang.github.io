@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 10 Dec 2024 12:59:13 GMT</lastBuildDate><item><title><![CDATA[A Powerful Tool to Diagnosis Docker Images "dive"]]></title><description><![CDATA[tips of docker image diagnosis.]]></description><link>https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</guid><pubDate>Wed, 30 Oct 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 11 Dec 2024 13:06:02 GMT</lastBuildDate><item><title><![CDATA[A Powerful Tool to Diagnosis Docker Images "dive"]]></title><description><![CDATA[tips of docker image diagnosis.]]></description><link>https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</guid><pubDate>Wed, 30 Oct 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -977,7 +977,7 @@ rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;td align=&quot;right&quot;&gt;3&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content:encoded></item><item><title><![CDATA[Dancing in Shackles Caused by an Unupgradable Kafka]]></title><description><![CDATA[a story about how to get a hack solution to work around a kafka bug when its upgrade is blocked by the java version and the official solution is not available.]]></description><link>https://alexxyjiang.github.io/posts/dancing-in-shackles-caused-by-an-unupgradable-kafka</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/dancing-in-shackles-caused-by-an-unupgradable-kafka</guid><pubDate>Wed, 02 Sep 2020 21:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[Dancing in Shackles Caused by an Unupgradable Apache Kafka]]></title><description><![CDATA[a story about how to get a hack solution to work around a Apache Kafka bug when its upgrade is blocked by the Java version and the official solution is not available.]]></description><link>https://alexxyjiang.github.io/posts/dancing-in-shackles-caused-by-an-unupgradable-apache-kafka</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/dancing-in-shackles-caused-by-an-unupgradable-apache-kafka</guid><pubDate>Wed, 02 Sep 2020 21:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1019,7 +1019,7 @@ rsn_pairwise=CCMP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;This is a story about how to get a hack solution to work around a Kafka bug when its upgrade is blocked by the Java version and the official solution is not available.&lt;/p&gt;
+&lt;p&gt;This is a story about how to get a hack solution to work around an Apache Kafka bug when its upgrade is blocked by the Java version and the official solution is not available.&lt;/p&gt;
 &lt;h2 id=&quot;root-cause&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#root-cause&quot; aria-label=&quot;root cause permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Root Cause&lt;/h2&gt;
 &lt;p&gt;The call of the &lt;code class=&quot;language-text&quot;&gt;KafkaConsumer#poll&lt;/code&gt; method may be blocked forever despite having a timeout parameter since that timeout only applies to the &lt;code class=&quot;language-text&quot;&gt;ConsumerNetworkClient#poll&lt;/code&gt; method and not the &lt;code class=&quot;language-text&quot;&gt;ConsumerCoordinator#poll&lt;/code&gt; method. It may trap in a loop inside the &lt;code class=&quot;language-text&quot;&gt;ConsumerCoordinator#poll&lt;/code&gt; method forever.&lt;/p&gt;
 &lt;h2 id=&quot;official-solution&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#official-solution&quot; aria-label=&quot;official solution permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Official Solution&lt;/h2&gt;
@@ -1107,7 +1107,7 @@ index 2daadddee6..53834fb81d 100644
 &lt;p&gt;We have to come up with a hack solution to work around the blocker. The hack solution is as follows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;The major call is wrapped with a java future to ensure the timeout, usually a poll should be finised in &lt;em&gt;100 ms&lt;/em&gt;, if not, when the &lt;em&gt;60_000 ms (1 min)&lt;/em&gt; limit exceeded, the poll will exit.&lt;/p&gt;
+&lt;p&gt;The major call is wrapped with a Java &lt;code class=&quot;language-text&quot;&gt;Future&lt;/code&gt; to ensure the timeout, usually a poll should be finised in &lt;em&gt;100 ms&lt;/em&gt;, if not, when the &lt;em&gt;60_000 ms (1 min)&lt;/em&gt; limit exceeded, the poll will exit.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token class-name&quot;&gt;KafkaTimeoutEnsuredPollWorker&lt;/span&gt;&lt;span class=&quot;token generics&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; worker &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;KafkaTimeoutEnsuredPollWorker&lt;/span&gt;&lt;span class=&quot;token generics&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;kafkaConsumer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token class-name&quot;&gt;Future&lt;/span&gt;&lt;span class=&quot;token generics&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;ConsumerRecords&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; future &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;executor&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;submit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;worker&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -1160,7 +1160,8 @@ index 2daadddee6..53834fb81d 100644
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Rehearsal of Machine Learning on Coursera]]></title><description><![CDATA[the rehearsal lessons means a lot to me, it is a good way to review the knowledge and skills.]]></description><link>https://alexxyjiang.github.io/posts/rehearsal-of-machine-learning-on-coursera</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/rehearsal-of-machine-learning-on-coursera</guid><pubDate>Sun, 09 Aug 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/ul&gt;
+&lt;p&gt;/Users/xuejiang/OpenProjects/blog-source/oxyjiang-ray/content/posts/2020-09-02---Dancing-in-Shackles-Caused-by-an-Unupgradable-Apache-Kafka&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Rehearsal of Machine Learning on Coursera]]></title><description><![CDATA[the rehearsal lessons means a lot to me, it is a good way to review the knowledge and skills.]]></description><link>https://alexxyjiang.github.io/posts/rehearsal-of-machine-learning-on-coursera</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/rehearsal-of-machine-learning-on-coursera</guid><pubDate>Sun, 09 Aug 2020 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1392,7 +1393,51 @@ index 2daadddee6..53834fb81d 100644
 &lt;li&gt;&lt;strong&gt;RTE&lt;/strong&gt; (Recognizing Textual Entailment): A binary classification task where the goal is to predict whether a premise entails a hypothesis.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;WNLI&lt;/strong&gt; (Winograd Schema Challenge): A binary classification task where the goal is to predict whether a sentence exhibits coreference resolution.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The official website for the GLUE benchmark dataset is &lt;a href=&quot;https://gluebenchmark.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;. The website provides detailed information about the dataset, including the tasks, the evaluation metrics, and the leaderboard. The website also provides links to the datasets and the evaluation scripts.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Remarkable First Contribution on Public Github]]></title><description><![CDATA[happy to get my bug fix to R package urltools merged.]]></description><link>https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</guid><pubDate>Sat, 20 Jan 2018 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;The official website for the GLUE benchmark dataset is &lt;a href=&quot;https://gluebenchmark.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;. The website provides detailed information about the dataset, including the tasks, the evaluation metrics, and the leaderboard. The website also provides links to the datasets and the evaluation scripts.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Serving Models with Tensorflow API]]></title><description><![CDATA[an introduction to serving models with the Tensorflow API.]]></description><link>https://alexxyjiang.github.io/posts/serving-models-with-tensorflow-api</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/serving-models-with-tensorflow-api</guid><pubDate>Mon, 11 Jun 2018 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b1fb6fdf6dbad978428e3bd672828cdb/4b190/model-serving-grpc-client.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB26Cgf//EABcQAAMBAAAAAAAAAAAAAAAAAAEQEUL/2gAIAQEAAQUC0Kv/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAZEAACAwEAAAAAAAAAAAAAAAAAEQEhQTH/2gAIAQEAAT8h10owhqz/2gAMAwEAAgADAAAAEPAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxAAAgIDAQAAAAAAAAAAAAAAAREAITFBYVH/2gAIAQEAAT8QCNzAUDibJfmJ5L5P/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/b1fb6fdf6dbad978428e3bd672828cdb/8ac56/model-serving-grpc-client.webp 240w,
+/static/b1fb6fdf6dbad978428e3bd672828cdb/d3be9/model-serving-grpc-client.webp 480w,
+/static/b1fb6fdf6dbad978428e3bd672828cdb/d00b9/model-serving-grpc-client.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/b1fb6fdf6dbad978428e3bd672828cdb/09b79/model-serving-grpc-client.jpg 240w,
+/static/b1fb6fdf6dbad978428e3bd672828cdb/7cc5e/model-serving-grpc-client.jpg 480w,
+/static/b1fb6fdf6dbad978428e3bd672828cdb/4b190/model-serving-grpc-client.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/b1fb6fdf6dbad978428e3bd672828cdb/4b190/model-serving-grpc-client.jpg&quot;
+            alt=&quot;model-serving-grpc-client&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Recently we’ve been building a model serving framework to support online model serving. Our models are trained with &lt;strong&gt;Tensorflow&lt;/strong&gt;, and we want to serve them with high performance.&lt;/p&gt;
+&lt;p&gt;The input of the model is given by a Kafka topic, and the output is sent to another Kafka topic. The model serving framework should be able to handle Kafka messages, so it’s written in Java. The &lt;strong&gt;Tensorflow&lt;/strong&gt; Serving API is written with &lt;strong&gt;gRPC&lt;/strong&gt;. If we compile the protobuf protocol file into Java code, we can talk to our model written in Python. We initiated a project at &lt;a href=&quot;https://github.com/alexxyjiang/tensorflow-serving-api.git&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;tensorflow-serving-api&lt;/a&gt; to play the role of the library. Then it could be integrated with Kafka clients to serve models.&lt;/p&gt;
+&lt;p&gt;With the power of &lt;strong&gt;gRPC&lt;/strong&gt;, we can serve models with high performance. That’s proven a right choice for us.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Remarkable First Contribution on Public Github]]></title><description><![CDATA[happy to get my bug fix to R package urltools merged.]]></description><link>https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/my-remarkable-first-contribution-on-public-github</guid><pubDate>Sat, 20 Jan 2018 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
