@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 21 Feb 2025 13:23:50 GMT</lastBuildDate><item><title><![CDATA[How to Keep a Docker Container Running]]></title><description><![CDATA[a useful tip to keep a docker container running.]]></description><link>https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</guid><pubDate>Wed, 12 Feb 2025 17:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 24 Feb 2025 14:05:27 GMT</lastBuildDate><item><title><![CDATA[How to Keep a Docker Container Running]]></title><description><![CDATA[a useful tip to keep a docker container running.]]></description><link>https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</guid><pubDate>Wed, 12 Feb 2025 17:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -41,9 +41,9 @@
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;When you run a docker container, you may want to keep it running even if the main process is finished. For example, you may want to keep the container running to check the logs or to debug the container. In this case, you can use the &lt;code class=&quot;language-text&quot;&gt;tail -f /dev/null&lt;/code&gt; command to keep the container running.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;image-name&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-f&lt;/span&gt; /dev/null&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;image-name&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-f&lt;/span&gt; /dev/null&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Then we could use the &lt;code class=&quot;language-text&quot;&gt;docker exec&lt;/code&gt; command to enter the container when you need.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-it&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;container-id&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; /bin/bash&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[A Powerful Tool to Diagnosis Docker Images "dive"]]></title><description><![CDATA[tips of docker image diagnosis.]]></description><link>https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</guid><pubDate>Wed, 30 Oct 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-it&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;container-id&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; /bin/bash&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[A Powerful Tool to Diagnosis Docker Images "dive"]]></title><description><![CDATA[tips of docker image diagnosis.]]></description><link>https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-powerful-tool-to-diagnosis-docker-images-dive</guid><pubDate>Wed, 30 Oct 2024 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -581,7 +581,149 @@ scp: Connection closed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;span class=&quot;token comment&quot;&gt;# don&apos;t forget to reimport signed modules&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# modprobe vboxdrv&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# modprobe vboxnetadp&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# modprobe vboxnetflt&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Using a Socks5 Proxy via ProxyChains]]></title><description><![CDATA[instructions about how to enable a sock5 proxy via proxychains.]]></description><link>https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</guid><pubDate>Fri, 01 Apr 2022 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# modprobe vboxnetflt&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[A Powerful Tool for Memory Leak Detection "valgrind"]]></title><description><![CDATA[Valgrind is a powerful tool to detect memory leaks and profiling.]]></description><link>https://alexxyjiang.github.io/posts/a-powerful-tool-for-memory-leak-detection-valgrind</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-powerful-tool-for-memory-leak-detection-valgrind</guid><pubDate>Sun, 15 May 2022 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c45b0b1c1f57425f0441de5a0b5af4b3/4b190/valgrind.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/2gAMAwEAAhADEAAAAewj1zJpIHP/xAAaEAACAwEBAAAAAAAAAAAAAAABAgAREhMD/9oACAEBAAEFAn9MzusU6DLZ5iIKX//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAEDAQE/AQJv/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAECAxH/2gAIAQIBAT8BelEvqP/EABcQAAMBAAAAAAAAAAAAAAAAABARIDH/2gAIAQEABj8CwOP/xAAYEAEBAQEBAAAAAAAAAAAAAAABEQAhYf/aAAgBAQABPyEaq3SI2XDBhervV3A3/9oADAMBAAIAAwAAABBzH//EABcRAAMBAAAAAAAAAAAAAAAAAAABETH/2gAIAQMBAT8Qa0SOH//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/EDKEwrf/xAAbEAEBAQACAwAAAAAAAAAAAAABEQAhUTFB0f/aAAgBAQABPxCOSjDpwhJhFPeEihZznyfoSYs+Xvj5igVK8u//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/c45b0b1c1f57425f0441de5a0b5af4b3/8ac56/valgrind.webp 240w,
+/static/c45b0b1c1f57425f0441de5a0b5af4b3/d3be9/valgrind.webp 480w,
+/static/c45b0b1c1f57425f0441de5a0b5af4b3/d00b9/valgrind.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/c45b0b1c1f57425f0441de5a0b5af4b3/09b79/valgrind.jpg 240w,
+/static/c45b0b1c1f57425f0441de5a0b5af4b3/7cc5e/valgrind.jpg 480w,
+/static/c45b0b1c1f57425f0441de5a0b5af4b3/4b190/valgrind.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/c45b0b1c1f57425f0441de5a0b5af4b3/4b190/valgrind.jpg&quot;
+            alt=&quot;valgrind&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Valgrind&lt;/strong&gt; is a powerful tool for detecting memory leaks and profiling. It’s available on Linux and Mac OS X. A few years ago, I heard about Valgrind from my colleague a few years ago. When I encountered a real memory leak problem, I decided to try it.&lt;/p&gt;
+&lt;h2 id=&quot;installation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#installation&quot; aria-label=&quot;installation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+&lt;p&gt;I’m using Debian as my development environment. So I installed Valgrind with the following command:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install valgrind&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Alternatively, you can download the source code from the &lt;a href=&quot;https://www.valgrind.org/downloads/current.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;valgrind official website&lt;/a&gt; and compile it yourself.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://sourceware.org/git/valgrind.git
+$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; valgrind
+$ ./autogen.sh
+$ ./configure &lt;span class=&quot;token parameter variable&quot;&gt;--prefix&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;installation-directory&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# make install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;usage&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#usage&quot; aria-label=&quot;usage permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Usage&lt;/h2&gt;
+&lt;p&gt;An example of a memory leak problem could be like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// memleak.cpp&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;cstdio&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;leak&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; bytes&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;p &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;bytes&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Allocated %d bytes at %p\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bytes&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; p&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    p&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;bytes&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Wrote to %p\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; p &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; bytes&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;leak&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;leak&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;leak&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This program allocates memory with &lt;code class=&quot;language-text&quot;&gt;new&lt;/code&gt; but forgets to release it with &lt;code class=&quot;language-text&quot;&gt;delete&lt;/code&gt;. We can compile it with the following command:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ g++ &lt;span class=&quot;token parameter variable&quot;&gt;-O0&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-g&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-o&lt;/span&gt; memleak memleak.cpp&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then we can run the program with Valgrind:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ valgrind --leak-check&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;yes ./memleak&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The output of Valgrind could be like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;==4788== Memcheck, a memory error detector
+==4788== Copyright (C) 2002-2022, and GNU GPL&apos;d, by Julian Seward et al.
+==4788== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==4788== Command: ./memleak
+==4788==
+Allocated 10 bytes at 0x4d72c80
+==4788== Invalid write of size 1
+==4788==    at 0x10884C: leak(int) (memleak.cpp:7)
+==4788==    by 0x108887: main (memleak.cpp:13)
+==4788==  Address 0x4d72c8a is 0 bytes after a block of size 10 alloc&apos;d
+==4788==    at 0x4886B58: operator new[](unsigned long) (vg_replace_malloc.c:640)
+==4788==    by 0x108827: leak(int) (memleak.cpp:5)
+==4788==    by 0x108887: main (memleak.cpp:13)
+==4788==
+Wrote to 0x4d72c8a
+Allocated 20 bytes at 0x4d73110
+==4788== Invalid write of size 1
+==4788==    at 0x10884C: leak(int) (memleak.cpp:7)
+==4788==    by 0x10888F: main (memleak.cpp:14)
+==4788==  Address 0x4d73124 is 0 bytes after a block of size 20 alloc&apos;d
+==4788==    at 0x4886B58: operator new[](unsigned long) (vg_replace_malloc.c:640)
+==4788==    by 0x108827: leak(int) (memleak.cpp:5)
+==4788==    by 0x10888F: main (memleak.cpp:14)
+==4788==
+Wrote to 0x4d73124
+Allocated 30 bytes at 0x4d73170
+==4788== Invalid write of size 1
+==4788==    at 0x10884C: leak(int) (memleak.cpp:7)
+==4788==    by 0x108897: main (memleak.cpp:15)
+==4788==  Address 0x4d7318e is 0 bytes after a block of size 30 alloc&apos;d
+==4788==    at 0x4886B58: operator new[](unsigned long) (vg_replace_malloc.c:640)
+==4788==    by 0x108827: leak(int) (memleak.cpp:5)
+==4788==    by 0x108897: main (memleak.cpp:15)
+==4788==
+Wrote to 0x4d7318e
+==4788==
+==4788== HEAP SUMMARY:
+==4788==     in use at exit: 60 bytes in 3 blocks
+==4788==   total heap usage: 5 allocs, 2 frees, 73,788 bytes allocated
+==4788==
+==4788== 10 bytes in 1 blocks are definitely lost in loss record 1 of 3
+==4788==    at 0x4886B58: operator new[](unsigned long) (vg_replace_malloc.c:640)
+==4788==    by 0x108827: leak(int) (memleak.cpp:5)
+==4788==    by 0x108887: main (memleak.cpp:13)
+==4788==
+==4788== 20 bytes in 1 blocks are definitely lost in loss record 2 of 3
+==4788==    at 0x4886B58: operator new[](unsigned long) (vg_replace_malloc.c:640)
+==4788==    by 0x108827: leak(int) (memleak.cpp:5)
+==4788==    by 0x10888F: main (memleak.cpp:14)
+==4788==
+==4788== 30 bytes in 1 blocks are definitely lost in loss record 3 of 3
+==4788==    at 0x4886B58: operator new[](unsigned long) (vg_replace_malloc.c:640)
+==4788==    by 0x108827: leak(int) (memleak.cpp:5)
+==4788==    by 0x108897: main (memleak.cpp:15)
+==4788==
+==4788== LEAK SUMMARY:
+==4788==    definitely lost: 60 bytes in 3 blocks
+==4788==    indirectly lost: 0 bytes in 0 blocks
+==4788==      possibly lost: 0 bytes in 0 blocks
+==4788==    still reachable: 0 bytes in 0 blocks
+==4788==         suppressed: 0 bytes in 0 blocks
+==4788==
+==4788== For lists of detected and suppressed errors, rerun with: -s
+==4788== ERROR SUMMARY: 6 errors from 6 contexts (suppressed: 0 from 0)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As we can see, Valgrind detected the memory leak problem inside the &lt;code class=&quot;language-text&quot;&gt;leak()&lt;/code&gt; function and reported it. It also showed the memory address where the memory was allocated and the memory address where the invalid write happened.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using a Socks5 Proxy via ProxyChains]]></title><description><![CDATA[instructions about how to enable a sock5 proxy via proxychains.]]></description><link>https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/using-a-socks5-proxy-via-proxychains</guid><pubDate>Fri, 01 Apr 2022 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1316,9 +1458,9 @@ index 2daadddee6..53834fb81d 100644
 &lt;p&gt;By default, Docker containers do not have access to the GPU. However, you can enable GPU support in Docker by using the &lt;a href=&quot;https://github.com/NVIDIA/nvidia-docker&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;NVIDIA Docker&lt;/a&gt;. This post is a step-by-step guide to enabling Nvidia GPU support in Docker Engine.&lt;/p&gt;
 &lt;h2 id=&quot;prerequisites-and-verification&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#prerequisites-and-verification&quot; aria-label=&quot;prerequisites and verification permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Prerequisites and Verification&lt;/h2&gt;
 &lt;p&gt;Before you start, ensure you have installed the NVIDIA GPU drivers on your system. You can check the driver installation by running the following command:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;nvidia-smi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ nvidia-smi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;And you can also verify your docker engine installation by running:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;--gpus&lt;/span&gt; all nvidia/cuda:10.1-runtime nvidia-smi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;--gpus&lt;/span&gt; all nvidia/cuda:10.1-runtime nvidia-smi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If the command returns the GPU information, the drivers/docker engine is installed correctly.&lt;/p&gt;
 &lt;h2 id=&quot;install-nvidia-container-toolkit&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#install-nvidia-container-toolkit&quot; aria-label=&quot;install nvidia container toolkit permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Install NVIDIA Container Toolkit&lt;/h2&gt;
 &lt;p&gt;If GPU support is not enabled, you can continue with the following steps to install the NVIDIA Docker.&lt;/p&gt;
