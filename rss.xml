@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 04 Mar 2025 12:50:47 GMT</lastBuildDate><item><title><![CDATA[How to Keep a Docker Container Running]]></title><description><![CDATA[a useful tip to keep a docker container running.]]></description><link>https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</guid><pubDate>Wed, 12 Feb 2025 17:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 05 Mar 2025 13:34:11 GMT</lastBuildDate><item><title><![CDATA[How to Keep a Docker Container Running]]></title><description><![CDATA[a useful tip to keep a docker container running.]]></description><link>https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</guid><pubDate>Wed, 12 Feb 2025 17:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -3403,7 +3403,54 @@ index 7d10ece..b1c571b 100755
 &lt;p&gt;This change is not permanent as the MAC address on the interface eth0 will revert to the default on the next system reboot. If you need the operating system to change the MAC address everytime when booting, please modify the configuration file &lt;strong&gt;/etc/network/interfaces&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;allow-hotplug eth0
 iface eth0 inet dhcp
-  hwaddress ether 08:00:00:00:00:01&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[A Weird Bug Caused by Optimizing Integer Division with Assembly]]></title><description><![CDATA[it's not easy to optimize code with assembly, especially when you are not familiar with how the compiler works.]]></description><link>https://alexxyjiang.github.io/posts/a-weird-bug-caused-by-optimizing-integer-division-with-assembly</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-weird-bug-caused-by-optimizing-integer-division-with-assembly</guid><pubDate>Sat, 08 Nov 2008 00:40:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+  hwaddress ether 08:00:00:00:00:01&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[FireFTP Add-on for Firefox]]></title><description><![CDATA[a powerful add-on for Firefox to support FTP.]]></description><link>https://alexxyjiang.github.io/posts/fireftp-add-on-for-firefox</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/fireftp-add-on-for-firefox</guid><pubDate>Tue, 25 Aug 2009 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1cfb2696f70e37711a9253b420a1930e/4b190/fireftp.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7CtpkWV//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAESAv/aAAgBAQABBQKERkeEUikPSP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABMRAy/9oACAEBAAY/AojlEy5//8QAHBAAAgICAwAAAAAAAAAAAAAAAAERMVGBwdHh/9oACAEBAAE/IVHwCd0Eqi0LIJPgnWf/2gAMAwEAAgADAAAAEG8//8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EIF//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAgEBPxCvRH//xAAaEAEBAAIDAAAAAAAAAAAAAAABEQAxIUFR/9oACAEBAAE/EKw2AdMM4Xma4MAKaBjBWKHThE9XbIc6+Of/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/1cfb2696f70e37711a9253b420a1930e/8ac56/fireftp.webp 240w,
+/static/1cfb2696f70e37711a9253b420a1930e/d3be9/fireftp.webp 480w,
+/static/1cfb2696f70e37711a9253b420a1930e/d00b9/fireftp.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/1cfb2696f70e37711a9253b420a1930e/09b79/fireftp.jpg 240w,
+/static/1cfb2696f70e37711a9253b420a1930e/7cc5e/fireftp.jpg 480w,
+/static/1cfb2696f70e37711a9253b420a1930e/4b190/fireftp.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/1cfb2696f70e37711a9253b420a1930e/4b190/fireftp.jpg&quot;
+            alt=&quot;fireftp&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FireFTP&lt;/strong&gt; is a powerful add-on for Firefox to support FTP. It’s a free, secure, cross-platform FTP/SFTP client for Mozilla Firefox which provides easy and intuitive access to FTP/SFTP servers. It’s a GUI-based FTP client that could be fetched with the lowest cost. It has several advantages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;As a plugin, it only affects Firefox, which is similar to Chrome’s sandbox.&lt;/li&gt;
+&lt;li&gt;As a plugin, it supports multiple character sets, especially GBK, so that Chinese FTP servers that do not use Unicode (UTF-8) can also be easily connected.&lt;/li&gt;
+&lt;li&gt;It’s GUI-based, at least it is not as depressing as using the ftp.exe provided by Windows.&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[A Weird Bug Caused by Optimizing Integer Division with Assembly]]></title><description><![CDATA[it's not easy to optimize code with assembly, especially when you are not familiar with how the compiler works.]]></description><link>https://alexxyjiang.github.io/posts/a-weird-bug-caused-by-optimizing-integer-division-with-assembly</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-weird-bug-caused-by-optimizing-integer-division-with-assembly</guid><pubDate>Sat, 08 Nov 2008 00:40:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
