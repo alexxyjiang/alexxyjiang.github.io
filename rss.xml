@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 05 Mar 2025 13:34:11 GMT</lastBuildDate><item><title><![CDATA[How to Keep a Docker Container Running]]></title><description><![CDATA[a useful tip to keep a docker container running.]]></description><link>https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</guid><pubDate>Wed, 12 Feb 2025 17:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 04 Apr 2025 02:39:56 GMT</lastBuildDate><item><title><![CDATA[A Man-in-the-Middle Proxy "mitmproxy"]]></title><description><![CDATA[introduction of the man-in-the-middle attack and proxy.]]></description><link>https://alexxyjiang.github.io/posts/a-man-in-the-middle-proxy-mitmproxy</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-man-in-the-middle-proxy-mitmproxy</guid><pubDate>Fri, 07 Mar 2025 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c351a970060109c0d980249a21cf3666/4b190/mitmproxy.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAActaKTKB/8QAFxABAQEBAAAAAAAAAAAAAAAAABEQQf/aAAgBAQABBQLmREf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAACAwEAAAAAAAAAAAAAAAAAARFRYSH/2gAIAQEAAT8hTsObO6R0iJbZ/9oADAMBAAIAAwAAABAAz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAQABAwUAAAAAAAAAAAAAAAEAETFRIUGRobH/2gAIAQEAAT8QRAq2YtnaLnymgFbIgXYor4T/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/c351a970060109c0d980249a21cf3666/8ac56/mitmproxy.webp 240w,
+/static/c351a970060109c0d980249a21cf3666/d3be9/mitmproxy.webp 480w,
+/static/c351a970060109c0d980249a21cf3666/d00b9/mitmproxy.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/c351a970060109c0d980249a21cf3666/09b79/mitmproxy.jpg 240w,
+/static/c351a970060109c0d980249a21cf3666/7cc5e/mitmproxy.jpg 480w,
+/static/c351a970060109c0d980249a21cf3666/4b190/mitmproxy.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/c351a970060109c0d980249a21cf3666/4b190/mitmproxy.jpg&quot;
+            alt=&quot;mitmproxy&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In cryptography and computer security, a &lt;strong&gt;man-in-the-middle (MITM)&lt;/strong&gt; attack, or on-path attack, is a cyberattack where the attacker secretly relays and possibly alters the communications between two parties who believe that they are directly communicating with each other, where in actuality the attacker has inserted themselves between the two user parties.&lt;/p&gt;
+&lt;p&gt;Alternatively, we could also use the &lt;strong&gt;MITM&lt;/strong&gt; technology to control the data stream over the network. The &lt;a href=&quot;https://mitmproxy.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;mitmproxy&lt;/a&gt; is a great tool for this purpose. It looks like a swiss-army knife for debugging, testing, privacy measurements, and penetration testing. It can be used to intercept, inspect, modify, and replay web traffic such as HTTP/1, HTTP/2, HTTP/3, WebSockets, or any other SSL/TLS-protected protocols. You can prettify and decode a variety of message types ranging from HTML to Protobuf, intercept specific messages on the fly, modify them before they reach their destination, and replay them to a client or server later on.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;mitmproxy&lt;/strong&gt; supports several kinds of proxy modes, including &lt;strong&gt;transparent proxy&lt;/strong&gt;, &lt;strong&gt;reverse proxy&lt;/strong&gt;, and &lt;strong&gt;upstream proxy&lt;/strong&gt;. It can be used as a &lt;strong&gt;command-line tool&lt;/strong&gt;, &lt;strong&gt;Python library&lt;/strong&gt;, or &lt;strong&gt;web interface&lt;/strong&gt;. It is also extensible and can be scripted in Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;regular&lt;/strong&gt;: The default mode. Configure your client(s) to use an HTTP(S) proxy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;local capture&lt;/strong&gt;: Capture applications on the same device.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;wireguard&lt;/strong&gt;: Capture external devices or individual Android apps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;reverse&lt;/strong&gt;: Put mitmproxy in front of a server.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;transparent&lt;/strong&gt;: Capture traffic with custom network routes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tun interface&lt;/strong&gt;: Create a virtual network device to capture traffic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;upstream&lt;/strong&gt;: Chain two HTTP(S) proxies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;socks&lt;/strong&gt;: Run a SOCKS5 proxy server.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dns&lt;/strong&gt;: Run a scriptable DNS server.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[How to Keep a Docker Container Running]]></title><description><![CDATA[a useful tip to keep a docker container running.]]></description><link>https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-keep-a-docker-container-running</guid><pubDate>Wed, 12 Feb 2025 17:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
