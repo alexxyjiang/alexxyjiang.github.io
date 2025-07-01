@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 21 May 2025 14:01:04 GMT</lastBuildDate><item><title><![CDATA[A Man-in-the-Middle Proxy "mitmproxy"]]></title><description><![CDATA[introduction of the man-in-the-middle attack and proxy.]]></description><link>https://alexxyjiang.github.io/posts/a-man-in-the-middle-proxy-mitmproxy</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-man-in-the-middle-proxy-mitmproxy</guid><pubDate>Fri, 07 Mar 2025 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Jul 2025 16:13:43 GMT</lastBuildDate><item><title><![CDATA[Optimize PDF File with "ps2pdf"]]></title><description><![CDATA[a guide to using ps2pdf to optimize PDF files.]]></description><link>https://alexxyjiang.github.io/posts/optimize-pdf-file-with-ps2pdf</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/optimize-pdf-file-with-ps2pdf</guid><pubDate>Thu, 26 Jun 2025 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/df0e182b8f47ec1628bf64bfc558a240/4b190/optimize-pdf.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABbogmUQv/xAAaEAACAgMAAAAAAAAAAAAAAAACAwEEEBIh/9oACAEBAAEFAq6AYt1TSJ5KXksCstLH/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPwE2Yv/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAEEAwEAAAAAAAAAAAAAABEAAhAxARIhkf/aAAgBAQAGPwLZxscRa72BgK4//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARITFBUf/aAAgBAQABPyHdpwMQbH3ggw+R8bLvSXlmr8ItqvWf/9oADAMBAAIAAwAAABCIz//EABURAQEAAAAAAAAAAAAAAAAAABBx/9oACAEDAQE/ELB//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAgEBPxAS6v/EAB0QAQEAAQQDAAAAAAAAAAAAAAERACExYXFBocH/2gAIAQEAAT8QZgCg4ar539ZWRYPsMVHqqPeI3DplrOeMVBBYCTGdVK95/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/df0e182b8f47ec1628bf64bfc558a240/8ac56/optimize-pdf.webp 240w,
+/static/df0e182b8f47ec1628bf64bfc558a240/d3be9/optimize-pdf.webp 480w,
+/static/df0e182b8f47ec1628bf64bfc558a240/d00b9/optimize-pdf.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/df0e182b8f47ec1628bf64bfc558a240/09b79/optimize-pdf.jpg 240w,
+/static/df0e182b8f47ec1628bf64bfc558a240/7cc5e/optimize-pdf.jpg 480w,
+/static/df0e182b8f47ec1628bf64bfc558a240/4b190/optimize-pdf.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/df0e182b8f47ec1628bf64bfc558a240/4b190/optimize-pdf.jpg&quot;
+            alt=&quot;optimize-pdf&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A PDF file comes out of large size when it contains many images. The traditional way to reduce the size is to compress the images via official tools like Adobe Acrobat. However, it is not free and not open source.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ps2pdf&lt;/strong&gt; is a free and open-source command-line tool that is part of the Ghostscript suite. It is used to convert PostScript files to PDF format, and it can also be used to optimize existing PDF files by reducing their size.&lt;/p&gt;
+&lt;p&gt;A practical &lt;a href=&quot;https://web.mit.edu/ghostscript/www/Ps2pdf.htm&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;guidance&lt;/a&gt; to optimize PDF files is to use ps2pdf as follows:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ ps2pdf &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;options&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; input.ps output.pdf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;preset PDFSETTINGS options are:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;/screen        low-resolution output similar to the Acrobat Distiller &quot;Screen Optimized&quot; setting
+/ebook         medium-resolution output similar to the Acrobat Distiller &quot;eBook&quot; setting
+/default       output similar to the Acrobat Distiller &quot;Default Settings&quot; setting
+/printer       output similar to the Acrobat Distiller &quot;Print Optimized&quot; setting
+/maximum       output similar to the Acrobat Distiller &quot;Maximum Quality&quot; setting&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;so the command to optimize a PDF file is like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ ps2pdf &lt;span class=&quot;token parameter variable&quot;&gt;-dPDFSETTINGS&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/screen input.pdf output.pdf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[A Man-in-the-Middle Proxy "mitmproxy"]]></title><description><![CDATA[introduction of the man-in-the-middle attack and proxy.]]></description><link>https://alexxyjiang.github.io/posts/a-man-in-the-middle-proxy-mitmproxy</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/a-man-in-the-middle-proxy-mitmproxy</guid><pubDate>Fri, 07 Mar 2025 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
