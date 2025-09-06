@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Jul 2025 16:13:43 GMT</lastBuildDate><item><title><![CDATA[Optimize PDF File with "ps2pdf"]]></title><description><![CDATA[a guide to using ps2pdf to optimize PDF files.]]></description><link>https://alexxyjiang.github.io/posts/optimize-pdf-file-with-ps2pdf</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/optimize-pdf-file-with-ps2pdf</guid><pubDate>Thu, 26 Jun 2025 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Alex Jiang]]></title><description><![CDATA[Blog by Alex Jiang]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 06 Sep 2025 01:16:34 GMT</lastBuildDate><item><title><![CDATA[Optimize PDF File with "ps2pdf"]]></title><description><![CDATA[a guide to using ps2pdf to optimize PDF files.]]></description><link>https://alexxyjiang.github.io/posts/optimize-pdf-file-with-ps2pdf</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/optimize-pdf-file-with-ps2pdf</guid><pubDate>Thu, 26 Jun 2025 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1050,7 +1050,7 @@ scp: Connection closed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The Jenkins hash function is a fast, efficient, well-designed hash function. It is a non-cryptographic hash function, which is not designed to be secure against cryptographic attacks. It was introduced by &lt;em&gt;Bob Jenkins&lt;/em&gt; in 1997. In his blog, we can find more &lt;a href=&quot;https://www.burtleburtle.net/bob/hash/doobs.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;details&lt;/a&gt;. As he explained, the Jenkins hash is faster and more thorough, it was demonstrably better than the old hash. As a hash function, it could be combined with other functions like the Bloom filter, the UUID generating, and the hash tables to achieve a better performance.&lt;/p&gt;
 &lt;p&gt;Different language implementation could be found, like the Java based &lt;a href=&quot;https://github.com/vkandy/jenkins-hash-java&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;implementation&lt;/a&gt;, the JavaScript based &lt;a href=&quot;https://github.com/vkandy/jenkins-hash-js&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;implementation&lt;/a&gt;, the C based &lt;a href=&quot;https://github.com/j256/jenkins-hash&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;implementation&lt;/a&gt;, etc.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Apache Hadoop&lt;/strong&gt; also provides a Jenkins hash function implementation, which could be found &lt;a href=&quot;https://github.com/apache/hadoop/blob/trunk/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/util/hash/JenkinsHash.java&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Setting up VirtualBox in Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox in Debian 11 Bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-in-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;&lt;strong&gt;Apache Hadoop&lt;/strong&gt; also provides a Jenkins hash function implementation, which could be found &lt;a href=&quot;https://github.com/apache/hadoop/blob/trunk/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/util/hash/JenkinsHash.java&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Setting up VirtualBox on Debian 11 Bullseye]]></title><description><![CDATA[instructions about how to install virtualbox on Debian 11 Bullseye.]]></description><link>https://alexxyjiang.github.io/posts/setting-up-virtualbox-on-debian-11-bullseye</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/setting-up-virtualbox-on-debian-11-bullseye</guid><pubDate>Sat, 13 Aug 2022 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -1319,7 +1319,7 @@ Wrote to 0x4d7318e
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;To enable a socks5 proxy for any binaries, even these which doesn’t natively support a sock5 proxy, we could use proxychains.&lt;/p&gt;
-&lt;p&gt;First, we should install proxychains. For debian based linux system, you may run&lt;/p&gt;
+&lt;p&gt;First, we should install proxychains. For debian based Linux system, you may run&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt install proxychains4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Please note, that tag &lt;strong&gt;proxychains&lt;/strong&gt; means the older version 3, and tag &lt;strong&gt;proxychains4&lt;/strong&gt; means the later version 4 (also called &lt;em&gt;proxychains-ng&lt;/em&gt; in some other platforms).&lt;/p&gt;
 &lt;p&gt;Then, please configure the proxy server in file &lt;strong&gt;/etc/proxychains.conf&lt;/strong&gt;.&lt;/p&gt;
@@ -1966,7 +1966,67 @@ index 2daadddee6..53834fb81d 100644
 &lt;li&gt;Large Scale Machine Learning&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;rehearsal&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rehearsal&quot; aria-label=&quot;rehearsal permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Rehearsal&lt;/h2&gt;
-&lt;p&gt;The rehearsal process is mainly based on practices, which are the programming assignments. The assignments are designed to help you understand the concepts and techniques taught in the course. The assignments are written in &lt;strong&gt;Octave/Matlab&lt;/strong&gt;, which is a high-level language for numerical computations. The assignments are not difficult, but they are time-consuming. You need to spend a lot of time on them to understand the concepts and techniques.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Engine with Nvidia GPU Support]]></title><description><![CDATA[tips to enable Nvidia GPU support in Docker Engine.]]></description><link>https://alexxyjiang.github.io/posts/docker-engine-with-nvidia-gpu-support</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/docker-engine-with-nvidia-gpu-support</guid><pubDate>Mon, 25 Nov 2019 23:20:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;The rehearsal process is mainly based on practices, which are the programming assignments. The assignments are designed to help you understand the concepts and techniques taught in the course. The assignments are written in &lt;strong&gt;Octave/Matlab&lt;/strong&gt;, which is a high-level language for numerical computations. The assignments are not difficult, but they are time-consuming. You need to spend a lot of time on them to understand the concepts and techniques.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Make Self-Extractable Archives on Unix]]></title><description><![CDATA[a guide to creating self-extractable archives on Linux using makeself.]]></description><link>https://alexxyjiang.github.io/posts/make-self-extractable-archives-on-unix</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/make-self-extractable-archives-on-unix</guid><pubDate>Sun, 08 Dec 2019 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dd824d397a8f72103243b0efbc063e15/4b190/makeself.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHk6hZICv/EABkQAAIDAQAAAAAAAAAAAAAAAAECAAMhEP/aAAgBAQABBQKvWZCogw2Wl+f/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAWEQADAAAAAAAAAAAAAAAAAAAQESH/2gAIAQIBAT8BrH//xAAaEAACAgMAAAAAAAAAAAAAAAABEQAQIUFR/9oACAEBAAY/AkY3inNAcFf/xAAaEAEBAQADAQAAAAAAAAAAAAABEQAQIVEx/9oACAEBAAE/IQGsNIj491zj0Y3vNxPqjDj/2gAMAwEAAgADAAAAEDcf/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARMf/aAAgBAwEBPxCDV//EABYRAAMAAAAAAAAAAAAAAAAAAAEQUf/aAAgBAgEBPxCBX//EAB0QAQEAAgEFAAAAAAAAAAAAAAERACExEEFxgaH/2gAIAQEAAT8QRioupbPGNmLgTb5PdxTy4pQhQKMe+LlxORJLOn//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/dd824d397a8f72103243b0efbc063e15/8ac56/makeself.webp 240w,
+/static/dd824d397a8f72103243b0efbc063e15/d3be9/makeself.webp 480w,
+/static/dd824d397a8f72103243b0efbc063e15/d00b9/makeself.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/dd824d397a8f72103243b0efbc063e15/09b79/makeself.jpg 240w,
+/static/dd824d397a8f72103243b0efbc063e15/7cc5e/makeself.jpg 480w,
+/static/dd824d397a8f72103243b0efbc063e15/4b190/makeself.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/dd824d397a8f72103243b0efbc063e15/4b190/makeself.jpg&quot;
+            alt=&quot;makeself&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;makeself.sh&lt;/strong&gt; is a small shell script that generates a self-extractable compressed tar archive from a directory. The resulting file appears as a shell script (usually has a &lt;strong&gt;.run&lt;/strong&gt; suffix), and can be launched as is. The archive will then uncompress itself to a temporary directory, and an optional arbitrary command will be executed (for example, an installation script). This is pretty similar to archives generated with WinZip Self-Extractor in the Windows world. Makeself archives also include checksums for integrity self-validation (CRC and/or MD5/SHA256 checksums). Many popular Linux applications are distributed as makeself self-extracting archives, like the Nvidia Linux drivers, the Google Earth Linux installer, etc.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;makeself.sh&lt;/strong&gt; has been rewritten and tested on the following platforms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux (all distributions)&lt;/li&gt;
+&lt;li&gt;Sun Solaris (8 and above)&lt;/li&gt;
+&lt;li&gt;HP-UX (tested on 11.0 and 11i on HPPA RISC)&lt;/li&gt;
+&lt;li&gt;SCO OpenUnix and OpenServer&lt;/li&gt;
+&lt;li&gt;IBM AIX&lt;/li&gt;
+&lt;li&gt;macOS (Darwin)&lt;/li&gt;
+&lt;li&gt;SGI IRIX 6.5&lt;/li&gt;
+&lt;li&gt;FreeBSD&lt;/li&gt;
+&lt;li&gt;OpenBSD&lt;/li&gt;
+&lt;li&gt;NetBSD&lt;/li&gt;
+&lt;li&gt;UnicOS / Cray&lt;/li&gt;
+&lt;li&gt;Windows (Cygwin, WSL)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The generic usage of &lt;strong&gt;makeself.sh&lt;/strong&gt; is as follows:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ makeself.sh &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;args&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; archive_dir file_name label startup_script &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;script_args&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We could find more details about the arguments in the &lt;a href=&quot;https://makeself.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;official documentation&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Docker Engine with Nvidia GPU Support]]></title><description><![CDATA[tips to enable Nvidia GPU support in Docker Engine.]]></description><link>https://alexxyjiang.github.io/posts/docker-engine-with-nvidia-gpu-support</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/docker-engine-with-nvidia-gpu-support</guid><pubDate>Mon, 25 Nov 2019 23:20:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -2967,7 +3027,7 @@ ${DIFF} ${LEFT} ${RIGHT}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Then modify the svn configuration file &lt;strong&gt;~/.subversion/config&lt;/strong&gt; and make sure the following configuration is written:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;[helpers]
 diff-cmd = /path/to/svndiff.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Then, &lt;strong&gt;svn diff&lt;/strong&gt; will call the &lt;strong&gt;svndiff.sh&lt;/strong&gt; script, which uses &lt;em&gt;vimdiff&lt;/em&gt; in &lt;em&gt;svn&lt;/em&gt; difference mode.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[PPPoE Support in Debian 6 Squeeze]]></title><description><![CDATA[PPPoE is a common protocol for ADSL broadband access. This article introduces how to configure PPPoE in Debian 6 Squeeze.]]></description><link>https://alexxyjiang.github.io/posts/pppoe-support-in-debian-6-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/pppoe-support-in-debian-6-squeeze</guid><pubDate>Sat, 23 Feb 2013 01:25:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;Then, &lt;strong&gt;svn diff&lt;/strong&gt; will call the &lt;strong&gt;svndiff.sh&lt;/strong&gt; script, which uses &lt;em&gt;vimdiff&lt;/em&gt; in &lt;em&gt;svn&lt;/em&gt; difference mode.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[PPPoE Support on Debian 6 Squeeze]]></title><description><![CDATA[PPPoE is a common protocol for ADSL broadband access. This article introduces how to configure PPPoE on Debian 6 Squeeze.]]></description><link>https://alexxyjiang.github.io/posts/pppoe-support-on-debian-6-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/pppoe-support-on-debian-6-squeeze</guid><pubDate>Sat, 23 Feb 2013 01:25:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -3009,9 +3069,9 @@ diff-cmd = /path/to/svndiff.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;PPPoE is a common protocol for the most popular ADSL broadband access, which is also known as ADSL dial-up. Debian does not ship with PPPoE support by default. This article introduces how to configure PPPoE in Debian 6 Squeeze.&lt;/p&gt;
+&lt;p&gt;PPPoE is a common protocol for the most popular ADSL broadband access, which is also known as ADSL dial-up. Debian does not ship with PPPoE support by default. This article introduces how to configure PPPoE on Debian 6 Squeeze.&lt;/p&gt;
 &lt;h2 id=&quot;installation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#installation&quot; aria-label=&quot;installation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Installation&lt;/h2&gt;
-&lt;p&gt;The installation of PPPoE support in Debian is quite simple. You can install the required packages by running the following command:&lt;/p&gt;
+&lt;p&gt;The installation of PPPoE support on Debian is quite simple. You can install the required packages by running the following command:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# apt-get install ppp pppoe pppoeconf&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;root&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# pppoeconf&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;configuration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#configuration&quot; aria-label=&quot;configuration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuration&lt;/h2&gt;
@@ -3075,7 +3135,7 @@ diff-cmd = /path/to/svndiff.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The output may be like this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;0x16f21afc8	0x16f21afc8&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The two addresses are the same, which means that in C/C++, array names and addressing array names are equivalent, the array’s name itself acts as a pointer to its first element.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dealing with Linux Files via inode]]></title><description><![CDATA[dealing with linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 17:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;The two addresses are the same, which means that in C/C++, array names and addressing array names are equivalent, the array’s name itself acts as a pointer to its first element.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Dealing with Linux Files via inode]]></title><description><![CDATA[dealing with Linux file with inode is an important alternative.]]></description><link>https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/dealing-with-linux-files-via-inode</guid><pubDate>Fri, 30 Mar 2012 17:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -3301,7 +3361,7 @@ index 7d10ece..b1c571b 100755
 &lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  ldconfig
 &lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt; ;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;However, the most exciting thing is not this bug, but the &lt;a href=&quot;https://github.com/MrMEEE/bumblebee/commit/a047be85247755cdbe0acce6#diff-1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;code review comments&lt;/a&gt; about this bug from programmers around the world, which is really very joyful. Please watch closely!&lt;/p&gt;
-&lt;p&gt;The overall tone of the discussion reflects a mix of humor and understanding, with developers sharing their own experiences and lessons learned from unintentional file deletions. It emphasizes the importance of caution, code review, and adherence to best practices in software development to prevent potentially catastrophic mistakes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Intel Wifi Support in Debain 6 Squeeze]]></title><description><![CDATA[non free firmwares are usually the drivers solutions.]]></description><link>https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/intel-wifi-support-in-debian-6-squeeze</guid><pubDate>Mon, 14 Feb 2011 17:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;The overall tone of the discussion reflects a mix of humor and understanding, with developers sharing their own experiences and lessons learned from unintentional file deletions. It emphasizes the importance of caution, code review, and adherence to best practices in software development to prevent potentially catastrophic mistakes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Intel Wifi Support on Debain 6 Squeeze]]></title><description><![CDATA[non free firmwares are usually the drivers solutions.]]></description><link>https://alexxyjiang.github.io/posts/intel-wifi-support-on-debian-6-squeeze</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/intel-wifi-support-on-debian-6-squeeze</guid><pubDate>Mon, 14 Feb 2011 17:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -3343,7 +3403,7 @@ index 7d10ece..b1c571b 100755
         &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;To support some wireless device in debian squeeze which is not supported by default, we often need some addition firmware [non-free]. For example, my “Intel WiFi Link 5100 AGN” could be supported via adding the &lt;strong&gt;firmware-iwlwifi&lt;/strong&gt; package. There are two basic ways to install firmware:&lt;/p&gt;
+&lt;p&gt;To support some wireless device on debian squeeze which is not supported by default, we often need some addition firmware [non-free]. For example, my “Intel WiFi Link 5100 AGN” could be supported via adding the &lt;strong&gt;firmware-iwlwifi&lt;/strong&gt; package. There are two basic ways to install firmware:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Add firmware when installing the system. In this way, debian-installer will automatically complete the firmware activation of the corresponding hardware;&lt;/p&gt;
@@ -3437,7 +3497,7 @@ index 7d10ece..b1c571b 100755
         &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;strong&gt;GNU Compiler Collection (GCC)&lt;/strong&gt; includes front ends for &lt;em&gt;C&lt;/em&gt;, &lt;em&gt;C++&lt;/em&gt;, &lt;em&gt;Objective-C&lt;/em&gt;, &lt;em&gt;Fortran&lt;/em&gt;, &lt;em&gt;Ada&lt;/em&gt;, &lt;em&gt;Go&lt;/em&gt;, and &lt;em&gt;D&lt;/em&gt;, as well as libraries for these languages. The &lt;strong&gt;GNU Binutils&lt;/strong&gt; includes a collection of binaries, like &lt;em&gt;ld&lt;/em&gt; (the GNU linker), &lt;em&gt;as&lt;/em&gt; (the GNU assembler) and &lt;em&gt;gold&lt;/em&gt; (a new, faster, ELF only linker). That’s major toolchain to build the &lt;strong&gt;ELF (Executable and Linkable Format)&lt;/strong&gt; executable in a linux system.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;GNU Compiler Collection (GCC)&lt;/strong&gt; includes front ends for &lt;em&gt;C&lt;/em&gt;, &lt;em&gt;C++&lt;/em&gt;, &lt;em&gt;Objective-C&lt;/em&gt;, &lt;em&gt;Fortran&lt;/em&gt;, &lt;em&gt;Ada&lt;/em&gt;, &lt;em&gt;Go&lt;/em&gt;, and &lt;em&gt;D&lt;/em&gt;, as well as libraries for these languages. The &lt;strong&gt;GNU Binutils&lt;/strong&gt; includes a collection of binaries, like &lt;em&gt;ld&lt;/em&gt; (the GNU linker), &lt;em&gt;as&lt;/em&gt; (the GNU assembler) and &lt;em&gt;gold&lt;/em&gt; (a new, faster, ELF only linker). That’s major toolchain to build the &lt;strong&gt;ELF (Executable and Linkable Format)&lt;/strong&gt; executable in a Linux system.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;preprocessing&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -3454,9 +3514,9 @@ index 7d10ece..b1c571b 100755
 &lt;li&gt;&lt;strong&gt;linking&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The final stage in the compilation process is linking, facilitated by the &lt;code class=&quot;language-text&quot;&gt;ld&lt;/code&gt; linker. This phase combines the object code generated during the assembling stage with other necessary libraries and modules to create a standalone executable file. The linker resolves symbols, addresses, and references, ensuring a cohesive and functional program. That’s the default output of &lt;code class=&quot;language-text&quot;&gt;gcc&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The output of gcc is an ELF executable in the linux environment. ELF is a standard file format that defines the structure for executables, object code, shared libraries, and even core dumps. The ELF executable encapsulates the entire program, comprising sections such as “.init” and “.fini.” The “.init” section contains the initialization code for the target file, executed before the main function. On the other hand, the “.fini” section holds the termination or cleanup code, executed after the main function completes its execution.&lt;/p&gt;
+&lt;p&gt;The output of gcc is an ELF executable in the Linux environment. ELF is a standard file format that defines the structure for executables, object code, shared libraries, and even core dumps. The ELF executable encapsulates the entire program, comprising sections such as “.init” and “.fini.” The “.init” section contains the initialization code for the target file, executed before the main function. On the other hand, the “.fini” section holds the termination or cleanup code, executed after the main function completes its execution.&lt;/p&gt;
 &lt;p&gt;There’s a tool named &lt;em&gt;readelf&lt;/em&gt; which can dump the details of an ELF executable file.&lt;/p&gt;
-&lt;p&gt;By mastering these tools, we can deeply understand how an executable file is made in a linux system.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Avoid Using a Powerful "rm"]]></title><description><![CDATA[a powerful rm command may lead to unexpected deletion of files, we need some protection tricks.]]></description><link>https://alexxyjiang.github.io/posts/avoid-using-a-powerful-rm</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/avoid-using-a-powerful-rm</guid><pubDate>Tue, 13 Apr 2010 11:20:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;By mastering these tools, we can deeply understand how an executable file is made in a Linux system.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Avoid Using a Powerful "rm"]]></title><description><![CDATA[a powerful rm command may lead to unexpected deletion of files, we need some protection tricks.]]></description><link>https://alexxyjiang.github.io/posts/avoid-using-a-powerful-rm</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/avoid-using-a-powerful-rm</guid><pubDate>Tue, 13 Apr 2010 11:20:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -3518,7 +3578,7 @@ index 7d10ece..b1c571b 100755
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; ~/.trash&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The advantage is that all deletions are converted to moving to the Recycle Bin &lt;code class=&quot;language-text&quot;&gt;~/.trash&lt;/code&gt;, but some options of &lt;code class=&quot;language-text&quot;&gt;rm&lt;/code&gt; are not supported by &lt;code class=&quot;language-text&quot;&gt;mv&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The current solution is not perfect yet, we need further exploration.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Modify the MAC Address of the Ethernet Card under Linux]]></title><description><![CDATA[hack of modifying mac address under linux.]]></description><link>https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</guid><pubDate>Sat, 05 Dec 2009 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;The current solution is not perfect yet, we need further exploration.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Modify the MAC Address of the Ethernet Card under Linux]]></title><description><![CDATA[hack of modifying mac address under Linux.]]></description><link>https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/how-to-modify-the-mac-address-of-the-ethernet-card-under-linux</guid><pubDate>Sat, 05 Dec 2009 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -4285,7 +4345,7 @@ iface eth0 inet dhcp
         &lt;span class=&quot;token function&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;%d\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Some Preliminary Insights on the Linux Kernel Source]]></title><description><![CDATA[a brief introduction to the linux kernel source.]]></description><link>https://alexxyjiang.github.io/posts/some-preliminary-insights-on-the-linux-kernel-source</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/some-preliminary-insights-on-the-linux-kernel-source</guid><pubDate>Thu, 03 Jan 2008 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Some Preliminary Insights on the Linux Kernel Source]]></title><description><![CDATA[a brief introduction to the Linux kernel source.]]></description><link>https://alexxyjiang.github.io/posts/some-preliminary-insights-on-the-linux-kernel-source</link><guid isPermaLink="false">https://alexxyjiang.github.io/posts/some-preliminary-insights-on-the-linux-kernel-source</guid><pubDate>Thu, 03 Jan 2008 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
     &gt;
@@ -4528,7 +4588,7 @@ The dabate happened 15 years ago. But, you see, many words they said are exactly
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;First of all, X Window Core must be installed, or you won’t be able to use GUI. X Window Core is called “x-window-system-core”. To install any GUI, you should install this first.&lt;/p&gt;
-&lt;p&gt;In linux, one of the display managers (login managers) &lt;strong&gt;gdm/kdm/xdm&lt;/strong&gt; should be chosen. To get a different desktop manager for ubuntu, just add packages following:&lt;/p&gt;
+&lt;p&gt;In Linux, one of the display managers (login managers) &lt;strong&gt;gdm/kdm/xdm&lt;/strong&gt; should be chosen. To get a different desktop manager for ubuntu, just add packages following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;gnome&lt;/strong&gt;: ubuntu-desktop&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;kde&lt;/strong&gt;: kubuntu-desktop&lt;/li&gt;
